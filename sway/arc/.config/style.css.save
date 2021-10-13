@@ -1,0 +1,48 @@
+84;9u81;10u*{
+    font-family: ubuntu mono;
+}
+
+window {
+    background-color: #2f343f;
+}
+
+#input {
+    margin: 10px;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 3px solid #a9c3e2;
+    background-color: #2f343f;
+    color: white;
+}
+
+#inner-box {
+    background-color: #2f343f;
+
+}
+
+#outer-box {
+    margin: 20px;
+    padding:0px;
+    background-color: #2f343f;
+}
+
+#scroll {
+}
+
+#text {
+padding: 5px;
+color: white;
+}
+
+#entry:nth-child(even){
+    background-color: #2f343f;
+}
+
+#entry:selected {
+    background-color: #a9c3e2;
+    font-color: #2f343f;
+}
+
+#text:selected {
+color: #2f343f;
+}
