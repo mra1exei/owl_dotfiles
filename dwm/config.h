@@ -78,8 +78,8 @@ static Key keys[] = {
 	{ MODKEY,                       XK_b,      togglebar,      {0} }, /* скрыть бар */
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } }, /* переключить фокус вправо */
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } }, /* переключить фокус влево */
-	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } }, /* переключить в горизонтальный режим просмотра */
-	{ MODKEY,                       XK_d,      incnmaster,     {.i = -1 } }, /* переключить в вертикальный режим просмотра */
+	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } }, /* перенести приложение в область мастера */
+	{ MODKEY,                       XK_d,      incnmaster,     {.i = -1 } }, /* удалить приложение в область мастера */
 	{ MODKEY,                       XK_h,      setmfact,       {.f = -0.05} }, /* уменьшить размер оприложения на 0,05 */
 	{ MODKEY,                       XK_l,      setmfact,       {.f = +0.05} }, /* увиличить размер оприложения на 0,05 */
 	{ MODKEY,                       XK_Return, zoom,           {0} }, /* сделать мастер окном */
