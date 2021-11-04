@@ -6,7 +6,7 @@ static const unsigned int snap      = 37;       /* на каком рассто�
 static const int showbar            = 1;        /* 0 не показывать панель, можно все равно показать по mod+b */
 static const int topbar             = 1;        /* 0 панель внизу */
 static const char *fonts[]          = { "monospace:size=10" };        /* шрифт */
-static const char dmenufont[]       = "monospace:size=10";        /* шрифт */
+static const char dmenufont[]       = "monospace:size=10";        /* шрифт dmenu */
 static const char col_gray1[]       = "#222222";        /* цвет col_gray1 */
 static const char col_gray2[]       = "#444444";        /* цвет col_gray2 */
 static const char col_gray3[]       = "#bbbbbb";        /* цвет col_gray3 */
