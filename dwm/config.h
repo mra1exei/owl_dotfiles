@@ -4,18 +4,19 @@
 static const unsigned int borderpx  = 1;        /* толщина рамки вокруг окна */
 static const unsigned int snap      = 37;       /* на каком расстоянии окно прилипает к краю экрана, другому окну... */
 static const int showbar            = 1;        /* 0 не показывать панель, можно все равно показать по mod+b */
+static const int gappx              = 5;        /* размер гапсов работает при установке патча dwm-ru_gaps-6.2.diff */
 static const int topbar             = 1;        /* 0 панель внизу */
-static const char *fonts[]          = { "monospace:size=10" };        /* шрифт */
-static const char dmenufont[]       = "monospace:size=10";        /* шрифт dmenu */
-static const char col_gray1[]       = "#222222";        /* цвет col_gray1 */
-static const char col_gray2[]       = "#444444";        /* цвет col_gray2 */
-static const char col_gray3[]       = "#bbbbbb";        /* цвет col_gray3 */
-static const char col_gray4[]       = "#eeeeee";        /* цвет col_gray4 */
-static const char col_cyan[]        = "#005577";        /* цвет col_cyan */
+static const char *fonts[]          = { "roboto mono:size=10" };        /* шрифт бара*/
+static const char dmenufont[]       = "roboto mono:size=10";            /* шрифт dmenu*/
+static const char col_gray1[]       = "#23252e";        /* цвет col_gray1 */
+static const char col_gray2[]       = "#fafbfc";        /* цвет col_gray2 */
+static const char col_gray3[]       = "#fafbfc";        /* цвет col_gray3 */
+static const char col_gray4[]       = "#23252e";        /* цвет col_gray4 */
+static const char col_cyan[]        = "#80e5ff";        /* цвет col_cyan */
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */ /* где будет применяться цвет, передний план, задний, рамка */
-	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
+	[SchemeNorm] = { col_gray2, col_gray1, col_gray2 },
+	[SchemeSel]  = { col_cyan, col_gray1, col_cyan },
 };
 
 
@@ -30,15 +31,16 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */ /* тут сам разберешься, примеры ниже */
-	{ "firefox",  NULL,       NULL,       1 << 0,       0,           -1 },
+	{ "firefox",          NULL,       NULL,       1 << 0,       0,           -1 },
 	{ "TelegramDesktop",  NULL,       NULL,       1 << 0,       0,           -1 },
-	{ "Blender",  NULL,       NULL,       1 << 1,       0,           -1 },
-	{ "Inkscape",  NULL,       NULL,       1 << 2,       0,           -1 },
+	{ "Blender",          NULL,       NULL,       1 << 1,       0,           -1 },
+	{ "Inkscape",         NULL,       NULL,       1 << 2,       0,           -1 },
+	{ "Steam",            NULL,       NULL,       1 << 8,       0,           -1 },
 };
 
 
 /* layout(s) */
-static const float mfact     = 0.5; /* размер мастер-окна по дефолту [0.05..0.95] */
+static const float mfact     = 0.65; /* размер мастер-окна по дефолту [0.05..0.95] */
 static const int nmaster     = 1;    /* количество приложений в мастер-зоне */
 static const int resizehints = 10;    /* 1 means respect size hints in tiled resizals яхз */
 
@@ -63,9 +65,25 @@ static const Layout layouts[] = {
 #define SHCMD(cmd) { .v = (const char*[]){ "/bin/sh", "-c", cmd, NULL } }
 
 
-/* commands */ /* настройки dmenu, сюда конечно можно прикрутить rofi, но судя по скринам это не тру */
+/* commands */ /* тут можно прописать свои комманды */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
+
+/* static const char *имя_команды[] = { "команда", "фргумент", NULL }; */
+static const char *blender[] =   { "blender", NULL };
+static const char *inkscape[] =  { "inkscape", NULL };
+static const char *firefox[] =   { "firefox", NULL };
+static const char *telegram[] =  { "telegram-desktop", NULL };
+static const char *steam[] =     { "steam", NULL };
+static const char *mousepad[] =  { "mousepad", NULL };
+static const char *nemo[] =      { "nemo", NULL };
+
+static const char *volm[] = { "amixer", "set", "Master", "2%-", NULL };
+static const char *volp[] = { "amixer", "set", "Master", "2%+", NULL };
+static const char *scrot[] = { "scrot", NULL };
+static const char *reboot[] =    { "reboot", NULL };
+static const char *poweroff[] =  { "poweroff", NULL };
+
 
 /* тут устанавливается эмулятор терминала по дефолту */
 static const char *termcmd[]  = { "kitty", NULL };
@@ -78,8 +96,8 @@ static Key keys[] = {
 	{ MODKEY,                       XK_b,      togglebar,      {0} }, /* скрыть бар */
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } }, /* переключить фокус вправо */
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } }, /* переключить фокус влево */
-	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } }, /* перенести приложение в область мастера */
-	{ MODKEY,                       XK_d,      incnmaster,     {.i = -1 } }, /* удалить приложение в область мастера */
+	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } }, /* переключить в горизонтальный режим просмотра */
+	{ MODKEY,                       XK_d,      incnmaster,     {.i = -1 } }, /* переключить в вертикальный режим просмотра */
 	{ MODKEY,                       XK_h,      setmfact,       {.f = -0.05} }, /* уменьшить размер оприложения на 0,05 */
 	{ MODKEY,                       XK_l,      setmfact,       {.f = +0.05} }, /* увиличить размер оприложения на 0,05 */
 	{ MODKEY,                       XK_Return, zoom,           {0} }, /* сделать мастер окном */
@@ -108,6 +126,20 @@ static Key keys[] = {
 	TAGKEYS(                        XK_8,                      7) /* переход на 8 воркспэйс */
 	TAGKEYS(                        XK_9,                      8) /* переход на 9 воркспэйс */
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} }, /* выход из dwm */
+
+	{ MODKEY|ShiftMask,             XK_b,      spawn,          {.v = blender } }, /* запуск blender */
+	{ MODKEY|ShiftMask,             XK_i,      spawn,          {.v = inkscape } }, /* запуск inkscape */
+	{ MODKEY|ShiftMask,             XK_f,      spawn,          {.v = firefox } }, /* запуск firefox */
+	{ MODKEY|ShiftMask,             XK_t,      spawn,          {.v = telegram } }, /* запуск telegram */
+	{ MODKEY|ShiftMask,             XK_s,      spawn,          {.v = steam } }, /* запуск steam */
+	{ MODKEY|ShiftMask,             XK_n,      spawn,          {.v = nemo } }, /* запуск telegram */
+	{ MODKEY|ShiftMask,             XK_m,      spawn,          {.v = mousepad } }, /* запуск steam */
+
+        { MODKEY,                       XK_equal,  spawn,          {.v=volp } }, /* прибавить громкость */
+        { MODKEY,                       XK_minus,  spawn,          {.v=volm } }, /* убавить громкость */
+	{ MODKEY,                       XK_Print,  spawn,          {.v=scrot } }, /* скриншоты */
+	{ MODKEY|ControlMask,           XK_r,      spawn,          {.v = reboot } }, /* ребут */
+	{ MODKEY|ControlMask,           XK_p,      spawn,          {.v = poweroff } }, /* выключение */
 };
 
 /* button definitions */ /* настройки кнопок мыши */
