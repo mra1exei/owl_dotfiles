@@ -1,0 +1,12 @@
+#!/bin/bash 
+
+mem="$(free -m | awk 'NR==2{printf "%s", $3,$2,$3*100/$2 }')"
+icon="  "
+printf " ^c#e4b371^ %s %s \\n" "$icon""$mem"
+
+
+
+
+
+
+
