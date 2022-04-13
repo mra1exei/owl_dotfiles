@@ -33,6 +33,6 @@
 * sudo apt-get -t chimaera-backports install steam
 
 ### PLANK
-sudo apt install plank
-add export XDG_SESSION_TYPE=x11 >> .bashrc
-restart xorg
+* sudo apt install plank
+* add export XDG_SESSION_TYPE=x11 >> .bashrc
+* restart xorg
