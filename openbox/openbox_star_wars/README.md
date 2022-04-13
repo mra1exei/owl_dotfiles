@@ -36,3 +36,8 @@
 * sudo apt install plank
 * add export XDG_SESSION_TYPE=x11 >> .bashrc
 * restart xorg
+
+### DESKTOP ICONS
+* sudo apt install pcmanfm
+* pcmanfm --desktop >> autostart
+* pcmanfm --desktop-pref - configure desktop
