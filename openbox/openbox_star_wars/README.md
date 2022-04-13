@@ -3,7 +3,7 @@
 
 ### SOFT:
 **Base soft:** sudo apt install xorg firmware-linux-nonfree libgl1-mesa-dri xserver-xorg-video-ati
-openbox tint2 plank obconf lxappearance viewnior kitty nemo ark kitty picom numlockx scrot fonts-font-awesome nitrogen pulseaudio pavucontrol alsa-utils
+openbox tint2 plank obconf lxappearance viewnior kitty nemo ark kitty picom numlockx scrot fonts-font-awesome nitrogen pulseaudio pavucontrol alsa-utils geany
 
 **Graphic soft:** sudo -t chimaera-backports install blender gimp krita inkscape 
 
