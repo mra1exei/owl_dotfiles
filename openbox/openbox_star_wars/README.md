@@ -1,5 +1,14 @@
 ### SYSTEM:
-
+* OS: Devuan GNU/Linux 4 Chimaera 
+* Kernel: 5.10.0-13-amd64 
+* Shell: bash 5.1.4 
+* Resolution: 1920x1080 
+* WM: Openbox 
+* WM Theme: X-Arc-White 
+* Theme: X-Arc-Plus [GTK2/3] 
+* Icons: la-capitaine-icon-theme
+* Terminal: kitty 
+* Terminal Font: JetBrainsMono-Med 
 
 ### SOFT:
 * **Base soft:** xorg firmware-linux-nonfree libgl1-mesa-dri xserver-xorg-video-ati pulseaudio pavucontrol alsa-utils
