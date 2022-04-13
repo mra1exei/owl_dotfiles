@@ -2,14 +2,14 @@
 
 
 ### SOFT:
-Base soft: sudo apt install xorg firmware-linux-nonfree libgl1-mesa-dri xserver-xorg-video-ati
-openbox tint2 plank obconf lxappearance viewnior kitty nemo ark kitty picom numlockx scrot fonts-font-awesome nitrogen pulseaudio pavucontrol alsautils
+**Base soft:** sudo apt install xorg firmware-linux-nonfree libgl1-mesa-dri xserver-xorg-video-ati
+openbox tint2 plank obconf lxappearance viewnior kitty nemo ark kitty picom numlockx scrot fonts-font-awesome nitrogen pulseaudio pavucontrol alsa-utils
 
-Graphic soft: sudo -t chimaera-backports install blender gimp krita inkscape 
+**Graphic soft:** sudo -t chimaera-backports install blender gimp krita inkscape 
 
-Multimedia soft: sudo apt install firefox-esr telegram-desktop audacious audacity
+**Multimedia soft:** sudo apt install firefox-esr telegram-desktop audacious audacity lmms
 
-Terminal soft: sudo apt install cmus ranger neofetch links cmatrix
+**Terminal soft:** sudo apt install cmus ranger neofetch links cmatrix
 
 
 ### VIRT-MANAGER:
