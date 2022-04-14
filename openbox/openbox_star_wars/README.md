@@ -39,6 +39,9 @@
 
 ### JGMENU
 * sudo apt -t ceres install jgmenu
+* copy icon themes >> /usr/share/icon
+* remove /home/username/.cache/jgmenu
+* restart X
 
 ### DESKTOP ICONS
 * sudo apt install pcmanfm
