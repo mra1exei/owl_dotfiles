@@ -10,7 +10,7 @@
 * **Theme:** X-Arc-Plus [GTK2/3]
 * **Icons:** la-capitaine-icon-theme
 * **Terminal:** kitty
-* **Terminal Font:** JetBrainsMono-Med
+* **Terminal Font:** JetBrainsMono
 
 
 ### SOFT:
