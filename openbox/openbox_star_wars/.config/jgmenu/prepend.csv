@@ -1,0 +1,56 @@
+
+#Search
+@rect,,164,4,292,36,2,left,top,#e7e8eb 100,#c9cacd 100,
+@search,,164,4,240,36,2,left,top,#3b4252 100,#3b4252 100,
+@icon,,416,12,22,22,2,left,top,#3b4252 100,#3b4252 100,/home/owl/.config/jgmenu/greeneye-search.svg
+@rect,,164,44,292,462,2,left,top,#e7e8eb 100,#e7e8eb 100,
+
+#All
+@rect,^filter(*),4,39,142,35,2,left,top,#000000 0,#000000 0,
+@text,,49,39,142,35,2,left,top,#3b4252 100,#3b4252 100,All
+@icon,,9,39,32,32,2,left,top,#000000 50,#000000 50,/home/owl/.config/jgmenu/all.svg
+
+#Accessories
+@rect,^filter(#Accessories #Util #Archiving #Compression #TextEditor ),4,74,142,35,2,left,top,#000000 0,#000000 0,
+@text,,49,74,142,35,2,left,top,#3b4252 100,#3b4252 100,Accessories
+@icon,,9,74,32,32,2,left,top,#000000 50,#000000 50,/home/owl/.config/jgmenu/acc.svg
+
+#Development
+@rect,^filter(#Development #Build #Debug #IDE #Profiling #RevisionControl ),4,109,142,35,2,left,top,#000000 0,#000000 0,
+@text,,49,109,142,35,2,left,top,#3b4252 100,#3b4252 100,Development
+@icon,,9,109,32,32,2,left,top,#000000 50,#000000 50,/home/owl/.config/jgmenu/dev.svg
+
+#Game
+@rect,^filter(#Game),4,144,142,35,2,left,top,#000000 0,#000000 0,
+@text,,49,144,142,35,2,left,top,#3b4252 100,#3b4252 100,Games
+@icon,,9,144,32,32,2,left,top,#000000 50,#000000 50,/home/owl/.config/jgmenu/game.svg
+
+#Graphics
+@rect,^filter(#Graphics #Scanning #Photography ),4,179,142,35,2,left,top,#000000 0,#000000 0,
+@text,,49,179,142,35,2,left,top,#3b4252 100,#3b4252 100,Graphics
+@icon,,9,179,32,32,2,left,top,#000000 50,#000000 50,/home/owl/.config/jgmenu/graph.svg
+
+#Internet
+@rect,^filter(#Internet #Network #Email #FileTransfer #WebBrowser ),4,214,142,35,2,left,top,#000000 0,#000000 0,
+@text,,49,214,142,35,2,left,top,#3b4252 100,#3b4252 100,Internet
+@icon,,9,214,32,32,2,left,top,#000000 50,#000000 50,/home/owl/.config/jgmenu/web.svg
+
+#Multimedia
+@rect,^filter(#Multimedia #Player #Audio #Video #Recorder ),4,249,142,35,2,left,top,#000000 0,#000000 0,
+@text,,49,249,142,35,2,left,top,#3b4252 100,#3b4252 100,Multimedia
+@icon,,9,249,32,32,2,left,top,#000000 50,#000000 50,/home/owl/.config/jgmenu/mult.svg
+
+#Office
+@rect,^filter(#Office #Calendar #Contact #Dictionary #Chart #Finance #Presentation #Spreadsheet #WordProcessor #Publishing #Viewer ),4,284,142,35,2,left,top,#000000 0,#000000 0,
+@text,,49,284,142,35,2,left,top,#3b4252 100,#3b4252 100,Office
+@icon,,9,284,32,32,2,left,top,#000000 50,#000000 50,/home/owl/.config/jgmenu/off.svg
+
+#Settings
+@rect,^filter(#Settings #Security #Preferences ),4,319,142,35,2,left,top,#000000 0,#000000 0,
+@text,,49,319,142,35,2,left,top,#3b4252 100,#3b4252 100,Settings
+@icon,,9,319,32,32,2,left,top,#000000 50,#000000 50,/home/owl/.config/jgmenu/adm.svg
+
+#System
+@rect,^filter(#System #Emulator #FileManager #TerminalEmulator #Filesystem #Monitor ),4,354,142,35,2,left,top,#000000 0,#000000 0,
+@text,,49,354,142,35,2,left,top,#3b4252 100,#3b4252 100,System
+@icon,,9,354,32,32,2,left,top,#000000 50,#000000 50,/home/owl/.config/jgmenu/sys.svg
