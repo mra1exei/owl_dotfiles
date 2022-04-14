@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="36"
+   width="36"
+   version="1.1"
+   id="svg21"
+   sodipodi:docname="all.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs25" />
+  <sodipodi:namedview
+     id="namedview23"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="3.7864583"
+     inkscape:cx="34.729024"
+     inkscape:cy="-14.657497"
+     inkscape:window-width="1920"
+     inkscape:window-height="1026"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg21"
+     width="36px"
+     inkscape:snap-page="true" />
+  <linearGradient
+     gradientUnits="userSpaceOnUse"
+     x1="0"
+     x2="47"
+     y1="23.5"
+     y2="23.5"
+     id="linearGradient8">
+    <stop
+       offset="0"
+       stop-color="#a9a3d4"
+       id="stop2" />
+    <stop
+       offset=".47001833"
+       stop-color="#87baff"
+       id="stop4" />
+    <stop
+       offset="1"
+       stop-color="#89ec85"
+       id="stop6" />
+  </linearGradient>
+  <linearGradient
+     id="a"
+     gradientUnits="userSpaceOnUse"
+     x1="408.57138"
+     x2="408.57138"
+     y1="543.7981"
+     y2="503.79807"
+     gradientTransform="matrix(1.1,0,0,1.1,-425.42858,-552.1778)">
+    <stop
+       offset="0"
+       stop-color="#97a9b1"
+       id="stop10" />
+    <stop
+       offset="1"
+       stop-color="#cfdce1"
+       id="stop12" />
+  </linearGradient>
+  <rect
+     style="fill:#e7e8eb;fill-opacity:1;opacity:0"
+     id="rect850"
+     width="36"
+     height="36"
+     x="0"
+     y="0" />
+  <circle
+     cx="76.682495"
+     cy="-0.55257571"
+     fill="url(#a)"
+     r="0"
+     id="circle844"
+     style="fill:#d45500;stroke-width:1.5517" />
+  <circle
+     cx="10.383885"
+     cy="-0.46790805"
+     fill="url(#a)"
+     r="0"
+     id="circle850"
+     style="fill:#d45500;stroke-width:2.54086" />
+  <path
+     d="M 16.625,12.5 H 12.5 c -0.76313,0 -1.375,0.611875 -1.375,1.375 v 8.25 A 1.375,1.375 0 0 0 12.5,23.5 h 11 a 1.375,1.375 0 0 0 1.375,-1.375 V 15.25 c 0,-0.763125 -0.61875,-1.375 -1.375,-1.375 H 18 Z"
+     fill="#bebebe"
+     stroke-width="0.6875"
+     id="path831"
+     style="fill:#3b4252;fill-opacity:1" />
+</svg>

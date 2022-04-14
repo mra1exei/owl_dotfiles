@@ -1,0 +1,35 @@
+csv_cmd             = apps
+tint2_look          = 0
+position_mode       = fixed
+
+menu_width          = 475
+menu_height_min     = 510
+menu_height_max     = 510
+menu_padding_top    = 40
+menu_padding_right  = 1
+menu_padding_bottom = 1
+menu_padding_left   = 151
+menu_border         = 1
+item_height         = 45
+item_radius         = 5
+item_border         = 1
+color_menu_bg       = #e7e8eb 100
+color_menu_border   = #e7e8eb 100
+color_norm_fg       = #3b4252 100
+
+color_sel_bg        = #c9cacd 100
+color_sel_fg        = #3b4252 100
+color_sel_border    = #e7e8eb 100
+
+color_scroll_ind    = #3b4252 100
+csv_name_format     = %n\n<span size="x-small">%g</span>
+csv_no_dirs         = 1
+
+icon_size           = 24
+icon_theme = la-capitaine-icon-theme
+icon_theme_fallback = xdg
+arrow_string        = ››
+arrow_width         = 16
+sep_halign          = left
+sub_padding_left    = 10
+item_halign         = left
