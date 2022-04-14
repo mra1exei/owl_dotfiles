@@ -37,6 +37,9 @@
 * add export XDG_SESSION_TYPE=x11 >> .bashrc
 * restart xorg
 
+### JGMENU
+* sudo apt -t ceres install jgmenu
+
 ### DESKTOP ICONS
 * sudo apt install pcmanfm
 * pcmanfm --desktop >> autostart
