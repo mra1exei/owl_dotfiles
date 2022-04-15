@@ -21,10 +21,12 @@
 * **Terminal soft:** cmus ranger neofetch links cmatrix
 * **Others soft:** viewnior nemo ark kitty geany
 
+
 ### VIRT-MANAGER:
 * sudo apt remove netcat-traditional
 * sudo apt install netcat-openbsd
 * sudo apt install qemu-kvm qemu-utils virt-manager libvirt-clients libvirt-daemon-system virtinst dnsmasq gir1.2-spiceclientgtk-3.0
+
 
 ### STEAM:
 * sudo dpkg --add-architecture i386
@@ -32,16 +34,26 @@
 * sudo apt-get install  libgl1-mesa-dri:i386 libgl1-mesa-glx:i386 libc6:i386
 * sudo apt-get -t chimaera-backports install steam
 
+
 ### PLANK
 * sudo apt install plank
 * add export XDG_SESSION_TYPE=x11 >> .bashrc
 * restart xorg
+
 
 ### JGMENU
 * sudo apt -t ceres install jgmenu
 * copy icon themes >> /usr/share/icon
 * remove /home/username/.cache/jgmenu
 * restart X
+
+
+### DUNST
+* sudo apt install dunst
+* mkdir ~/.config/dunst
+* cp /etk/xdg/dunst/dunstrc ~/.config/dunst
+* test ctrl+~
+
 
 ### DESKTOP ICONS
 * sudo apt install pcmanfm
