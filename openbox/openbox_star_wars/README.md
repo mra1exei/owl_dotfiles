@@ -72,3 +72,6 @@ Section "InputClass"
         Option "XkbOptions" "grp:alt_shift_toggle"
 EndSection
 ```
+### MOUNT USB DRIVE
+* sudo apt install udiskie
+* add udiskie -a  -n -t & >> autostart
