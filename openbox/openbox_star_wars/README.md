@@ -52,7 +52,7 @@
 * sudo apt install dunst
 * mkdir ~/.config/dunst
 * cp /etk/xdg/dunst/dunstrc ~/.config/dunst
-* test ctrl+~
+* test: dunstify -h string:x-dunst-stack-tag:test Audacity -A 'tested,default' -i /home/owl/.icons/la-capitaine-icon-theme/apps/scalable/audacity.svg
 
 
 ### DESKTOP ICONS
