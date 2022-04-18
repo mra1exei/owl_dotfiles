@@ -75,3 +75,7 @@ EndSection
 ### MOUNT USB DRIVE
 * sudo apt install udiskie
 * add udiskie -a  -n -t & >> autostart
+
+###ROFI
+* sudo apt install rofi
+* add -run-shell-command '{terminal} -e \\"{cmd}; read -n 1 -s"' >> .bashrc for use terminal command in rofi
