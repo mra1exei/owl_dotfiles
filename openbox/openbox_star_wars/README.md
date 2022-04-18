@@ -19,7 +19,7 @@
 * **Graphic soft:** sudo apt -t chimaera-backports install blender gimp krita inkscape 
 * **Multimedia soft:** sudo apt -t chimaera-backports  firefox-esr telegram-desktop audacious audacity lmms
 * **Terminal soft:** cmus ranger neofetch links cmatrix
-* **Others soft:** viewnior nemo ark kitty geany
+* **Others soft:** viewnior nemo ark kitty geany mpv
 
 
 ### VIRT-MANAGER:
