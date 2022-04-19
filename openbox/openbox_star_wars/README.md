@@ -14,7 +14,7 @@
 
 
 ### SOFT:
-* **Base soft:** xorg firmware-linux-nonfree libgl1-mesa-dri xserver-xorg-video-ati pulseaudio pavucontrol alsa-utils
+* **Base soft:** xorg firmware-linux-nonfree libgl1-mesa-dri xserver-xorg-video-ati pulseaudio pavucontrol alsa-utils ntfs-3g
 * **Openbox soft:** openbox tint2 lxappearance plank numlockx scrot fonts-font-awesome nitrogen obconf picom ntp copyq rofi dunst
 * **Graphic soft:** sudo apt -t chimaera-backports install blender gimp krita inkscape 
 * **Multimedia soft:** sudo apt -t chimaera-backports  firefox-esr telegram-desktop audacious audacity lmms
