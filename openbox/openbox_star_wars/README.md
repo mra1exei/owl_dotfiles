@@ -76,6 +76,6 @@ EndSection
 * sudo apt install udiskie
 * add udiskie -a  -n -t & >> autostart
 
-###ROFI
+### ROFI
 * sudo apt install rofi
-* add -run-shell-command '{terminal} -e \\"{cmd}; read -n 1 -s"' >> .bashrc for use terminal command in rofi
+* rofi -show drun -modi "Files":"~/.config/rofi/rofi-file-browser.sh" - start rofi whitch ffile-browser
