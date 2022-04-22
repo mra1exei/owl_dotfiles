@@ -1,0 +1,2 @@
+![](https://notabug.org/owl410/owl_dotfiles/raw/master/i3/i3_one/img/2021-02-22-214555_1920x1080_scrot.png)
+![](https://notabug.org/owl410/owl_dotfiles/raw/master/i3/i3_one/img/2021-02-22-214811_1920x1080_scrot.png)
