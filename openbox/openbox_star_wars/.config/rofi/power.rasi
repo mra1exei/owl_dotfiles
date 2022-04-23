@@ -1,0 +1,112 @@
+configuration {
+	modi: "run";
+	font: "JetBrainsMono 10";
+    show-icons: false;
+	lines: 3;
+}
+* {
+	fg: rgba(76, 86, 106, 100%);
+	bg: rgba(231, 232, 235, 100%);
+	bg2: rgba(231, 232, 235, 0%);
+	bg3: rgba(131, 132, 135, 0%);
+}
+window {
+	background-color: @bg;
+	border-radius: 7px;
+	border: 0px;
+	padding: 0px;
+	width: 200;
+	height: 180;
+	x-offset: 850px;
+	y-offset: -410px;
+}
+mainbox {
+	border: 0;
+	padding: 0;     
+}
+message {
+	border: 0px;
+	border-color: @bg;
+	padding: 0%;
+}
+listview {
+	columns: 1;
+	margin: 2% 0% 2% 0%;
+	border-color: @bg;
+	fixed-height: 0;
+	border: 0px ;
+	spacing: 0px ;
+	scrollbar: true;
+	padding: 0%;
+}
+prompt {
+	enabled: false;
+}
+element {
+	border-radius: 5px;
+	background-color: @fg;
+	text-color: @bg;
+	border: 0px;
+	padding: 0.5% 1.5% 0.5% 1.5%;
+	margin: 0% 1%;
+}
+element-icon {
+    horizontal-align: 0;
+    vertical-align: 0;
+    size: 0px;
+    border: 0px;
+    padding: 0px;
+}
+element-icon.selected.active  {
+	horizontal-align: 0;
+	vertical-align: 0;
+	size: 0px;
+	border: 0px;
+	padding: 0px;
+	background-color: @fg;
+}
+element-text {
+	background-color: @bg2;
+	text-color: @bg;
+	horizontal-align: -1;
+	margin: 0%;
+}
+element-text.normal.normal {
+	background-color: @bg2;
+	text-color: @fg;
+}
+element.selected.normal {
+	background-color: @fg;
+	text-color: @bg;
+}
+element-text.alternate.normal {
+	background-color: @bg2;
+	text-color: @fg;
+}
+scrollbar {
+	handle-color: @bg;
+	padding: -4;
+	width: 0px;
+	handle-width: 0px ;
+	padding: 0px;
+}
+inputbar {
+	children: [ textbox-prompt-colon, prompt ];
+	background-color: @bg;
+	text-color: @fg;
+	expand: false;
+	border: 0%;
+	border-radius: 0%;
+	border-color: @bg;
+	margin: 0%;
+	padding: 0.5%;
+	position: center;
+	spacing: 0;
+}
+textbox-prompt-colon {
+	str: "POWERMENU";
+	background-color: @bg;
+	text-color: @fg;
+	padding: 2% 1% -1% 1%;
+}
+

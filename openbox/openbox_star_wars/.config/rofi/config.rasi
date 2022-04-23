@@ -1,0 +1,139 @@
+configuration {
+	modi: "run";
+	font: "JetBrainsMono 10";
+	sidebar-mode: true;
+	lines: 10;
+	show-icons: true;
+	icon-theme: "la-capitaine-icon-theme";
+	fullscreen: false;
+	show-match: false;
+	separator-style: "solid";
+	hide-scrollbar: true;
+	fixed-num-lines: true;
+}
+* {
+	fg: rgba(76, 86, 106, 100%);
+	bg: rgba(231, 232, 235, 100%);
+	bg2: rgba(231, 232, 235, 0%);
+}
+window {
+	background-color: @bg;
+	border-radius: 7px;
+	border:  0px;
+	border-color: @bg;
+	padding: 10;
+	width: 700;
+	height: 400;
+}
+mainbox {
+	border:  0;
+	padding: 20;     
+}
+message {
+	border: 1px;
+	border-color: @bg;
+	padding: 20 ;
+}
+textbox {
+	text-color: @bg;
+}
+listview {
+	fixed-height: 0;
+	border: 1px 0px 0px ;
+	border-color: @bg;
+	spacing: 5px ;
+	scrollbar: true;
+	padding: 5 0 0;
+	columns: 2;
+    }
+element {
+	border-radius: 5px;
+	background-color: @fg;
+	border:  0px;
+	padding: 5;
+	children: [ element-icon, element-text ];
+}
+element-icon {
+    horizontal-align:               1.5;
+    vertical-align:                 1.5;
+    size:                           19px;
+    border:                         0px;
+    padding: 0 3 0 3;
+}
+element-icon.selected.active  {
+	horizontal-align:               1.5;
+	vertical-align:                 1.5;
+	size:                           19px;
+	border:                         0px;
+	padding: 0 3 0 3;
+	background-color: @fg;
+}
+element.normal.normal {
+	background-color: @bg;
+	text-color:       @fg;
+}
+element.selected.normal {
+	background-color: @fg;
+	text-color:       @bg;
+}
+element.alternate.normal {
+	background-color: @bg;
+	text-color: @fg;
+}
+scrollbar {
+	width: 4px ;
+	border: 0;
+	handle-color: @fg;
+	handle-width: 8px ;
+	padding: 0;
+}
+sidebar {
+	border: 0px ;
+	border-color: @bg;
+}
+button {
+	spacing: 0;
+	text-color: @fg;
+	border-radius: 5px;
+	border: 0px;
+}
+button.selected {
+	background-color: @fg;
+	text-color: @bg;
+	border-radius: 5px;
+	border: 0px;
+}
+case-indicator {
+	spacing: 0;
+	text-color: @fg;
+}
+entry {
+	spacing: 0;
+	text-color: @bg;
+	background-color: @fg;
+	placeholder: "Search...";
+}
+prompt {
+	spacing: 0;
+	text-color: @bg;
+	background-color: @fg;
+}
+inputbar {
+	spacing: 5;
+	text-color: @fg;
+	background-color: @fg;
+	padding: 5px ;
+	border:	0;
+	border-color: @fg;
+	children: [ textbox-prompt-colon,entry,case-indicator ];
+	border-radius: 5px;
+	border:  0px;
+}
+#textbox-prompt-colon {
+	padding:0px;
+	expand: false;
+	str: "";
+	margin: 0px;
+	text-color: @bg;
+	background-color: @fg;
+}
