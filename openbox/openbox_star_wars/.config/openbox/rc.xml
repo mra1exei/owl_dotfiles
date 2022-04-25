@@ -327,7 +327,7 @@
         <command>rofi -show drun -modi "Files":"~/.config/rofi/rofi-file-browser.sh"</command>
       </action>
     </keybind>
-    
+
     
     
     <!-- Launch scrot when Print is pressed -->
@@ -699,6 +699,21 @@
     <!-- show the manage desktops section in the client-list-(combined-)menu -->
   </menu>
   <applications>
+    <application class="GLava">
+      <position  force="yes">
+        <x>center</x>
+        <y>center</y>
+      </position>
+    </application>
+    <application name="firefox">
+      <position  force="yes">
+        <x>center</x>
+        <y>center</y>
+      </position>
+    </application>
+	  
+	  
+	  
     <!--
   # this is an example with comments through out. use these to make your
   # own rules, but without the comments of course.
