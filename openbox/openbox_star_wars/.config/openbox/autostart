@@ -16,12 +16,13 @@
 #
 #xfce-mcs-manager &
 numlockx &
-pcmanfm --desktop &
+#pcmanfm --desktop &
 nitrogen --restore &
-picom &
-conky &
 tint2 &
 copyq &
 dunst &
 udiskie -a  -n -t &
 plank &
+picom &
+conky &
+glava &
