@@ -1,4 +1,3 @@
-### SOFT: ###
 * **Base soft:** xorg firmware-linux-nonfree libgl1-mesa-dri xserver-xorg-video-ati pulseaudio pavucontrol alsa-utils ntfs-3g
 * **Openbox soft:** openbox tint2 lxappearance plank numlockx scrot fonts-font-awesome nitrogen obconf picom ntp copyq rofi dunst flameshot udiskie pcmanfm gsimplecal
 * **Graphic soft:** blender gimp krita inkscape 
@@ -8,7 +7,7 @@
 
 
 
-### PLANK
+**PLANK**
 * copy theme folder in ~/.local/share/plank
 
 
