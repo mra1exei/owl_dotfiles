@@ -7,7 +7,7 @@
 * **Others soft:** viewnior nemo ark kitty geany mpv scrot virt-manager steam
 
 
-### PLANK
+#### PLANK
 * copy theme folder in ~/.local/share/plank
 
 
