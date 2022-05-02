@@ -7,32 +7,32 @@
 
 
 
-**PLANK**
-* copy theme folder in ~/.local/share/plank
+**PLANK:**
+copy theme folder in ~/.local/share/plank
 
 
 
-### JGMENU
+**JGMENU:**
 * copy icon themes >> /usr/share/icon
 * remove /home/username/.cache/jgmenu
 * restart X
 
 
 
-### DUNST
+### DUNST:
 * mkdir ~/.config/dunst
 * cp /etk/xdg/dunst/dunstrc ~/.config/dunst
 * test: dunstify -h string:x-dunst-stack-tag:test Audacity -A 'tested,default' -i /home/owl/.icons/la-capitaine-icon-theme/apps/scalable/audacity.svg
 
 
 
-### DESKTOP ICONS
+### DESKTOP ICONS:
 * pcmanfm --desktop >> autostart
 * pcmanfm --desktop-pref - configure desktop
 
 
 
-### KEYBOARD
+### KEYBOARD:
 sudo nano /etc/X11/xorg.conf.d/00-keyboard.conf`
 
 ```
@@ -47,19 +47,19 @@ EndSection
 
 
 
-### MOUNT USB DRIVE
+### MOUNT USB DRIVE:
 * sudo pacman -S udiskie
 * add udiskie -a  -n -t & >> autostart
 
 
 
-### ROFI
+### ROFI:
 * rofi -show drun -modi "Files":"~/.config/rofi/rofi-file-browser.sh" - start rofi whitch ffile-browser
 * for powermenu add "~/.config/rofi/powermenu" >> tint2 button
 
 
 
-### TINT2
+### TINT2:
 * add ~/.config/tint2/scripts/script.sh >> executor
 * keyboard layout: xset -q|grep Group\ 2|awk {'print $4'}|sed 's/on/ RU/g;s/off/ EN/g' >> executor
 * add "/usr/bin/nitrogen --set-zoom-fill --random /home/owl/.wallpaper/ --save" for wallpaper randomize
@@ -67,7 +67,7 @@ EndSection
 
 
 
-### OPENBOX
+### OPENBOX:
 ```
 <menu id="apps-Mult-menu" label="Multimedia" icon='~/.config/openbox/icons/icon.svg'>
     <separator label="Multimedia apps" />
@@ -95,7 +95,4 @@ EndSection
 </application>
 ```
 
-Wallpapers:
-https://unsplash.com/collections/91828652/wallpaper
-Telegram:
-https://t.me/prolinux_tg
+[Wallpapers](https://unsplash.com/collections/91828652/wallpaper) [Telegram](https://t.me/prolinux_tg)
