@@ -12,6 +12,7 @@
 * copy theme folder in ~/.local/share/plank
   
   
+  
 ### DUNST: 
 * mkdir ~/.config/dunst && cp /etk/xdg/dunst/dunstrc ~/.config/dunst
 * test: dunstify -h string:x-dunst-stack-tag:test Audacity -A 'tested,default' -i /home/owl/.icons/la-capitaine-icon-theme/apps/scalable/audacity.svg
