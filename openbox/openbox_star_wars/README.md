@@ -7,8 +7,10 @@
 * **Others soft:** viewnior nemo ark kitty geany mpv scrot virt-manager steam
 
 
-#### PLANK
+
+### PLANK
 * copy theme folder in ~/.local/share/plank
+
 
 
 ### JGMENU
@@ -17,15 +19,19 @@
 * restart X
 
 
+
 ### DUNST
 * mkdir ~/.config/dunst
 * cp /etk/xdg/dunst/dunstrc ~/.config/dunst
 * test: dunstify -h string:x-dunst-stack-tag:test Audacity -A 'tested,default' -i /home/owl/.icons/la-capitaine-icon-theme/apps/scalable/audacity.svg
 
 
+
 ### DESKTOP ICONS
 * pcmanfm --desktop >> autostart
 * pcmanfm --desktop-pref - configure desktop
+
+
 
 ### KEYBOARD
 sudo nano /etc/X11/xorg.conf.d/00-keyboard.conf`
@@ -41,9 +47,11 @@ EndSection
 ```
 
 
+
 ### MOUNT USB DRIVE
 * sudo pacman -S udiskie
 * add udiskie -a  -n -t & >> autostart
+
 
 
 ### ROFI
@@ -51,11 +59,13 @@ EndSection
 * for powermenu add "~/.config/rofi/powermenu" >> tint2 button
 
 
+
 ### TINT2
 * add ~/.config/tint2/scripts/script.sh >> executor
 * keyboard layout: xset -q|grep Group\ 2|awk {'print $4'}|sed 's/on/ RU/g;s/off/ EN/g' >> executor
 * add "/usr/bin/nitrogen --set-zoom-fill --random /home/owl/.wallpaper/ --save" for wallpaper randomize
 * add "/usr/bin/nitrogen --set-zoom-fill --random /home/owl/.wallpaper/ --save && pcmanfm --desktop" for save desktop icon
+
 
 
 ### OPENBOX
