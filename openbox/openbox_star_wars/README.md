@@ -1,5 +1,5 @@
 
-![](https://notabug.org/owl410/owl_dotfiles/raw/master/openbox/openbox_star_wars/img/2022-05-02-154718_1920x1080_scrot.png)  
+![](https://notabug.org/owl410/owl_dotfiles/raw/master/openbox/openbox_star_wars/img/2022-05-02-174235_1920x1080_scrot.png)  
 ### SOFT:
 * **Base soft:** xorg firmware-linux-nonfree libgl1-mesa-dri xserver-xorg-video-ati pulseaudio pavucontrol alsa-utils ntfs-3g
 * **Openbox soft:** openbox tint2 lxappearance plank numlockx scrot fonts-font-awesome nitrogen obconf picom ntp copyq rofi dunst flameshot udiskie pcmanfm gsimplecal
