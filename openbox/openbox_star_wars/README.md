@@ -36,10 +36,10 @@ Section "InputClass"
         Option "XkbModel" "pc105"
         Option "XkbOptions" "grp:alt_shift_toggle"
 EndSection
-```
+```  
   
-  
-  
+    
+    
 ### MOUNT USB DRIVE:
 * sudo pacman -S udiskie
 * add udiskie -a  -n -t & >> autostart
