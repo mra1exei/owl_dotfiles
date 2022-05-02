@@ -1,47 +1,29 @@
 ### SOFT:
 * **Base soft:** xorg firmware-linux-nonfree libgl1-mesa-dri xserver-xorg-video-ati pulseaudio pavucontrol alsa-utils ntfs-3g
-* **Openbox soft:** openbox tint2 lxappearance plank numlockx scrot fonts-font-awesome nitrogen obconf picom ntp copyq rofi dunst
-* **Graphic soft:** install blender gimp krita inkscape 
+* **Openbox soft:** openbox tint2 lxappearance plank numlockx scrot fonts-font-awesome nitrogen obconf picom ntp copyq rofi dunst flameshot udiskie pcmanfm gsimplecal
+* **Graphic soft:** blender gimp krita inkscape 
 * **Multimedia soft:** firefox telegram-desktop audacious audacity lmms obs-studio simplescreenrecorder
 * **Terminal soft:** cmus ranger neofetch links cmatrix
 * **Others soft:** viewnior nemo ark kitty geany mpv scrot virt-manager steam
 
 
-### VIRT-MANAGER:
-* sudo apt remove netcat-traditional
-* sudo apt install netcat-openbsd
-* sudo apt install qemu-kvm qemu-utils virt-manager libvirt-clients libvirt-daemon-system virtinst dnsmasq gir1.2-spiceclientgtk-3.0
-
-
-### STEAM:
-* sudo dpkg --add-architecture i386
-* sudo apt update
-* sudo apt-get install  libgl1-mesa-dri:i386 libgl1-mesa-glx:i386 libc6:i386
-* sudo apt-get -t chimaera-backports install steam
-
-
 ### PLANK
-* sudo apt install plank
-* add export XDG_SESSION_TYPE=x11 >> .bashrc
-* restart xorg
+* copy theme folder in ~/.local/share/plank
 
 
 ### JGMENU
-* sudo apt -t ceres install jgmenu
 * copy icon themes >> /usr/share/icon
 * remove /home/username/.cache/jgmenu
 * restart X
 
 
 ### DUNST
-* sudo apt install dunst
 * mkdir ~/.config/dunst
 * cp /etk/xdg/dunst/dunstrc ~/.config/dunst
 * test: dunstify -h string:x-dunst-stack-tag:test Audacity -A 'tested,default' -i /home/owl/.icons/la-capitaine-icon-theme/apps/scalable/audacity.svg
 
 
 ### DESKTOP ICONS
-* sudo apt install pcmanfm
 * pcmanfm --desktop >> autostart
 * pcmanfm --desktop-pref - configure desktop
 
@@ -57,10 +39,54 @@ Section "InputClass"
         Option "XkbOptions" "grp:alt_shift_toggle"
 EndSection
 ```
+
+
 ### MOUNT USB DRIVE
-* sudo apt install udiskie
+* sudo pacman -S udiskie
 * add udiskie -a  -n -t & >> autostart
 
+
 ### ROFI
-* sudo apt install rofi
 * rofi -show drun -modi "Files":"~/.config/rofi/rofi-file-browser.sh" - start rofi whitch ffile-browser
+* for powermenu add "~/.config/rofi/powermenu" >> tint2 button
+
+
+### TINT2
+* add ~/.config/tint2/scripts/script.sh >> executor
+* keyboard layout: xset -q|grep Group\ 2|awk {'print $4'}|sed 's/on/ RU/g;s/off/ EN/g' >> executor
+* add "/usr/bin/nitrogen --set-zoom-fill --random /home/owl/.wallpaper/ --save" for wallpaper randomize
+* add "/usr/bin/nitrogen --set-zoom-fill --random /home/owl/.wallpaper/ --save && pcmanfm --desktop" for save desktop icon
+
+
+### OPENBOX
+```
+<menu id="apps-Mult-menu" label="Multimedia" icon='~/.config/openbox/icons/icon.svg'>
+    <separator label="Multimedia apps" />
+        <item label="Audacious" icon='~/.config/openbox/icons/audacious.svg'>
+            <action name="Execute">
+            <command>audacious</command>
+        </action>
+    </item>
+</menu>
+```
+
+```
+<application name="nemo">
+    <position force="yes">
+        <x>410</x>
+        <y>90</y>
+    </position>
+<size>
+    <width>20%</width>
+    <height>40%</height>
+</size>
+    <focus>yes</focus>
+        <desktop>3</desktop>
+    <fullscreen>no</fullscreen>
+</application>
+```
+
+Wallpapers:
+https://unsplash.com/collections/91828652/wallpaper
+Telegram:
+https://t.me/prolinux_tg
