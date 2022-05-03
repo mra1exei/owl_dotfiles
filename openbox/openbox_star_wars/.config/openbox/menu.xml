@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://openbox.org/
+                file:///usr/share/openbox/menu.xsd">
+
+<menu id="root-menu" label="Openbox 3">
+    
+    <separator label="Accessories" />
+    
+            <item label="Firefox" icon='/home/owl/.config/openbox/icons/firefox.svg'>
+            <action name="Execute">
+                <command>firefox</command>
+                <startupnotify>
+                    <enabled>yes</enabled>
+                    <wmclass>Code</wmclass>
+                </startupnotify>
+            </action>
+        </item>
+        <item label="Telegram" icon='/home/owl/.config/openbox/icons/telegram.svg'>
+            <action name="Execute">
+                <command>telegram-desktop</command>
+                <startupnotify>
+                    <enabled>yes</enabled>
+                    <wmclass>Code</wmclass>
+                </startupnotify>
+            </action>
+        </item>
+    <separator/>
+            <item label="Kitty" icon='/home/owl/.config/openbox/icons/terminal.svg'>
+            <action name="Execute">
+                <command>kitty</command>
+                <startupnotify>
+                    <enabled>yes</enabled>
+                    <wmclass>Code</wmclass>
+                </startupnotify>
+            </action>
+        </item>
+            <item label="Geany" icon='/home/owl/.config/openbox/icons/geany.svg'>
+            <action name="Execute">
+                <command>geany</command>
+                <startupnotify>
+                    <enabled>yes</enabled>
+                    <wmclass>Code</wmclass>
+                </startupnotify>
+            </action>
+        </item>
+            <item label="Virt-manager" icon='/home/owl/.config/openbox/icons/vbox.svg'>
+            <action name="Execute">
+                <command>virt-manager</command>
+                <startupnotify>
+                    <enabled>yes</enabled>
+                    <wmclass>Code</wmclass>
+                </startupnotify>
+            </action>
+        </item>
+        <item label="Nemo" icon='/home/owl/.config/openbox/icons/nemo.svg'>
+            <action name="Execute">
+                <command>nemo</command>
+                <startupnotify>
+                    <enabled>yes</enabled>
+                    <wmclass>Code</wmclass>
+                </startupnotify>
+            </action>
+        </item>
+    <separator/>
+            <item label="Steam" icon='/home/owl/.config/openbox/icons/steam.svg'>
+            <action name="Execute">
+                <command>steam</command>
+                <startupnotify>
+                    <enabled>yes</enabled>
+                    <wmclass>Code</wmclass>
+                </startupnotify>
+            </action>
+        </item>
+    <separator/>
+
+  
+        <menu id="apps-term-menu" label="Graphics" icon='/home/owl/.config/openbox/icons/graph.svg'>
+        <separator label="Graphics apps" />
+        <item label="Blender" icon='/home/owl/.config/openbox/icons/blender.svg'>
+            <action name="Execute">
+                <command>blender</command>
+            </action>
+        </item>
+        <item label="Inkscape" icon='/home/owl/.config/openbox/icons/inkscape.svg'>
+            <action name="Execute">
+                <command>inkscape</command>
+            </action>
+        </item>
+        <item label="Gimp" icon='/home/owl/.config/openbox/icons/gimp.svg'>
+            <action name="Execute">
+                <command>gimp</command>
+            </action>
+        </item>
+        <item label="Krita" icon='/home/owl/.config/openbox/icons/krita.svg'>
+            <action name="Execute">
+                <command>krita</command>
+            </action>
+        </item>
+    <separator/>
+    <item label="Scrot" icon='/home/owl/.config/openbox/icons/scrot.svg'>
+        <action name="Execute">
+            <command>scrot</command>
+            <startupnotify>
+        <enabled>yes</enabled>
+    </startupnotify>
+    </action>
+  </item>
+  <item label="Scrot 5s" icon='/home/owl/.config/openbox/icons/scrot.svg'>
+    <action name="Execute">
+      <command>scrot -d 5</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+    </menu>
+
+
+<menu id="apps-Mult-menu" label="Multimedia" icon='/home/owl/.config/openbox/icons/mult.svg'>
+        <separator label="Multimedia apps" />
+        <item label="Audacious" icon='/home/owl/.config/openbox/icons/audacious.svg'>
+            <action name="Execute">
+                <command>audacious</command>
+            </action>
+        </item>
+        <item label="Audacity" icon='/home/owl/.config/openbox/icons/audacity.svg'>
+            <action name="Execute">
+                <command>audacity</command>
+            </action>
+        </item>
+    <separator/>
+        <item label="LMMS" icon='/home/owl/.config/openbox/icons/lmms.svg'>
+            <action name="Execute">
+                <command>lmms</command>
+            </action>
+        </item>
+        <item label="Pavucontrol" icon='/home/owl/.config/openbox/icons/pav.svg'>
+            <action name="Execute">
+                <command>pavucontrol</command>
+            </action>
+        </item>
+            <item label="OBS" icon='/home/owl/.config/openbox/icons/OBS.svg'>
+            <action name="Execute">
+                <command>obs</command>
+                <startupnotify>
+                    <enabled>yes</enabled>
+                    <wmclass>Code</wmclass>
+                </startupnotify>
+            </action>
+        </item>
+            <item label="SimpleScreenRecorder" icon='/home/owl/.config/openbox/icons/simplescreenrecorder.svg'>
+            <action name="Execute">
+                <command>simplescreenrecorder</command>
+                <startupnotify>
+                    <enabled>yes</enabled>
+                    <wmclass>Code</wmclass>
+                </startupnotify>
+            </action>
+        </item>
+    </menu>
+
+
+
+<menu id="system-menu" label="System" icon='/home/owl/.config/openbox/icons/sys.svg'>
+        <separator label="System apps" />
+  <item label="Lxappearance" icon='/home/owl/.config/openbox/icons/obconf.svg'>
+    <action name="Execute">
+      <command>lxappearance</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item> 
+    <item label="Obconf" icon='/home/owl/.config/openbox/icons/obconf.svg'>
+    <action name="Execute">
+      <command>obconf</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item> 
+  <item label="Tint2conf" icon='/home/owl/.config/openbox/icons/tint2.svg'>
+    <action name="Execute">
+      <command>tint2conf</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="Pcmanfm --desktop-pref" icon='/home/owl/.config/openbox/icons/pcmanfm.svg'>
+    <action name="Execute">
+      <command>pcmanfm --desktop-pref</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <item label="Nitrigen" icon='/home/owl/.config/openbox/icons/nitrogen.svg'>
+    <action name="Execute">
+      <command>nitrogen</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <item label="Xscreensaver" icon='/home/owl/.config/openbox/icons/xs.svg'>
+    <action name="Execute">
+      <command>xscreensaver-demo </command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="Reconfigure Openbox" icon='/home/owl/.config/openbox/icons/restart.svg'>
+    <action name="Reconfigure" />
+  </item>
+</menu>
+
+  
+  <separator />
+  <item label="Exit" icon='/home/owl/.config/openbox/icons/power.svg'>
+    <action name="Exit" />
+  </item>
+</menu>
+
+</openbox_menu>
