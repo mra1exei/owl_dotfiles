@@ -8,6 +8,10 @@
 `sudo pacman -S firefox telegram-desktop nemo viewnior geany mpv obs-studio simplescreenrecorder blender inkscape gimp krita steam ttf-liberation(for steam)`
 
 **TERMINAL SOFT:**  
-`htop links cmus neofetch scrot`
-
+`htop links cmus neofetch scrot`  
+  
+  
+  
+**Time/Date setting:**  
+`sudo pacman -S ntp && sudo systemctl enable ntpd`  
  picom   
