@@ -34,7 +34,7 @@ super + i
 
 #ЗАКРЫТЬ ОКНО ИЛИ УБИТЬ ЕГО
 super + {_, shift + }c
-	bspc node -{k,c}
+	bspc node -{c}
 
 #ПЕРЕЗАГРУЗИТЬ КОНФИГ SXHKD
 super + e
