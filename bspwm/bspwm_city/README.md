@@ -1,4 +1,7 @@
-![](https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/bspwm_city/img/2022-06-18-024256_1920x1080_scrot.png)
+![](https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/bspwm_city/img/2022-06-18-024256_1920x1080_scrot.png)  
+![](https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/bspwm_city/img/2022-06-18-163519_1920x1080_scrot.png)  
+![](https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/bspwm_city/img/2022-06-18-163529_1920x1080_scrot.png)  
+![](https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/bspwm_city/img/2022-06-18-163624_1920x1080_scrot.png)  
 
 **BSPWM:**  
 ```
