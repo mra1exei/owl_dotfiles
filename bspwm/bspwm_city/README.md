@@ -44,4 +44,12 @@ mkdir build && cd build
 git clone https://github.com/ibhagwan/picom-ibhagwan-git  
 cd picom-ibhagwan-git  
 makepkg -si  
+```  
+
+**Cava**
+```
+mkdir build && cd build  
+git clone https://aur.archlinux.org/cava-git.git 
+cd cava-git 
+makepkg -si  
 ```
