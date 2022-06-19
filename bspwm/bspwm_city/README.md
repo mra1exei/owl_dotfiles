@@ -20,7 +20,7 @@ firefox telegram-desktop nemo viewnior geany mpv obs-studio simplescreenrecorder
 
 **TERMINAL SOFT:**  
 ```
-htop links cmus neofetch scrot
+btop links cmus neofetch scrot
 ```  
   
 **Time/Date setting:**  
