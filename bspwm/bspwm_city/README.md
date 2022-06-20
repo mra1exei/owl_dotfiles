@@ -15,7 +15,12 @@ nano sudo ntfs-3g os-prober dhcpcd pulseaudio pavucontrol
 
 **OTHER SOFT:**  
 ```
-firefox telegram-desktop nemo viewnior geany mpv obs-studio simplescreenrecorder blender inkscape gimp krita steam ttf-liberation(for steam) lib32-mesa  lib32-vulkan-radeon libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau conky
+firefox telegram-desktop nemo viewnior geany mpv lib32-mesa lib32-vulkan-radeon libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau conky
+```  
+
+**MEDIA SOFT:**  
+```
+obs-studio simplescreenrecorder blender inkscape gimp krita steam ttf-liberation(for steam) lmms audacity
 ```  
 
 **TERMINAL SOFT:**  
