@@ -7,6 +7,7 @@ nitrogen --restore &
 polybar example &
 picom --experimental-backend &
 xsetroot -cursor_name left_ptr &
+conky &
 firefox &
 telegram-desktop &
 steam &
@@ -29,15 +30,17 @@ bspc config split_ratio          1.5
 bspc config focus_follows_pointer true
 bspc config pointer_modifier	super
 
+#РЕЖИМ МОНОКЛЯ КОГДА ОТКРЫТО ОДНО ОКНО
+bspc config single_monocle	     false
+
 #ОТКЛЮЧЕНИЕ ГАПСОВ РАМОК И ОТСТУПОВ КОГДА ОТКРЫТО ОДНО ОКНО
 bspc config borderless_monocle   true
-bspc config gapless_monocle      true
+bspc config gapless_monocle      false
 bspc config paddingless_monocle	 true
+
 
 #СХЕМЫ СОГЛАСНО КОТОРЫМ БУДУТ ОТКРЫВАТСЯ ОКНА
 #bspc config automatic_scheme	spiral
-bspc config automatic_scheme	alternate
-#bspc config automatic_scheme	longest_side
 
 
 #ПРАВИЛА ОКОН
