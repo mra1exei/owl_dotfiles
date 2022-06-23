@@ -20,7 +20,7 @@ firefox telegram-desktop nemo viewnior geany mpv lib32-mesa lib32-vulkan-radeon 
 
 **MEDIA SOFT:**  
 ```
-obs-studio simplescreenrecorder blender inkscape gimp krita steam ttf-liberation(for steam) lmms audacity
+obs-studio simplescreenrecorder blender inkscape gimp krita steam ttf-liberation(for steam) lmms audacity wine winetricks transmission-gtk
 ```  
 
 **TERMINAL SOFT:**  
