@@ -1,3 +1,28 @@
+**DWM INSTALL**  
+```
+cfdisk /dev/sda  
+mkfs.ext4 /dev/sda1  
+mount /dev/sda1 /mnt  
+  
+REPO=https://repo-default.voidlinux.org/current  
+ARCH=x86_64  
+mkdir -p /mnt/var/db/xbps/keys  
+cp /var/db/xbps/keys/* /mnt/var/db/xbps/keys/  
+  
+XBPS_ARCH=$ARCH xbps-install -S -r /mnt -R "$REPO" base-system  
+  
+mount --rbind /sys /mnt/sys && mount --make-rslave /mnt/sys  
+mount --rbind /dev /mnt/dev && mount --make-rslave /mnt/dev  
+mount --rbind /proc /mnt/proc && mount --make-rslave /mnt/proc  
+  
+cp /etc/resolv.conf /mnt/etc/  
+  
+PS1='(chroot) # ' chroot /mnt/ /bin/bash  
+  
+
+```  
+
+
 **DWM** 
 ```
 wget kitty xorg xinit mesa dmenu numlockx nitrogen make
