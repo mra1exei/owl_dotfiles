@@ -1,4 +1,4 @@
-**DWM INSTALL**  
+**VOID INSTALL**  
 ```
 cfdisk /dev/sda  
 mkfs.ext4 /dev/sda1  
@@ -19,7 +19,25 @@ cp /etc/resolv.conf /mnt/etc/
   
 PS1='(chroot) # ' chroot /mnt/ /bin/bash  
   
-
+xbps-install nano  
+nano /etc/default/libc-locales  
+xbps-reconfigure -f glibc-locales  
+  
+ln -sf /usr/share/zoneinfo/Region/City /etc/localtime  
+  
+passwd  
+useradd -m -g users -G wheel audio -s /bin/bash user  
+passwd user  
+EDITOR=nano visudo user ALL=(ALL) ALL  
+  
+cp /proc/mounts /etc/fstab  
+  
+xbps-install grub  
+grub-install /dev/sda  
+  
+xbps-reconfigure -fa  
+exit  
+reboot  
 ```  
 
 
