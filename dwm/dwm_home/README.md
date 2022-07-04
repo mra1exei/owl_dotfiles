@@ -57,9 +57,7 @@ htop links cmus neofetch scrot cava
 ```  
 
 
-obs-studio simplescreenrecorder blender inkscape gimp krita lmms audacity 
-
-ntp picom geany
+obs-studio simplescreenrecorder blender inkscape gimp krita lmms audacity picom geany
 
 lib32-mesa lib32-vulkan-radeon libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau wine winetricks steam ttf-liberation(for steam)
 
