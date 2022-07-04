@@ -58,3 +58,14 @@ git clone https://aur.archlinux.org/cava-git.git
 cd cava-git 
 makepkg -si  
 ```
+
+**Keyboard**
+```
+Section "InputClass"  
+    Identifier "system-keyboard"  
+    MatchIsKeyboard "on"  
+    Option "XkbLayout" "us,ru"  
+    Option "XkbModel" "pc105"  
+    Option "XkbOptions" "grp:alt_shift_toggle"  
+EndSection  
+```
