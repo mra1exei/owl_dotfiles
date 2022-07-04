@@ -73,7 +73,14 @@ Section "InputClass"
     Option "XkbModel" "pc105"  
     Option "XkbOptions" "grp:alt_shift_toggle"  
 EndSection  
+```  
+
+**NTP**  
 ```
+sudo xbps-install ntp  
+sudo cp /etc/sv/ntpd /var/service/  
+sudo sv up ntpd
+```  
 
 **OS-PROBER**  
 ```
