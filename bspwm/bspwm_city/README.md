@@ -59,7 +59,8 @@ cd cava-git
 makepkg -si  
 ```
 
-**Keyboard**
+**Keyboard**  
+sudo nano /etc/X11/xorg.conf.d/00-keyboard.conf  
 ```
 Section "InputClass"  
     Identifier "system-keyboard"  
