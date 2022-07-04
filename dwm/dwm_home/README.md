@@ -1,6 +1,7 @@
 **DWM** 
 ```
-wget kitty xorg xinit mesa make base-devel libX11-devel libXft-devel libXinerama-devel freetype-devel fontconfig-devel dmenu numlockx nitrogen
+wget kitty xorg xinit mesa dmenu numlockx nitrogen make
+base-devel libX11-devel libXft-devel libXinerama-devel freetype-devel fontconfig-devel 
 ```  
 **MEDIA**  
 ```
