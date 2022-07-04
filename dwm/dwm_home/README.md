@@ -48,7 +48,7 @@ base-devel libX11-devel libXft-devel libXinerama-devel freetype-devel fontconfig
 ```  
 **MEDIA**  
 ```
-firefox telegram-desktop viewnior mpv pcmanfm transmission-gtk alsa-utils
+firefox telegram-desktop viewnior mpv pcmanfm transmission-gtk alsa-utils pulseaudio
 ```  
 
 **TERMINAL**  
