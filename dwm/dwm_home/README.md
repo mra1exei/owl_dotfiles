@@ -43,8 +43,14 @@ reboot
 
 **DWM** 
 ```
-wget kitty xorg xinit mesa dmenu numlockx nitrogen make
-base-devel libX11-devel libXft-devel libXinerama-devel freetype-devel fontconfig-devel 
+xbps-install wget kitty xorg xinit mesa dmenu numlockx nitrogen make git  
+base-devel libX11-devel libXft-devel libXinerama-devel freetype-devel fontconfig-devel  
+  
+wget https://dl.suckless.org/dwm/dwm-6.3.tat.gz  
+tar -xzvf dwm-6.3.tar.gz  
+cd dwm-6.3  
+nano config.h :static const char *termcmd[]  = { "st kitty", NULL };  
+sudo make clean install  
 ```  
 **MEDIA**  
 ```
