@@ -40,7 +40,6 @@ exit
 reboot  
 ```  
 
-
 **DWM** 
 ```
 xbps-install wget kitty xorg xinit mesa dmenu numlockx nitrogen make git  
@@ -91,4 +90,10 @@ sudo sv up ntpd
 sudo xbps-install os-prober  
 sudo echo GRUB_DISABLE_OS_PROBER=false >> /etc/default/grub  
 sudo update-grub
+```  
+  
+**ICONS**  
+```
+cd ~/.icons  
+git clone https://github.com/keeferrourke/la-capitaine-icon-theme.git  
 ```
