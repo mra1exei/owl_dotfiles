@@ -51,6 +51,11 @@ cd dwm-6.3
 nano config.h :static const char *termcmd[]  = { "st kitty", NULL };  
 sudo make clean install  
 ```  
+  
+**PATCHES**  
+```
+https://dwm.suckless.org/patches/ru_gaps/dwm-ru_gaps-6.3.diff  
+```  
 
 **MEDIA**  
 ```
