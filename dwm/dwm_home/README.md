@@ -51,9 +51,15 @@ cd dwm-6.3
 nano config.h :static const char *termcmd[]  = { "st kitty", NULL };  
 sudo make clean install  
 ```  
+
 **MEDIA**  
 ```
-firefox telegram-desktop viewnior mpv pcmanfm transmission-gtk alsa-utils pulseaudio pavucontrol
+firefox telegram-desktop viewnior mpv pcmanfm transmission-gtk alsa-utils pulseaudio pavucontrol 
+```  
+
+**CREO**  
+```
+gimp krita lmms audacity  
 ```  
 
 **TERMINAL**  
@@ -61,8 +67,12 @@ firefox telegram-desktop viewnior mpv pcmanfm transmission-gtk alsa-utils pulsea
 htop links cmus neofetch scrot cava
 ```  
 
+**WINE STEAM**  
+```
+gimp krita lmms audacity  
+```  
 
-obs-studio simplescreenrecorder blender inkscape gimp krita lmms audacity picom geany
+obs-studio simplescreenrecorder blender inkscape picom geany 
 
 lib32-mesa lib32-vulkan-radeon libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau wine winetricks steam ttf-liberation(for steam)
 
