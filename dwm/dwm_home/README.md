@@ -59,7 +59,7 @@ firefox telegram-desktop viewnior mpv pcmanfm transmission-gtk alsa-utils pulsea
 
 **CREO**  
 ```
-gimp krita lmms audacity  
+gimp krita lmms audacity obs-studio  
 ```  
 
 **TERMINAL**  
@@ -72,7 +72,7 @@ htop links cmus neofetch scrot cava
 gimp krita lmms audacity  
 ```  
 
-obs-studio simplescreenrecorder blender inkscape picom geany 
+simplescreenrecorder blender inkscape picom geany  
 
 lib32-mesa lib32-vulkan-radeon libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau wine winetricks steam ttf-liberation(for steam)
 
