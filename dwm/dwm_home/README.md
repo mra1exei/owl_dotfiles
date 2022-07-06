@@ -42,14 +42,8 @@ reboot
 
 **DWM** 
 ```
-xbps-install wget kitty xorg xinit mesa dmenu numlockx nitrogen make git  
+xbps-install bspwm sxhkd kitty xorg xinit mesa dmenu numlockx nitrogen make git  
 base-devel libX11-devel libXft-devel libXinerama-devel freetype-devel fontconfig-devel  
-  
-wget https://dl.suckless.org/dwm/dwm-6.3.tat.gz  
-tar -xzvf dwm-6.3.tar.gz  
-cd dwm-6.3  
-nano config.h :static const char *termcmd[]  = { "st kitty", NULL };  
-sudo make clean install  
 ```  
   
 **PATCHES**  
@@ -64,22 +58,27 @@ firefox telegram-desktop viewnior mpv pcmanfm transmission-gtk alsa-utils pulsea
 
 **CREO**  
 ```
-gimp krita lmms audacity obs-studio  
+gimp krita lmms audacity obs  
 ```  
 
 **TERMINAL**  
 ```
 htop links cmus neofetch scrot cava
 ```  
+  
+**POLYBAR**  
+```
+polybar font-awesome6 jq 
+```  
 
 **WINE STEAM**  
 ```
-gimp krita lmms audacity  
+lib32-mesa lib32-vulkan-radeon libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau wine winetricks steam ttf-liberation(for steam)
 ```  
 
 simplescreenrecorder blender inkscape picom geany  
 
-lib32-mesa lib32-vulkan-radeon libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau wine winetricks steam ttf-liberation(for steam)
+
 
 **KEYBOARD**  
 sudo nano /etc/X11/xorg.conf.d/00-keyboard.conf  
