@@ -96,7 +96,7 @@ EndSection
 **NTP**  
 ```
 sudo xbps-install ntp  
-sudo cp /etc/sv/ntpd /var/service/  
+sudo ln -s /etc/sv/ntpd /var/service 
 sudo sv up ntpd
 ```  
 
