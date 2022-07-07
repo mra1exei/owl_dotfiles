@@ -69,7 +69,7 @@ polybar font-awesome6 jq
 
 **WINE STEAM**  
 ```
-lib32-mesa lib32-vulkan-radeon libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau wine winetricks steam ttf-liberation(for steam)
+void-repo-multilib lib32-mesa lib32-vulkan-radeon libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau wine winetricks steam ttf-liberation(for steam)
 ```  
 
 simplescreenrecorder blender inkscape picom geany  
