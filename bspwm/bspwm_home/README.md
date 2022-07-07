@@ -54,7 +54,7 @@ firefox telegram-desktop viewnior mpv pcmanfm transmission-gtk alsa-utils pulsea
 
 **CREO**  
 ```
-gimp krita lmms audacity obs  
+gimp krita lmms audacity obs geany  
 ```  
 
 **TERMINAL**  
@@ -71,10 +71,6 @@ polybar font-awesome6 jq
 ```
 void-repo-multilib libgcc-32bit libstdc++-32bit libdrm-32bit libglvnd-32bit wine winetricks steam  
 ```  
-
-simplescreenrecorder blender inkscape picom geany  
-
-
 
 **KEYBOARD**  
 sudo nano /etc/X11/xorg.conf.d/00-keyboard.conf  
