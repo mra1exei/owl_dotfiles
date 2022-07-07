@@ -40,17 +40,12 @@ exit
 reboot  
 ```  
 
-**DWM** 
+**BSPWM** 
 ```
 xbps-install bspwm sxhkd kitty xorg xinit mesa dmenu numlockx nitrogen make git  
 base-devel libX11-devel libXft-devel libXinerama-devel freetype-devel fontconfig-devel  
 ```  
   
-**PATCHES**  
-```
-https://dwm.suckless.org/patches/ru_gaps/dwm-ru_gaps-6.3.diff  
-```  
-
 **MEDIA**  
 ```
 firefox telegram-desktop viewnior mpv pcmanfm transmission-gtk alsa-utils pulseaudio pavucontrol 
