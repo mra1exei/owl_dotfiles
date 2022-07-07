@@ -111,5 +111,6 @@ git clone https://github.com/keeferrourke/la-capitaine-icon-theme.git
 **CMUS**  
 ```
 start cmus
-disable mpris in the settings   
+disable mpris in the settings  
+set output_plugin=pulse  
 ```
