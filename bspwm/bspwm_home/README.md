@@ -42,7 +42,7 @@ reboot
 
 **BSPWM** 
 ```
-xbps-install bspwm sxhkd kitty xorg xinit mesa dmenu numlockx nitrogen make git  
+xbps-install bspwm sxhkd kitty xorg xinit mesa dmenu numlockx nitrogen make cmake meson ninja git  
 base-devel libX11-devel libXft-devel libXinerama-devel freetype-devel fontconfig-devel  
 ```  
   
