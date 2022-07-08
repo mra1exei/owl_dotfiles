@@ -66,7 +66,25 @@ htop links cmus neofetch scrot cava
 ```
 polybar font-awesome6 jq 
 ```  
-
+  
+**BLENDER**  
+```
+git clone https://github.com/void-linux/void-packages.git  
+cd void-packages  
+./xbps-src binary-bootstrap  
+  
+sudo echo XBPS_ALLOW_RESTRICTED=yes >> etc/conf  
+  
+nano ~/void-packages/srcpkgs/blender/template  
+  version=3.2.1
+  checksum=f6912f2f62e4007272802e56de95c21cadd994b548a9088fdf4ee96554ae8278  
+  
+delete ~/void-packages/srcpkgs/blender/patches  
+./xbps-src pkg blender  
+  
+sudo xbps-install --repository hostdir/binpkgs blender
+```  
+  
 **WINE STEAM**  
 ```
 void-repo-multilib libgcc-32bit libstdc++-32bit libdrm-32bit libglvnd-32bit wine winetricks steam  
