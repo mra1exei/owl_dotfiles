@@ -88,6 +88,7 @@ sudo xbps-install --repository hostdir/binpkgs blender
 **WINE STEAM**  
 ```
 void-repo-multilib libgcc-32bit libstdc++-32bit libdrm-32bit libglvnd-32bit wine winetricks steam  
+void-repo-multilib void-repo-nonfree libGL-32bit libpulseaudio-32bit libtxc_dxtn-32bit mesa-dri-32bit  
 ```  
 
 **KEYBOARD**  
