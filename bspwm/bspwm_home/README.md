@@ -67,7 +67,7 @@ htop links cmus neofetch scrot cava
 polybar font-awesome6 jq 
 ```  
   
-**BLENDER**  
+**BLENDER INKSCAPE**  
 ```
 git clone https://github.com/void-linux/void-packages.git  
 cd void-packages  
@@ -83,6 +83,17 @@ delete ~/void-packages/srcpkgs/blender/patches
 ./xbps-src pkg blender  
   
 sudo xbps-install --repository hostdir/binpkgs blender
+  
+  
+nano ~/void-packages/srcpkgs/inkscape/template  
+  version=1.2  
+  wrksrc="inkscape-${version}_2022-05-15_dc2aedaf03"  
+  checksum=8d9b31142554945664edfefe2d6b55910a5099765f7176a71107c34f1dcde6ad  
+  
+delete ~/void-packages/srcpkgs/inkscape/patches & ~/void-packages/srcpkgs/inkscape/update
+./xbps-src pkg inkscape  
+  
+sudo xbps-install --repository hostdir/binpkgs inkscape  
 ```  
   
 **WINE STEAM**  
