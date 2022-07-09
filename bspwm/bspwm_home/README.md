@@ -103,8 +103,9 @@ void-repo-multilib void-repo-nonfree libGL-32bit libpulseaudio-32bit libtxc_dxtn
 ```  
 
 **KEYBOARD**  
-sudo nano /etc/X11/xorg.conf.d/00-keyboard.conf  
 ```
+sudo nano /etc/X11/xorg.conf.d/00-keyboard.conf  
+  
 Section "InputClass"  
     Identifier "system-keyboard"  
     MatchIsKeyboard "on"  
@@ -113,7 +114,13 @@ Section "InputClass"
     Option "XkbOptions" "grp:alt_shift_toggle"  
 EndSection  
 ```  
-
+  
+**UDEV RULES**  
+```
+echo SUBSYSTEM=="block", ATTR{size}=="234441648", SYMLINK+="root" > /etc/udev/rules.d/09-local.rules  
+echo SUBSYSTEM=="block", ATTR{size}=="625139712", SYMLINK+="home" > /etc/udev/rules.d/10-local.rules
+```  
+  
 **NTP**  
 ```
 sudo xbps-install ntp  
