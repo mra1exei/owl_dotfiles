@@ -67,7 +67,7 @@ htop links cmus neofetch scrot cava
 polybar font-awesome6 jq 
 ```  
   
-**BLENDER INKSCAPE**  
+**BLENDER INKSCAPE PICOM**  
 ```
 git clone https://github.com/void-linux/void-packages.git  
 cd void-packages  
@@ -94,6 +94,13 @@ delete ~/void-packages/srcpkgs/inkscape/patches & ~/void-packages/srcpkgs/inksca
 ./xbps-src pkg inkscape  
   
 sudo xbps-install --repository hostdir/binpkgs inkscape  
+  
+  
+git clone https://github.com/ibhagwan/picom-ibhagwan-template  
+mv picom-ibhagwan-template ./srcpkgs/picom-ibhagwan  
+  
+./xbps-src pkg picom-ibhagwan  
+sudo xbps-install --repository=hostdir/binpkgs picom-ibhagwan  
 ```  
   
 **WINE STEAM**  
