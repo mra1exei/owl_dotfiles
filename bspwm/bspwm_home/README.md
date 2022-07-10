@@ -49,7 +49,7 @@ libXinerama-devel freetype-devel fontconfig-devel
   
 **MEDIA**  
 ```
-firefox telegram-desktop viewnior mpv pcmanfm transmission-gtk alsa-utils pulseaudio pavucontrol 
+firefox telegram-desktop viewnior mpv nemo transmission-gtk alsa-utils pulseaudio pavucontrol 
 ```  
 
 **CREO**  
