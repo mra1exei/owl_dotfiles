@@ -54,7 +54,7 @@ firefox telegram-desktop viewnior mpv nemo transmission-gtk alsa-utils pulseaudi
 
 **CREO**  
 ```
-gimp krita lmms audacity obs geany  
+gimp krita lmms audacity obs geany ssr  
 ```  
 
 **TERMINAL**  
