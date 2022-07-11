@@ -154,4 +154,17 @@ start cmus
 disable mpris in the settings  
 sudo xbps-install cmus-pulseaudio  
 set output_plugin=pulse  
+```  
+  
+**VIRT-MANAGER**  
+```
+sudo xbps-install virt-manager qemu bridge-utils dnsmasq  
+  
+sudo usermod -aG kvm $USER  
+sudo usermod -aG libvirt $USER  
+  
+sudo modprobe kvm-amd  
+sudo ln -s /etc/sv/libvirtd /var/service  
+sudo ln -s /etc/sv/virtlockd /var/service  
+sudo ln -s /etc/sv/virtlogd /var/service  
 ```
