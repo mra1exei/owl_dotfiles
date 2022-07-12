@@ -28,7 +28,7 @@ ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
 passwd  
 useradd -m -g users -G wheel audio -s /bin/bash user  
 passwd user  
-EDITOR=nano visudo user ALL=(ALL) ALL  
+EDITOR=nano visudo user ALL=(ALL:ALL) ALL  
   
 cp /proc/mounts /etc/fstab  
   
