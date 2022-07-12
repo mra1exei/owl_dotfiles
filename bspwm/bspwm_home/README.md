@@ -39,6 +39,12 @@ xbps-reconfigure -fa
 exit  
 reboot  
 ```  
+  
+**AUTOLOGIN** 
+```
+sudo nano  /etc/sv/agetty-tty1/conf  
+GETTY_ARGS="-a username --noclear"  
+```  
 
 **BSPWM** 
 ```
