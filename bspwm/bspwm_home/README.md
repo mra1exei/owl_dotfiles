@@ -40,11 +40,17 @@ exit
 reboot  
 ```  
   
-**AUTOLOGIN** 
+**AUTOLOGIN & AUTOSTRTX** 
 ```
 sudo nano  /etc/sv/agetty-tty1/conf  
 GETTY_ARGS="-a username --noclear"  
-```  
+  
+nano .bash_profile  
+[ -f $HOME/.bashrc ] && . $HOME/.bashrc  
+if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then  
+exec startx  
+fi
+```    
 
 **BSPWM** 
 ```
