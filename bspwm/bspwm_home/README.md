@@ -167,4 +167,12 @@ sudo modprobe kvm-amd
 sudo ln -s /etc/sv/libvirtd /var/service  
 sudo ln -s /etc/sv/virtlockd /var/service  
 sudo ln -s /etc/sv/virtlogd /var/service  
+```  
+  
+**DMENU**  
 ```
+git clone https://git.suckless.org/dmenu  
+cd dmenu  
+patch < dmenu-xyw-5.0.diff  
+sudo make clean install  
+```  
