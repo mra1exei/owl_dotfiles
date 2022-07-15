@@ -77,7 +77,7 @@ htop links cmus neofetch scrot ranger cmatrix cava
   
 **POLYBAR**  
 ```
-polybar font-awesome6 jq 
+polybar font-awesome6 jq curl  
 ```  
   
 **BLENDER INKSCAPE PICOM**  
