@@ -61,9 +61,8 @@ cmake meson ninja xtools base-devel freetype-devel fontconfig-devel
   
 **MEDIA**  
 ```
-firefox telegram-desktop viewnior mpv nemo alsa-utils pulseaudio pavucontrol 
+firefox telegram-desktop viewnior mpv nemo alsa-utils pulseaudio pavucontrol transmission-gtk  
 ```  
-transmission-gtk  
   
 **CREO**  
 ```
