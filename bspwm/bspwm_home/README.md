@@ -172,8 +172,8 @@ set output_plugin=pulse
 ```
 sudo xbps-install virt-manager qemu bridge-utils dnsmasq  
   
-sudo usermod -aG kvm $USER  
-sudo usermod -aG libvirt $USER  
+sudo usermod -aG kvm username  
+sudo usermod -aG libvirt username  
   
 sudo modprobe kvm-amd  
 sudo ln -s /etc/sv/libvirtd /var/service  
