@@ -180,6 +180,7 @@ sudo modprobe kvm-amd
 sudo ln -s /etc/sv/libvirtd /var/service  
 sudo ln -s /etc/sv/virtlockd /var/service  
 sudo ln -s /etc/sv/virtlogd /var/service  
+sudo ln -s /etc/sv/dbus /var/service  
 ```  
   
 **DMENU**  
