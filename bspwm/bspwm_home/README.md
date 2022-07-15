@@ -54,16 +54,17 @@ fi
 
 **BSPWM** 
 ```
-xbps-install bspwm sxhkd kitty xorg xinit mesa dmenu numlockx nitrogen  
+xbps-install bspwm sxhkd kitty xorg xinit mesa numlockx nitrogen  
+```  
 make cmake meson ninja git xtools base-devel libX11-devel libXft-devel  
 libXinerama-devel freetype-devel fontconfig-devel  
-```  
   
 **MEDIA**  
 ```
-firefox telegram-desktop viewnior mpv nemo transmission-gtk alsa-utils pulseaudio pavucontrol 
+firefox telegram-desktop viewnior mpv nemo alsa-utils pulseaudio pavucontrol 
 ```  
-
+transmission-gtk  
+  
 **CREO**  
 ```
 gimp krita lmms audacity obs geany ssr  
@@ -71,7 +72,7 @@ gimp krita lmms audacity obs geany ssr
 
 **TERMINAL**  
 ```
-htop links cmus neofetch scrot cava
+htop links cmus neofetch scrot ranger cmatrix cava
 ```  
   
 **POLYBAR**  
