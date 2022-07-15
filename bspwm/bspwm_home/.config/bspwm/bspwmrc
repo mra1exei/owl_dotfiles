@@ -16,7 +16,7 @@ steam &
 bspc monitor -d             
 
 #РАМКИ И ГАПСЫ
-bspc config border_width         1
+bspc config border_width         0
 bspc config window_gap          10
 
 bspc config normal_border_color "#23252e"
