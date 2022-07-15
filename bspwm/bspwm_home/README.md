@@ -118,10 +118,9 @@ sudo xbps-install --repository=hostdir/binpkgs picom-ibhagwan
   
 **WINE STEAM**  
 ```
-void-repo-multilib wine winetricks  
+void-repo-multilib wine winetricks wine-32bit  
 
-libgcc-32bit libstdc++-32bit libdrm-32bit libglvnd-32bit wine-32bit  steam  
-void-repo-nonfree libGL-32bit libpulseaudio-32bit libtxc_dxtn-32bit mesa-dri-32bit  
+steam void-repo-nonfree libGL-32bit libtxc_dxtn-32bit mesa-dri-32bit  
 ```  
 
 **KEYBOARD**  
