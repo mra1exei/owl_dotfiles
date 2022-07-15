@@ -54,9 +54,9 @@ fi
 
 **BSPWM** 
 ```
-xbps-install bspwm sxhkd kitty xorg xinit mesa numlockx nitrogen  
+xbps-install bspwm sxhkd kitty xorg xinit mesa numlockx nitrogen git  
 ```  
-make cmake meson ninja git xtools base-devel libX11-devel libXft-devel  
+make cmake meson ninja xtools base-devel libX11-devel libXft-devel  
 libXinerama-devel freetype-devel fontconfig-devel  
   
 **MEDIA**  
