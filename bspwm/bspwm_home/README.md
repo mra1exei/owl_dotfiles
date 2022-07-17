@@ -19,7 +19,7 @@ cp /etc/resolv.conf /mnt/etc/
   
 PS1='(chroot) # ' chroot /mnt/ /bin/bash  
   
-xbps-install nano  
+xbps-install micro  
 nano /etc/default/libc-locales  
 xbps-reconfigure -f glibc-locales  
   
@@ -55,7 +55,7 @@ fi
 **BSPWM** 
 ```
 xbps-install bspwm sxhkd kitty xorg xinit mesa numlockx nitrogen git make patch gcc  
-libX11-devel libXinerama-devel libXft-devel unzip
+libX11-devel libXinerama-devel libXft-devel unzip fish-shell
 ```  
    
   
@@ -112,11 +112,7 @@ git clone https://github.com/ibhagwan/picom-ibhagwan-template
 mv picom-ibhagwan-template ./srcpkgs/picom-ibhagwan  
   
 ./xbps-src pkg picom-ibhagwan  
-sudo xbps-install --repository=hostdir/binpkgs picom-ibhagwan  
-  
-  
-./xbps-src pkg fish-shell  
-sudo xbps-install --repository hostdir/binpkgs  fish-shell  
+sudo xbps-install --repository=hostdir/binpkgs picom-ibhagwan   
 ```  
   
 **WINE STEAM**  
@@ -192,4 +188,13 @@ git clone https://git.suckless.org/dmenu
 cd dmenu  
 patch < dmenu-xyw-5.0.diff  
 sudo make clean install  
+```  
+  
+**FISH-SHELL**  
+```
+sudo xbps-install fish-shell 
+fish  
+curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher  
+fisher install jorgebucaran/nvm.fish  
+fisher install IlanCosman/tide@v5  
 ```  
