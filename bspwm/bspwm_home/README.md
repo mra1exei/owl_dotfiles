@@ -79,7 +79,7 @@ htop links cmus neofetch scrot ranger cmatrix cava
 polybar font-awesome6 jq curl  
 ```  
   
-**BLENDER INKSCAPE PICOM**  
+**BLENDER INKSCAPE PICOM FISH_SHELL**  
 ```
 git clone https://github.com/void-linux/void-packages.git  
 cd void-packages  
@@ -113,6 +113,10 @@ mv picom-ibhagwan-template ./srcpkgs/picom-ibhagwan
   
 ./xbps-src pkg picom-ibhagwan  
 sudo xbps-install --repository=hostdir/binpkgs picom-ibhagwan  
+  
+  
+./xbps-src pkg fish-shell  
+sudo xbps-install --repository hostdir/binpkgs  fish-shell  
 ```  
   
 **WINE STEAM**  
