@@ -1,3 +1,10 @@
+![](https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/bspwm_home/.img/2022-07-21-183332_1920x1080_scrot.png)  
+![](https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/bspwm_home/.img/2022-07-21-183228_1920x1080_scrot.png)  
+![](https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/bspwm_home/.img/2022-07-21-184104_1920x1080_scrot.png)  
+![](https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/bspwm_home/.img/2022-07-21-185419_1920x1080_scrot.png)  
+![](https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/bspwm_home/.img/2022-07-21-183600_1920x1080_scrot.png)  
+  
+
 **VOID INSTALL**  
 ```
 cfdisk /dev/sda  
