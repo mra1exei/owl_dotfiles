@@ -62,7 +62,7 @@ fi
 **BSPWM** 
 ```
 xbps-install bspwm sxhkd kitty xorg xinit mesa numlockx nitrogen git make patch gcc  
-libX11-devel libXinerama-devel libXft-devel unzip fish-shell
+libX11-devel libXinerama-devel libXft-devel base-devel unzip fish-shell
 ```  
    
   
