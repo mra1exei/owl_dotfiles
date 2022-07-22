@@ -17,7 +17,8 @@ mkdir -p /mnt/var/db/xbps/keys
 cp /var/db/xbps/keys/* /mnt/var/db/xbps/keys/  
   
 XBPS_ARCH=$ARCH xbps-install -S -r /mnt -R "$REPO" base-system  
-  
+ARCH=x86_64  
+
 mount --rbind /sys /mnt/sys && mount --make-rslave /mnt/sys  
 mount --rbind /dev /mnt/dev && mount --make-rslave /mnt/dev  
 mount --rbind /proc /mnt/proc && mount --make-rslave /mnt/proc  
