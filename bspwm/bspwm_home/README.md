@@ -61,7 +61,7 @@ fi
 
 **BSPWM** 
 ```
-xbps-install bspwm sxhkd kitty xorg xinit mesa numlockx nitrogen git make patch gcc  
+xbps-install bspwm sxhkd xorg xinit mesa numlockx nitrogen git make patch gcc  
 libX11-devel libXinerama-devel libXft-devel base-devel unzip fish-shell
 ```  
    
@@ -194,6 +194,14 @@ sudo ln -s /etc/sv/dbus /var/service
 git clone https://git.suckless.org/dmenu  
 cd dmenu  
 patch < dmenu-xyw-5.0.diff  
+sudo make clean install  
+```  
+  
+**ST TERMINAL**  
+```
+git clone https://git.suckless.org/st  
+cd st  
+edit config.def.h  
 sudo make clean install  
 ```  
   
