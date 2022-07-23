@@ -86,13 +86,13 @@ htop links cmus neofetch scrot ranger cmatrix cava
 polybar font-awesome6 jq curl  
 ```  
   
-**BLENDER INKSCAPE PICOM FISH_SHELL**  
+**BLENDER INKSCAPE PICOM**  
 ```
 git clone https://github.com/void-linux/void-packages.git  
 cd void-packages  
 ./xbps-src binary-bootstrap  
   
-sudo echo XBPS_ALLOW_RESTRICTED=yes >> etc/conf  
+echo XBPS_ALLOW_RESTRICTED=yes >> etc/conf  
   
 nano ~/void-packages/srcpkgs/blender/template  
   version=3.2.1
