@@ -34,6 +34,8 @@ cp /proc/mounts /etc/fstab
   
 xbps-install grub  
 grub-install /dev/sda  
+sudo echo GRUB_DISABLE_OS_PROBER=false >> /etc/default/grub  
+sudo update-grub  
   
 xbps-reconfigure -fa  
 exit  
@@ -61,17 +63,17 @@ libX11-devel libXinerama-devel libXft-devel base-devel unzip fish-shell
   
 **MEDIA**  
 ```
-firefox telegram-desktop viewnior mpv nemo alsa-utils pulseaudio pavucontrol transmission-gtk leafpad  
+firefox telegram-desktop viewnior mpv nemo lutris  
 ```  
   
 **CREO**  
 ```
-gimp krita lmms audacity obs geany ssr  
+gimp krita lmms audacity obs ssr  
 ```  
 
 **TERMINAL**  
 ```
-htop links cmus neofetch scrot ranger cmatrix cava
+htop links cmus neofetch scrot ranger  
 ```  
   
 **POLYBAR**  
@@ -115,12 +117,6 @@ mv picom-ibhagwan-template ./srcpkgs/picom-ibhagwan
 sudo xbps-install --repository=hostdir/binpkgs picom-ibhagwan   
 ```  
   
-**WINE STEAM**  
-```
-void-repo-multilib wine winetricks wine-32bit  
-void-repo-nonfree steam mesa-dri-32bit libGL-32bit libtxc_dxtn-32bit
-```  
-
 **KEYBOARD**  
 ```
 sudo nano /etc/X11/xorg.conf.d/00-keyboard.conf  
@@ -138,20 +134,6 @@ EndSection
 ```
 echo SUBSYSTEM=="block", ATTR{size}=="234441648", SYMLINK+="root" > /etc/udev/rules.d/09-local.rules  
 echo SUBSYSTEM=="block", ATTR{size}=="625139712", SYMLINK+="home" > /etc/udev/rules.d/10-local.rules
-```  
-  
-**NTP**  
-```
-sudo xbps-install ntp  
-sudo ln -s /etc/sv/ntpd /var/service 
-sudo sv up ntpd
-```  
-
-**OS-PROBER**  
-```
-sudo xbps-install os-prober  
-sudo echo GRUB_DISABLE_OS_PROBER=false >> /etc/default/grub  
-sudo update-grub
 ```  
   
 **ICONS**  
