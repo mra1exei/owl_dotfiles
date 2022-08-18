@@ -190,3 +190,8 @@ fisher install IlanCosman/tide@v5
 chsh -s /usr/bin/fish  
 set -U fish_greeting  
 ```  
+
+**PULSEAUDIO**  
+```
+sudo mkdir -p /etc/pulse/default.pa.d    
+```  
