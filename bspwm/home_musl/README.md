@@ -195,5 +195,5 @@ sudo xbps-install alsa-lib alsa-lib-devel alsa-plugins alsa-tools alsa-utils
   
 **LUTRIS**  
 ```
-sudo xbps-install lutris MangoHud void-repo-multilib zenity  
+sudo xbps-install lutris MangoHud void-repo-multilib zenity wine winetricks wine-32bit mesa-dri-32bit libGL-32bit libtxc_dxtn-32bit  
 ``` 
