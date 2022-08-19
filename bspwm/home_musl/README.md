@@ -62,9 +62,9 @@ libX11-devel libXinerama-devel libXft-devel base-devel unzip fish-shell
 ```  
    
   
-**MEDIA**  
+**SOFT**  
 ```
-firefox telegram-desktop viewnior mpv nemo lutris gimp krita lmms audacity obs ssr  
+firefox telegram-desktop viewnior mpv pcmanfm lutris gimp krita lmms audacity obs ssr  
 ```  
 
 **TERMINAL**  
