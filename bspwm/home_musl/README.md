@@ -1,7 +1,7 @@
 **VOID INSTALL**  
 ```
 cfdisk /dev/sda  
-mkfs.btrfs -f /dev/sda1  
+mkfs.btrfs -f /dev/sda4  
 mount /dev/sda1 /mnt  
   
 REPO=https://repo-default.voidlinux.org/current  
@@ -23,10 +23,11 @@ xbps-install micro
 micro /etc/default/libc-locales  
 xbps-reconfigure -f glibc-locales  
   
-ln -sf /usr/share/zoneinfo/Region/City /etc/localtime  
+ln -sf /usr/share/zoneinfo/Asia/Novosibirsk /etc/localtime  
   
 passwd  
-useradd -m -g users -G wheel audio -s /bin/bash user  
+useradd -m -g users -G wheel -s /bin/bash username  
+usermod -aG audio username  
 passwd user  
 EDITOR=micro visudo user ALL=(ALL) ALL  
   
@@ -34,8 +35,8 @@ cp /proc/mounts /etc/fstab
   
 xbps-install grub  
 grub-install /dev/sda  
-sudo echo GRUB_DISABLE_OS_PROBER=false >> /etc/default/grub  
-sudo update-grub  
+echo GRUB_DISABLE_OS_PROBER=false >> /etc/default/grub  
+update-grub  
   
 xbps-reconfigure -fa  
 exit  
