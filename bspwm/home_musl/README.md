@@ -63,7 +63,7 @@ libX11-devel libXinerama-devel libXft-devel base-devel unzip fish-shell
   
 **SOFT**  
 ```
-firefox telegram-desktop viewnior mpv pcmanfm lutris MangoHud void-repo-multilib gimp krita lmms audacity obs ssr  
+firefox telegram-desktop viewnior mpv pcmanfm gimp krita lmms audacity obs ssr  
 ```  
 
 **TERMINAL**  
@@ -192,3 +192,8 @@ set -U fish_greeting
 ```
 sudo xbps-install alsa-lib alsa-lib-devel alsa-plugins alsa-tools alsa-utils  
 ```  
+  
+**LUTRIS**  
+```
+sudo xbps-install lutris MangoHud void-repo-multilib zenity  
+``` 
