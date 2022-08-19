@@ -45,10 +45,10 @@ reboot
   
 **AUTOLOGIN & AUTOSTRTX** 
 ```
-sudo nano  /etc/sv/agetty-tty1/conf  
+sudo micro  /etc/sv/agetty-tty1/conf  
 GETTY_ARGS="-a username --noclear"  
   
-nano .bash_profile  
+micro .bash_profile  
 [ -f $HOME/.bashrc ] && . $HOME/.bashrc  
 if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then  
 exec startx  
@@ -59,8 +59,7 @@ fi
 ```
 xbps-install bspwm sxhkd xorg xinit mesa numlockx nitrogen git make patch gcc  
 libX11-devel libXinerama-devel libXft-devel base-devel unzip fish-shell
-```  
-   
+```   
   
 **SOFT**  
 ```
@@ -115,7 +114,7 @@ sudo xbps-install --repository=hostdir/binpkgs picom-ibhagwan
   
 **KEYBOARD**  
 ```
-sudo nano /etc/X11/xorg.conf.d/00-keyboard.conf  
+sudo micro /etc/X11/xorg.conf.d/00-keyboard.conf  
   
 Section "InputClass"  
     Identifier "system-keyboard"  
