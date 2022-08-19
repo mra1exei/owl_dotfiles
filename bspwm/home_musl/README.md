@@ -63,17 +63,12 @@ libX11-devel libXinerama-devel libXft-devel base-devel unzip fish-shell
   
 **MEDIA**  
 ```
-firefox telegram-desktop viewnior mpv nemo lutris  
-```  
-  
-**CREO**  
-```
-gimp krita lmms audacity obs ssr  
+firefox telegram-desktop viewnior mpv nemo lutris gimp krita lmms audacity obs ssr  
 ```  
 
 **TERMINAL**  
 ```
-htop links cmus neofetch scrot ranger  
+htop links cmus neofetch scrot ranger rtorrent  
 ```  
   
 **POLYBAR**  
