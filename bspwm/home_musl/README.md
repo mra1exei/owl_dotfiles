@@ -1,7 +1,7 @@
 **VOID INSTALL**  
 ```
 cfdisk /dev/sda  
-mkfs.ext4 /dev/sda1  
+mkfs.btrfs -f /dev/sda1  
 mount /dev/sda1 /mnt  
   
 REPO=https://repo-default.voidlinux.org/current  
