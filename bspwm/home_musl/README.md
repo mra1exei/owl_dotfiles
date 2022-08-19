@@ -188,7 +188,7 @@ chsh -s /usr/bin/fish
 set -U fish_greeting  
 ```  
 
-**PULSEAUDIO**  
+**ALSA**  
 ```
-sudo mkdir -p /etc/pulse/default.pa.d    
+sudo xbps-install alsa-lib alsa-lib-devel alsa-plugins alsa-tools alsa-utils  
 ```  
