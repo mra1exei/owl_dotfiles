@@ -141,8 +141,10 @@ git clone https://github.com/keeferrourke/la-capitaine-icon-theme.git
 ```
 start cmus
 disable mpris in the settings  
-sudo xbps-install cmus-pulseaudio  
-set output_plugin=pulse  
+set output_plugin=alsa
+set dsp.alsa.device=default
+set mixer.alsa.device=default
+set mixer.alsa.channel=Master  
 ```  
   
 **VIRT-MANAGER**  
