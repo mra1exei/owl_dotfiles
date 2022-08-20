@@ -131,10 +131,12 @@ echo SUBSYSTEM=="block", ATTR{size}=="234441648", SYMLINK+="root" > /etc/udev/ru
 echo SUBSYSTEM=="block", ATTR{size}=="625139712", SYMLINK+="home" > /etc/udev/rules.d/10-local.rules
 ```  
   
-**ICONS**  
+**ICONS CURSORS**  
 ```
 cd ~/.icons  
 git clone https://github.com/keeferrourke/la-capitaine-icon-theme.git  
+
+set XCURSOR_THEME capitaine-cursors
 ```
   
 **CMUS**  
