@@ -57,6 +57,11 @@ if status is-login
 end
 ```  
   
+**ALSA**  
+```
+sudo xbps-install alsa-lib alsa-lib-devel alsa-plugins alsa-tools alsa-utils  
+```  
+  
 **KEYBOARD**  
 ```
 sudo micro /etc/X11/xorg.conf.d/00-keyboard.conf  
@@ -69,6 +74,17 @@ Section "InputClass"
     Option "XkbOptions" "grp:alt_shift_toggle"  
 EndSection  
 ``` 
+  
+**FISH-SHELL**  
+```
+sudo xbps-install fish-shell 
+fish  
+curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher  
+fisher install jorgebucaran/nvm.fish  
+fisher install IlanCosman/tide@v5  
+chsh -s /usr/bin/fish  
+set -U fish_greeting  
+```  
   
 **BSPWM** 
 ```
@@ -175,23 +191,7 @@ edit config.def.h
 sudo make clean install  
 ```  
   
-**FISH-SHELL**  
-```
-sudo xbps-install fish-shell 
-fish  
-curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher  
-fisher install jorgebucaran/nvm.fish  
-fisher install IlanCosman/tide@v5  
-chsh -s /usr/bin/fish  
-set -U fish_greeting  
-```  
-
-**ALSA**  
-```
-sudo xbps-install alsa-lib alsa-lib-devel alsa-plugins alsa-tools alsa-utils  
-```  
-  
 **LUTRIS**  
 ```
-sudo xbps-install lutris MangoHud void-repo-multilib zenity wine winetricks wine-32bit mesa-dri-32bit libGL-32bit libtxc_dxtn-32bit  
+sudo xbps-install lutris MangoHud void-repo-multilib wine winetricks wine-32bit mesa-dri-32bit libGL-32bit libtxc_dxtn-32bit  
 ``` 
