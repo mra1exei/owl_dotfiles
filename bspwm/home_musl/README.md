@@ -2,7 +2,7 @@
 ```
 cfdisk /dev/sda  
 mkfs.btrfs -f /dev/sda4  
-mount /dev/sda1 /mnt  
+mount /dev/sda4 /mnt  
   
 REPO=https://repo-default.voidlinux.org/current  
 ARCH=x86_64  
