@@ -48,11 +48,13 @@ reboot
 sudo micro  /etc/sv/agetty-tty1/conf  
 GETTY_ARGS="-a username --noclear"  
   
-micro .bash_profile  
-[ -f $HOME/.bashrc ] && . $HOME/.bashrc  
-if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then  
-exec startx  
-fi
+micro ./config/fish/config.fish  
+
+if status is-login
+    if test -z "$DISPLAY" -a "$(tty)" = /dev/tty1
+        exec startx -- -keeptty
+    end
+end
 ```    
 
 **BSPWM** 
