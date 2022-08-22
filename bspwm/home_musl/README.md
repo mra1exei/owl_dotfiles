@@ -65,7 +65,7 @@ libX11-devel libXinerama-devel libXft-devel base-devel unzip fish-shell
   
 **SOFT**  
 ```
-firefox telegram-desktop viewnior mpv pcmanfm gimp krita lmms audacity obs ssr  
+firefox telegram-desktop viewnior mpv pcmanfm gimp ardour lmms audacity obs ssr  
 ```  
 
 **TERMINAL**  
@@ -125,12 +125,6 @@ Section "InputClass"
     Option "XkbModel" "pc105"  
     Option "XkbOptions" "grp:alt_shift_toggle"  
 EndSection  
-```  
-  
-**UDEV RULES**  
-```
-echo SUBSYSTEM=="block", ATTR{size}=="234441648", SYMLINK+="root" > /etc/udev/rules.d/09-local.rules  
-echo SUBSYSTEM=="block", ATTR{size}=="625139712", SYMLINK+="home" > /etc/udev/rules.d/10-local.rules
 ```  
   
 **ICONS CURSORS**  
