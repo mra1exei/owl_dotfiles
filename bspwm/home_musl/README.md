@@ -115,22 +115,22 @@ cd void-packages
   
 echo XBPS_ALLOW_RESTRICTED=yes >> etc/conf  
   
-nano ~/void-packages/srcpkgs/blender/template  
+micro ~/void-packages/srcpkgs/blender/template  
   version=3.2.1
   checksum=f6912f2f62e4007272802e56de95c21cadd994b548a9088fdf4ee96554ae8278  
   
-delete ~/void-packages/srcpkgs/blender/patches  
+rm -rf ~/void-packages/srcpkgs/blender/patches  
 ./xbps-src pkg blender  
   
 sudo xbps-install --repository hostdir/binpkgs blender
   
   
-nano ~/void-packages/srcpkgs/inkscape/template  
+micro ~/void-packages/srcpkgs/inkscape/template  
   version=1.2  
   wrksrc="inkscape-${version}_2022-05-15_dc2aedaf03"  
   checksum=8d9b31142554945664edfefe2d6b55910a5099765f7176a71107c34f1dcde6ad  
   
-delete ~/void-packages/srcpkgs/inkscape/patches & ~/void-packages/srcpkgs/inkscape/update
+rm -rf ~/void-packages/srcpkgs/inkscape/patches & ~/void-packages/srcpkgs/inkscape/update
 ./xbps-src pkg inkscape  
   
 sudo xbps-install --repository hostdir/binpkgs inkscape  
