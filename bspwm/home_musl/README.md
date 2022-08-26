@@ -62,6 +62,13 @@ end
 sudo xbps-install alsa-lib alsa-lib-devel alsa-plugins alsa-tools alsa-utils  
 ```  
   
+**CHRONY**  
+```
+sudo xbps-install chrony  
+sudo ln -s /etc/sv/chronyd /var/service  
+sudo sv up chronyd  
+```  
+  
 **KEYBOARD**  
 ```
 sudo micro /etc/X11/xorg.conf.d/00-keyboard.conf  
