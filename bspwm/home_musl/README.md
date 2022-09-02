@@ -96,7 +96,7 @@ set -U fish_greeting
 **BSPWM** 
 ```
 xbps-install bspwm sxhkd xorg xinit mesa numlockx nitrogen git make patch gcc  
-libX11-devel libXinerama-devel libXft-devel base-devel unzip fish-shell
+libX11-devel libXinerama-devel libXft-devel base-devel unzip fish-shell numlockx  
 ```   
   
 **SOFT**  
