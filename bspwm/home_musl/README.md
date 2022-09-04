@@ -101,7 +101,7 @@ libX11-devel libXinerama-devel libXft-devel base-devel unzip fish-shell
   
 **SOFT**  
 ```
-firefox telegram-desktop viewnior mpv thunar leafpad gimp ardour lmms audacity obs ssr  
+firefox telegram-desktop viewnior mpv thunar tumbler leafpad gimp ardour lmms audacity obs ssr  
 ```  
 
 **TERMINAL**  
