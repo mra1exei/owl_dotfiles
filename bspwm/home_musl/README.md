@@ -140,14 +140,7 @@ micro ~/void-packages/srcpkgs/inkscape/template
 rm -rf ~/void-packages/srcpkgs/inkscape/patches & ~/void-packages/srcpkgs/inkscape/update
 ./xbps-src pkg inkscape  
   
-sudo xbps-install --repository hostdir/binpkgs inkscape  
-  
-  
-git clone https://github.com/ibhagwan/picom-ibhagwan-template  
-mv picom-ibhagwan-template ./srcpkgs/picom-ibhagwan  
-  
-./xbps-src pkg picom-ibhagwan  
-sudo xbps-install --repository=hostdir/binpkgs picom-ibhagwan   
+sudo xbps-install --repository hostdir/binpkgs inkscape   
 ```  
   
 **ICONS CURSORS**  
