@@ -42,6 +42,20 @@ Section "InputClass"
 EndSection  
 ``` 
   
+**AUTOLOGIN & AUTOSTRTX** 
+```
+sudo micro  /etc/sv/agetty-tty1/conf  
+GETTY_ARGS="-a username --noclear"  
+  
+micro ./config/fish/config.fish  
+
+if status is-login
+    if test -z "$DISPLAY" -a "$(tty)" = /dev/tty1
+        exec startx -- -keeptty
+    end
+end
+``` 
+  
 **XORG INSTALL**  
 ```
 sudo pacman -S xorg xinit mesa numlockx nitrogen git make patch gcc base-devel unzip fish-shell  
@@ -93,3 +107,8 @@ edit config.def.h
 sudo make clean install  
 ```  
   
+**LUTRIS**  
+```
+sudo pacman -S lutris MangoHud MangoHud-32bit wine winetricks wine-32bit mesa-dri-32bit libGL-32bit amdvlk
+amdvlk-32bit vkd3d vkd3d-devel vkd3d-32bit vulkan-loader vulkan-loader-32bit libX11-devel libX11-devel-32bit libgpg-error libgpg-error-32bit gdk-pixbuf gdk-pixbuf-32bit libgcc libgcc-32bit libglvnd libglvnd-32bit  
+``` 
