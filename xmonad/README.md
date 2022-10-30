@@ -69,6 +69,7 @@ sudo pacman -S alsa-lib alsa-plugins alsa-tools alsa-utils
 **XMONAD INSTALL**  
 ```
 sudo pacman -S xmonad xmonad-contrib xmonad-utils xmobar  
+download config http://code.haskell.org/xmonad/man/xmonad.hs >>~/.xmonad
 ```  
   
 **SOFT INSTALL**  
