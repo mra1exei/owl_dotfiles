@@ -30,14 +30,26 @@ systemctl enable dhcpcd
 ```  
   
 **XORG INSTALL**  
-  
 ```
-sudo pacman -S xmonad xmonad-contrib xmonad-utils xmobar
+sudo pacman -S xorg xinit mesa numlockx nitrogen git make patch gcc base-devel unzip fish-shell  
+```  
+  
+**ALSA INSTALL**  
+```
+sudo pacman -S sudo xbps-install alsa-lib alsa-plugins alsa-tools alsa-utils   
 ```  
   
 **XMONAD INSTALL**  
-  
 ```
-sudo pacman -S xorg xinit mesa numlockx nitrogen git make patch gcc base-devel unzip fish-shell
+sudo pacman -S xmonad xmonad-contrib xmonad-utils xmobar  
 ```  
   
+**SOFT INSTALL**  
+```
+sudo pacman -S firefox telegram-desktop viewnior mpv thunar tumbler mupdf leafpad gimp simplescreenrecorder transmission-gtk  
+```  
+  
+**TERMINAL SOFT INSTALL**  
+```
+sudo pacman -S htop links cmus neofetch scrot ranger  
+```  
