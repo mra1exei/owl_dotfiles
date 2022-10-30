@@ -58,12 +58,12 @@ end
   
 **XORG INSTALL**  
 ```
-sudo pacman -S xorg xinit mesa numlockx nitrogen git make patch gcc base-devel unzip fish-shell  
+sudo pacman -S xorg xorg-xinit mesa numlockx nitrogen git make patch gcc base-devel unzip fish  
 ```  
   
 **ALSA INSTALL**  
 ```
-sudo pacman -S sudo xbps-install alsa-lib alsa-plugins alsa-tools alsa-utils   
+sudo pacman -S alsa-lib alsa-plugins alsa-tools alsa-utils   
 ```  
   
 **XMONAD INSTALL**  
