@@ -29,6 +29,19 @@ EDITOR=micro visudo user ALL=(ALL) ALL
 systemctl enable dhcpcd  
 ```  
   
+**KEYBOARD**  
+```
+sudo micro /etc/X11/xorg.conf.d/00-keyboard.conf  
+  
+Section "InputClass"  
+    Identifier "system-keyboard"  
+    MatchIsKeyboard "on"  
+    Option "XkbLayout" "us,ru"  
+    Option "XkbModel" "pc105"  
+    Option "XkbOptions" "grp:alt_shift_toggle"  
+EndSection  
+``` 
+  
 **XORG INSTALL**  
 ```
 sudo pacman -S xorg xinit mesa numlockx nitrogen git make patch gcc base-devel unzip fish-shell  
@@ -46,10 +59,37 @@ sudo pacman -S xmonad xmonad-contrib xmonad-utils xmobar
   
 **SOFT INSTALL**  
 ```
-sudo pacman -S firefox telegram-desktop viewnior mpv thunar tumbler mupdf leafpad gimp simplescreenrecorder transmission-gtk  
+sudo pacman -S firefox telegram-desktop viewnior mpv thunar tumbler mupdf leafpad gimp inkscape blender simplescreenrecorder transmission-gtk  
 ```  
   
 **TERMINAL SOFT INSTALL**  
 ```
 sudo pacman -S htop links cmus neofetch scrot ranger  
 ```  
+  
+**FISH-SHELL**  
+```
+fish  
+curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher  
+fisher install jorgebucaran/nvm.fish  
+fisher install IlanCosman/tide@v5  
+chsh -s /usr/bin/fish  
+set -U fish_greeting  
+``` 
+  
+**DMENU**  
+```
+git clone https://git.suckless.org/dmenu  
+cd dmenu  
+patch < dmenu-xyw-5.0.diff  
+sudo make clean install  
+```  
+  
+**ST TERMINAL**  
+```
+git clone https://git.suckless.org/st  
+cd st  
+edit config.def.h  
+sudo make clean install  
+```  
+  
