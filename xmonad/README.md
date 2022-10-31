@@ -113,3 +113,5 @@ sudo make clean install
 sudo pacman -S lutris MangoHud MangoHud-32bit wine winetricks wine-32bit mesa-dri-32bit libGL-32bit amdvlk
 amdvlk-32bit vkd3d vkd3d-devel vkd3d-32bit vulkan-loader vulkan-loader-32bit libX11-devel libX11-devel-32bit libgpg-error libgpg-error-32bit gdk-pixbuf gdk-pixbuf-32bit libgcc libgcc-32bit libglvnd libglvnd-32bit  
 ``` 
+  
+ orc-0.4.32-2  polkit-121-1  rtkit-0.13-2  tdb-1.4.7-1  webrtc-audio-processing-0.3.1-3  pulseaudio-16.1-1 libcanberra-1:0.30+r2+gc0620e4-1  sound-theme-freedesktop-0.8-5  pavucontrol-1:5.0+r61+gee77d86-2
