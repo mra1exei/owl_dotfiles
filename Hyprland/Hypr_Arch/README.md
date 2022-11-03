@@ -64,12 +64,12 @@ end
   
 **SOFT INSTALL**  
 ```
-sudo pacman -S firefox telegram-desktop viewnior mpv thunar tumbler mupdf leafpad gimp inkscape blender simplescreenrecorder transmission-gtk  
+sudo pacman -S firefox telegram-desktop viewnior mpv thunar tumbler mupdf leafpad gimp inkscape blender transmission-gtk  
 ```  
   
 **TERMINAL SOFT INSTALL**  
 ```
-sudo pacman -S htop links cmus neofetch scrot ranger  
+sudo pacman -S htop links cmus neofetch ranger grim  
 ```  
   
 **FISH-SHELL**  
