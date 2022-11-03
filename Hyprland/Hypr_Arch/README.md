@@ -9,7 +9,7 @@ pacstrap /mnt base linux linux-firmware
 genfstab -U /mnt >> /mnt/etc/fstab  
 arch-chroot /mnt  
   
-pacman -S grub nano sudo dhcpcd os-prober  
+pacman -S grub nano sudo dhcpcd os-prober ntfs-3g  
 
 /etc/locale.gen en_US.UTF-8 UTF-8  
 locale-gen  
@@ -28,6 +28,20 @@ EDITOR=micro visudo user ALL=(ALL) ALL
   
 systemctl enable dhcpcd  
 ```  
+  
+**HYPRLAND INSTALL**  
+```
+sudo pacman -S base-devel git cmake gdb meson ninja gcc mesa wayland-protocols  
+wayland wlroots xcb-proto xcb-util xcb-util-keysyms xcb-util-wm cairo pango  
+seatd libxkbcommon libxcb libxfixes libx11 libxcomposite pixman xorg-xinput  
+polkit xorg-xwayland
+  
+git clone --recursive https://github.com/hyprwm/Hyprland  
+cd Hyprland  
+git submodule init  
+git submodule update  
+sudo make install  
+``` 
   
 **ALSA INSTALL**  
 ```
