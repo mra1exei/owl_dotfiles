@@ -69,7 +69,7 @@ sudo pacman -S firefox telegram-desktop viewnior mpv thunar tumbler mupdf leafpa
   
 **TERMINAL SOFT INSTALL**  
 ```
-sudo pacman -S htop links cmus neofetch ranger grim  
+sudo pacman -S htop links cmus neofetch ranger grim unzip  
 ```  
   
 **FISH-SHELL**  
