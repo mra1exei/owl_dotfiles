@@ -34,7 +34,7 @@ systemctl enable dhcpcd
 sudo pacman -S base-devel git cmake gdb meson ninja gcc mesa wayland-protocols  
 wayland wlroots xcb-proto xcb-util xcb-util-keysyms xcb-util-wm cairo pango  
 seatd libxkbcommon libxcb libxfixes libx11 libxcomposite pixman xorg-xinput  
-polkit xorg-xwayland
+polkit  
   
 git clone --recursive https://github.com/hyprwm/Hyprland  
 cd Hyprland  
@@ -43,6 +43,7 @@ git submodule update
 sudo make install  
 
 sudo systemctl enable seatd
+sudo chmod 777 /run/seatd.sock  
 ``` 
   
 **ALSA INSTALL**  
