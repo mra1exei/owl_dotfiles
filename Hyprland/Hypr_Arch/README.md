@@ -47,7 +47,8 @@ sudo systemctl enable seatd
   
 **ALSA INSTALL**  
 ```
-sudo pacman -S alsa-lib alsa-plugins alsa-tools alsa-utils   
+sudo pacman -S alsa-lib alsa-plugins alsa-tools alsa-utils  
+sudo gpasswd -a username audio  
 ``` 
   
 **AUTOLOGIN & AUTOSTRTX** 
