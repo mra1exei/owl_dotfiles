@@ -54,7 +54,6 @@ sudo gpasswd -a username audio
 **AUTOLOGIN & AUTOSTRTX** 
 ```
 sudo pacman -S sddm
-#
 ``` 
   
 **SOFT INSTALL**  
