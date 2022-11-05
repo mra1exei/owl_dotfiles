@@ -45,6 +45,15 @@ sudo make install
 sudo systemctl enable seatd 
 ``` 
   
+**HYPRPAPER INSTALL**  
+```
+git clone https://github.com/hyprwm/hyprpaper  
+cd hyprpaper  
+make all  
+  
+cp ~/hyprpaper/build/hyprpaper /usr/bin 
+```  
+  
 **ALSA INSTALL**  
 ```
 sudo pacman -S alsa-lib alsa-plugins alsa-tools alsa-utils  
