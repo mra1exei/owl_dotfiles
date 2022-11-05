@@ -31,10 +31,10 @@ systemctl enable dhcpcd
   
 **HYPRLAND INSTALL**  
 ```
-sudo pacman -S base-devel git cmake gdb meson ninja gcc mesa wayland-protocols  
-wayland wlroots xcb-proto xcb-util xcb-util-keysyms xcb-util-wm cairo pango  
-seatd libxkbcommon libxcb libxfixes libx11 libxcomposite pixman xorg-xinput  
-polkit xorg-xwayland libxrender  
+sudo pacman -S base-devel gdb ninja gcc cmake libxcb xcb-proto xcb-util  
+xcb-util-keysyms libxfixes libx11 libxcomposite xorg-xinput libxrender  
+pixman wayland-protocols cairo pango seatd libxkbcommon xcb-util-wm  
+xorg-xwayland cmake wlroots mesa git meson alacritty polkit 
   
 git clone --recursive https://github.com/hyprwm/Hyprland  
 cd Hyprland  
@@ -42,8 +42,7 @@ git submodule init
 git submodule update  
 sudo make install  
 
-sudo systemctl enable seatd
-sudo chmod 777 /run/seatd.sock  
+sudo systemctl enable seatd 
 ``` 
   
 **ALSA INSTALL**  
@@ -54,21 +53,13 @@ sudo gpasswd -a username audio
   
 **AUTOLOGIN & AUTOSTRTX** 
 ```
-sudo micro  /etc/sv/agetty-tty1/conf  
-GETTY_ARGS="-a username --noclear"  
-  
-micro ./config/fish/config.fish  
-
-if status is-login
-    if test -z "$DISPLAY" -a "$(tty)" = /dev/tty1
-        exec startx -- -keeptty
-    end
-end
+sudo pacman -S sddm
+#
 ``` 
   
 **SOFT INSTALL**  
 ```
-sudo pacman -S firefox telegram-desktop viewnior mpv thunar tumbler mupdf leafpad gimp inkscape blender transmission-gtk  
+sudo pacman -S firefox telegram-desktop viewnior mpv thunar  
 ```  
   
 **TERMINAL SOFT INSTALL**  
@@ -85,15 +76,7 @@ fisher install IlanCosman/tide@v5
 chsh -s /usr/bin/fish  
 set -U fish_greeting  
 ``` 
-  
-**ST TERMINAL**  
-```
-git clone https://git.suckless.org/st  
-cd st  
-edit config.def.h  
-sudo make clean install  
-```  
-  
+    
 **LUTRIS**  
 ```
 sudo pacman -S lutris MangoHud MangoHud-32bit wine winetricks wine-32bit mesa-dri-32bit libGL-32bit amdvlk
