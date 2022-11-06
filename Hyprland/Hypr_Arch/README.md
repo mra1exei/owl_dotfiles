@@ -89,12 +89,14 @@ sudo gpasswd -a username audio
 sudo pacman -S sddm
 ``` 
   
-**SOFT INSTALL**  
+**THEMES, ICONS, FONTS**  
 ```
 cd ~/.icons  
 git clone https://github.com/keeferrourke/la-capitaine-icon-theme.git  
   
 gsettings set org.gnome.desktop.interface icon-theme la-capitaine-icon-theme  
+gsettings set org.gnome.desktop.interface gtk-theme ZorinGrey
+gsettings set org.gnome.desktop.interface cursor-theme capitaine-cursors
 ```  
   
 **SOFT INSTALL**  
