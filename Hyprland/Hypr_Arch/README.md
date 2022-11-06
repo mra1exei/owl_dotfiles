@@ -91,6 +91,14 @@ sudo pacman -S sddm
   
 **SOFT INSTALL**  
 ```
+cd ~/.icons  
+git clone https://github.com/keeferrourke/la-capitaine-icon-theme.git  
+  
+gsettings set org.gnome.desktop.interface icon-theme la-capitaine-icon-theme  
+```  
+  
+**SOFT INSTALL**  
+```
 sudo pacman -S firefox telegram-desktop viewnior mpv thunar  
 ```  
   
