@@ -58,7 +58,7 @@ cp ~/hyprpaper/build/hyprpaper /usr/bin
 ```
 git clone https://github.com/Alexays/Waybar/  
 cd Waybar  
-sudo pacman -S fmt spdlog  
+sudo pacman -S fmt spdlog gtkmm3 libdbusmenu-gtk3  
 
 sed -i 's/zext_workspace_handle_v1_activate(workspace_handle_);/const std::string command = "hyprctl dispatch   workspace " + name_;\n\tsystem(command.c_str());/g' src/modules/wlr/workspace_manager.cpp  
 
