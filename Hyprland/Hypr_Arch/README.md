@@ -54,12 +54,22 @@ make all
 cp ~/hyprpaper/build/hyprpaper /usr/bin 
 ```  
   
+**YAY INSTALL**  
+```  
+pacman -S --needed git base-devel  
+git clone https://aur.archlinux.org/yay.git  
+cd yay  
+makepkg -si  
+```  
+  
 **WAYBAR INSTALL**  
 ```
 git clone https://github.com/Alexays/Waybar/  
 cd Waybar  
 sudo pacman -S fmt spdlog gtkmm3 libdbusmenu-gtk3 upower libmpdclient sndio gtk-layer-shell scdoc  
-catch2 clang  
+clang  
+
+yay catch2-git
 
 sed -i 's/zext_workspace_handle_v1_activate(workspace_handle_);/const std::string command = "hyprctl dispatch   workspace " + name_;\n\tsystem(command.c_str());/g' src/modules/wlr/workspace_manager.cpp  
 
