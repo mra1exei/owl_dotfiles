@@ -67,7 +67,7 @@ makepkg -si
 git clone https://github.com/Alexays/Waybar/  
 cd Waybar  
 sudo pacman -S fmt spdlog gtkmm3 libdbusmenu-gtk3 upower libmpdclient sndio gtk-layer-shell scdoc  
-clang  
+clang awesome-terminal-fonts  
 
 yay catch2-git
 
