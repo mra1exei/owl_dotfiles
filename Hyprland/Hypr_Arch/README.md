@@ -80,7 +80,7 @@ sudo ninja -C build install
   
 **ALSA INSTALL**  
 ```
-sudo pacman -S alsa-lib alsa-plugins alsa-tools alsa-utils  
+sudo pacman -S alsa-lib alsa-plugins alsa-tools alsa-utils alsa-firmware  
 sudo gpasswd -a username audio  
 ``` 
   
