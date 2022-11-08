@@ -101,7 +101,7 @@ gsettings set org.gnome.desktop.interface cursor-theme capitaine-cursors
   
 **SOFT INSTALL**  
 ```
-sudo pacman -S firefox telegram-desktop viewnior mpv thunar  
+sudo pacman -S firefox telegram-desktop viewnior mpv thunar tumbler  
 ```  
   
 **TERMINAL SOFT INSTALL**  
