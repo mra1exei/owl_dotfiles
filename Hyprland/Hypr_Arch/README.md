@@ -91,9 +91,6 @@ sudo pacman -S sddm
   
 **THEMES, ICONS, FONTS**  
 ```
-cd ~/.icons  
-git clone https://github.com/keeferrourke/la-capitaine-icon-theme.git  
-  
 gsettings set org.gnome.desktop.interface icon-theme breeze-icons-dark  
 gsettings set org.gnome.desktop.interface gtk-theme Fantome
 gsettings set org.gnome.desktop.interface cursor-theme capitaine-cursors
