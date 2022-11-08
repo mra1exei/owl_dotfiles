@@ -51,7 +51,7 @@ git clone https://github.com/hyprwm/hyprpaper
 cd hyprpaper  
 make all  
   
-cp ~/hyprpaper/build/hyprpaper /usr/bin 
+sudo cp ~/hyprpaper/build/hyprpaper /usr/bin 
 ```  
   
 **YAY INSTALL**  
@@ -101,7 +101,7 @@ gsettings set org.gnome.desktop.interface cursor-theme capitaine-cursors
   
 **SOFT INSTALL**  
 ```
-sudo pacman -S firefox telegram-desktop viewnior mpv thunar tumbler  
+sudo pacman -S firefox telegram-desktop viewnior mpv thunar tumbler wofi  
 ```  
   
 **TERMINAL SOFT INSTALL**  
