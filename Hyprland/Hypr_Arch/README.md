@@ -106,6 +106,14 @@ sudo pacman -S firefox telegram-desktop viewnior mpv thunar tumbler wofi
 sudo pacman -S htop links cmus neofetch ranger grim unzip  
 ```  
   
+**ST TERMINAL**  
+```
+git clone https://git.suckless.org/st  
+cd st  
+edit config.def.h  
+sudo make clean install  
+```  
+  
 **FISH-SHELL**  
 ```
 fish  
