@@ -75,7 +75,7 @@ sed -i 's/zext_workspace_handle_v1_activate(workspace_handle_);/const std::strin
 
 meson --prefix=/usr --buildtype=plain --auto-features=enabled --wrap-mode=nodownload build  
 meson configure -Dexperimental=true build  
-sudo ninja -C build install    
+sudo ninja -C build install  
 ```  
   
 **ALSA INSTALL**  
@@ -94,7 +94,7 @@ sudo pacman -S sddm
 cd ~/.icons  
 git clone https://github.com/keeferrourke/la-capitaine-icon-theme.git  
   
-gsettings set org.gnome.desktop.interface icon-theme la-capitaine-icon-theme  
+gsettings set org.gnome.desktop.interface icon-theme breeze-icons-dark  
 gsettings set org.gnome.desktop.interface gtk-theme Fantome
 gsettings set org.gnome.desktop.interface cursor-theme capitaine-cursors
 ```  
