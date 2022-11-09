@@ -1,0 +1,91 @@
+{
+    // "layer": "top", // Waybar at top layer
+    "position": "top",
+
+    "height": 35,
+    "width": 1895,
+    "spacing": 20,
+
+
+    "modules-left": ["hyprland/window"],
+    "modules-center": ["wlr/workspaces"],
+    "modules-right": ["custom/cmus", "custom/weather", "hyprland/language", "tray", "clock"],
+
+"wlr/workspaces": {
+     "format": "{icon}",
+     "on-scroll-up": "hyprctl dispatch workspace e+1",
+     "on-scroll-down": "hyprctl dispatch workspace e-1",
+     "on-click": "activate",
+     "all-outputs": true,
+     "format": "{icon}",
+     "format-icons": {
+             "1": "",
+             "2": "",
+             "3": "",
+             "4": "",
+             "5": "",
+             "urgent": "",
+             "focused": "",
+             "default": ""
+         }
+    },
+
+    "sway/mode": {
+        "format": "<span style=\"italic\">{}</span>"
+    },
+    
+    "tray": {
+        "spacing": 10
+    },
+    
+    "clock": {
+        "format": "{:%H %M}",
+        "format-alt": "{:%Y-%m-%d}"
+    },
+    
+"custom/cmus": {
+    "format": "   {}",
+    //"max-length": 15,
+    "interval": 10,
+    "exec": "cmus-remote -C \"format_print '%F'\"",
+    "exec-if": "pgrep cmus",
+    "on-click": "cmus-remote -u",
+    "on-scroll-up": "cmus-remote --next",
+    "on-scroll-down": "cmus-remote --prev",
+    "escape": true
+},
+
+"custom/weather": {
+    "format": "{}",
+    "exec": "curl 'https://wttr.in/?format=1'",
+    "interval": 3600
+},
+
+"hyprland/window": {
+    "format": "{}",
+    "separate-outputs": false,
+    "max-length": 20
+},
+
+"hyprland/language": {
+    "format": "{}",
+    "format-us": "AMERICA, HELL YEAH!",
+    "format-tr": "As bayrakları",
+    "keyboard-name": "AT Translated Set 2 keyboard"
+},
+
+    "custom/media": {
+        "format": "{icon} {}",
+        "return-type": "json",
+        "max-length": 40,
+        "format-icons": {
+            "spotify": "",
+            "default": "🎜"
+        },
+
+        "escape": true,
+        "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
+        // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
+    }
+}
+
