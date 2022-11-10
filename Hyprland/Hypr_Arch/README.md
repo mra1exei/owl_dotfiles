@@ -34,7 +34,7 @@ systemctl enable dhcpcd
 sudo pacman -S base-devel gdb ninja gcc cmake libxcb xcb-proto xcb-util  
 xcb-util-keysyms libxfixes libx11 libxcomposite xorg-xinput libxrender  
 pixman wayland-protocols cairo pango seatd libxkbcommon xcb-util-wm  
-xorg-xwayland cmake wlroots mesa git meson alacritty polkit 
+xorg-xwayland cmake wlroots mesa git meson polkit 
   
 git clone --recursive https://github.com/hyprwm/Hyprland  
 cd Hyprland  
