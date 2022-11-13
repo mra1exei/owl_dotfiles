@@ -41,8 +41,6 @@ cd Hyprland
 git submodule init  
 git submodule update  
 sudo make install  
-
-sudo systemctl enable seatd 
 ``` 
   
 **HYPRPAPER INSTALL**  
