@@ -96,7 +96,7 @@ gsettings set org.gnome.desktop.interface cursor-theme capitaine-cursors
   
 **SOFT INSTALL**  
 ```
-sudo pacman -S firefox telegram-desktop imv mpv thunar tumbler wofi mako blender inkscape  
+sudo pacman -S firefox telegram-desktop imv mpv thunar tumbler wofi mousepad blender inkscape  
 ```  
   
 **TERMINAL SOFT INSTALL**  
