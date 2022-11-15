@@ -41,6 +41,8 @@ cd Hyprland
 git submodule init  
 git submodule update  
 sudo make install  
+  
+cp Hyprland/example/hyprland.conf ~/.config/hypr/
 ``` 
   
 **HYPRPAPER INSTALL**  
