@@ -101,7 +101,7 @@ libX11-devel libXinerama-devel libXft-devel base-devel unzip fish-shell
   
 **SOFT**  
 ```
-firefox telegram-desktop viewnior mpv thunar tumbler mupdf leafpad gimp ardour lmms audacity obs ssr  
+firefox telegram-desktop viewnior mpv thunar tumbler mupdf leafpad gimp ardour lmms audacity obs ssr transmission  
 ```  
 
 **TERMINAL**  
@@ -114,7 +114,7 @@ htop links cmus neofetch scrot ranger
 polybar font-awesome6 jq curl  
 ```  
   
-**BLENDER INKSCAPE PICOM**  
+**INKSCAPE**  
 ```
 git clone https://github.com/void-linux/void-packages.git  
 cd void-packages  
