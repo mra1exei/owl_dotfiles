@@ -106,7 +106,7 @@ firefox telegram-desktop viewnior mpv thunar tumbler mupdf leafpad gimp ardour l
 
 **TERMINAL**  
 ```
-htop links cmus neofetch scrot ranger rtorrent  
+htop links cmus neofetch scrot ranger  
 ```  
   
 **POLYBAR**  
@@ -121,16 +121,6 @@ cd void-packages
 ./xbps-src binary-bootstrap  
   
 echo XBPS_ALLOW_RESTRICTED=yes >> etc/conf  
-  
-micro ~/void-packages/srcpkgs/blender/template  
-  version=3.2.1
-  checksum=f6912f2f62e4007272802e56de95c21cadd994b548a9088fdf4ee96554ae8278  
-  
-rm -rf ~/void-packages/srcpkgs/blender/patches  
-./xbps-src pkg blender  
-  
-sudo xbps-install --repository hostdir/binpkgs blender
-  
   
 micro ~/void-packages/srcpkgs/inkscape/template  
   version=1.2  
