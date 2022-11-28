@@ -106,7 +106,7 @@ firefox telegram-desktop viewnior mpv thunar tumbler mupdf leafpad gimp ardour l
 
 **TERMINAL**  
 ```
-htop links cmus neofetch scrot ranger w3m  
+htop links cmus neofetch scrot ranger w3m w3m-img  
 ```  
   
 **POLYBAR**  
