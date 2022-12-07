@@ -1,8 +1,17 @@
 **VOID INSTALL**  
 ```
+BIOS:  
 cfdisk /dev/sda  
 mkfs.btrfs -f /dev/sda4  
 mount /dev/sda4 /mnt  
+  
+EFI:  
+cfdisk /dev/sdd
+mkfs.vfat /dev/sdd4  
+mkfs.btrfs -f /dev/sdd5  
+mount /dev/sdd5 /mnt
+mkdir -p /mnt/boot/efi/  
+mount /dev/sdd4 /mnt/boot/efi/  
   
 REPO=https://repo-default.voidlinux.org/current  
 ARCH=x86_64  
