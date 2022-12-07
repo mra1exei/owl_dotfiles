@@ -151,10 +151,9 @@ cd void-packages
 echo XBPS_ALLOW_RESTRICTED=yes >> etc/conf  
   
 micro ~/void-packages/srcpkgs/inkscape/template  
-  version=1.2  
-  wrksrc="inkscape-${version}_2022-05-15_dc2aedaf03"  
-  checksum=8d9b31142554945664edfefe2d6b55910a5099765f7176a71107c34f1dcde6ad  
-  
+  version=1.2.2    
+  checksum=a0c7fd0d03c0a21535e648ef301dcf80dd7cfc1f3545e51065fbf1ba3ee8a5c4
+
 rm -rf ~/void-packages/srcpkgs/inkscape/patches & ~/void-packages/srcpkgs/inkscape/update
 ./xbps-src pkg inkscape  
   
