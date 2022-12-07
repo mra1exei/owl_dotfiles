@@ -119,16 +119,18 @@ set -U fish_greeting
 ```
 xbps-install bspwm sxhkd xorg xinit mesa numlockx nitrogen git make patch gcc  
 libX11-devel libXinerama-devel libXft-devel base-devel unzip fish-shell  
+  
+sudo chmod 777 .config/bspwm/bspwmrc  
 ```   
   
 **SOFT**  
 ```
-firefox telegram-desktop viewnior mpv thunar tumbler mupdf leafpad gimp ardour lmms audacity obs ssr transmission  
+firefox telegram-desktop viewnior mpv Thunar tumbler mupdf leafpad gimp ardour lmms audacity obs ssr transmission  
 ```  
 
 **TERMINAL**  
 ```
-htop links cmus neofetch scrot ranger w3m w3m-img  
+htop links cmus neofetch scrot ranger  
 ```  
   
 **POLYBAR**  
@@ -180,7 +182,6 @@ sudo xbps-install virt-manager qemu bridge-utils dnsmasq
 sudo usermod -aG kvm username  
 sudo usermod -aG libvirt username  
   
-sudo modprobe kvm-amd  
 sudo ln -s /etc/sv/libvirtd /var/service  
 sudo ln -s /etc/sv/virtlockd /var/service  
 sudo ln -s /etc/sv/virtlogd /var/service  
