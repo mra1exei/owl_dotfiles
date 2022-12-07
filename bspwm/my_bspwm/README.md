@@ -82,6 +82,8 @@ end
 **ALSA**  
 ```
 sudo xbps-install alsa-lib alsa-lib-devel alsa-plugins alsa-tools alsa-utils  
+sudo ln -s /etc/sv/alsa /var/service  
+sudo sv up alsa  
 ```  
   
 **CHRONY**  
