@@ -59,6 +59,12 @@ exit
 reboot  
 ```  
   
+**DHCPCD** 
+```
+sudo ln -s /etc/sv/dhcpcd /var/service  
+sudo sv up dhcpcd  
+``` 
+  
 **AUTOLOGIN & AUTOSTRTX** 
 ```
 sudo micro  /etc/sv/agetty-tty1/conf  
