@@ -134,7 +134,7 @@ firefox telegram-desktop viewnior mpv Thunar tumbler mupdf leafpad gimp ardour l
 
 **TERMINAL**  
 ```
-htop links cmus neofetch scrot ranger cava  
+htop links cmus neofetch scrot ranger cava ueberzug w3m ImageMagick  
 ```  
   
 **POLYBAR**  
