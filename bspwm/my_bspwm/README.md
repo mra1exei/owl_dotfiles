@@ -1,3 +1,9 @@
+## GALLERY
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/my_bspwm/.img/2022-12-12-151307_1920x1080_scrot.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/my_bspwm/.img/2022-12-12-153156_1920x1080_scrot.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/my_bspwm/.img/2022-12-12-161038_1920x1080_scrot.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/my_bspwm/.img/2022-12-12-160947_1920x1080_scrot.png" width="450" align="center">
+
 ## INFO
 |DIstro|[VOID](https://voidlinux.org/)|
 |:---:|:---:|
@@ -8,15 +14,6 @@
 |Icon|[la-capitaine-icon-theme](https://github.com/keeferrourke/la-capitaine-icon-theme)|
 |GTK3|[X-Arc-Plus](https://www.gnome-look.org/p/1167049/)|
 |Fonts|[JetBrainsMono](https://www.jetbrains.com/lp/mono/)|
-
-## GALLERY
-  
-<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/my_bspwm/.img/2022-12-12-151307_1920x1080_scrot.png" width="450" align="center">
-<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/my_bspwm/.img/2022-12-12-153156_1920x1080_scrot.png" width="450" align="center">
-<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/my_bspwm/.img/2022-12-12-161038_1920x1080_scrot.png" width="450" align="center">
-<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/my_bspwm/.img/2022-12-12-160947_1920x1080_scrot.png" width="450" align="center">
-
------
   
 ## INSTALL:
 
