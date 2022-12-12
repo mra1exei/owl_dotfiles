@@ -1,4 +1,4 @@
-https://notabug.org/owl410/owl_dotfiles/src/bfacd1e9da0cdcec2cfb565909dd9b32e97c8dc3/bspwm/my_bspwm/.img/0001-0664.mp4
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/my_bspwm/.img/0001-0700.webm" width="440" align="center">
 ## INFO
   
 
