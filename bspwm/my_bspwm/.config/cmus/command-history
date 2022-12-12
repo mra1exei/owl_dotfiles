@@ -1,0 +1,125 @@
+add -p /home/owl/home/Music/acoustic/
+pl-create acoustic
+add -p /home/owl/home/Music/asian/
+pl-create asian
+add -p /home/owl/home/Music/metal/
+pl-create metal
+add -p /home/owl/home/Music/NewMetal
+pl-create NewMetal
+add -p /home/owl/home/Music/NewMetalRus/
+pl-create NewMetalRus
+add -p /home/owl/home/Music/nrr
+pl-create nrr
+add -p /home/owl/home/Music/old wave/
+add -p /home/owl/home/Music/night travel/
+pl-create night travel
+add -p /home/owl/home/Music/russian rock/
+pl-create old wave
+add -p /home/owl/home/Music/others/
+pl-create others
+pl-create russian rock
+add -p /home/owl/home/Music/web/
+pl-create web
+add -p /home/owl/home/Music/rock
+pl-create rock
+add -p /home/owl/home/Music/post/
+pl-create post
+add -p /home/owl/home/Music/synty pop/
+pl-create synty pop
+add -p /home/owl/home/Music/chillout/
+pl-create chillout
+add -p /home/owl/home/Music/umc-umc/
+pl-create umc-umc
+add -p /home/owl/home/Music/umc-umc
+add -p /home/owl/home/Music/loundge/
+pl-create lounge
+set color_win_cur_attr=bold
+set color_win_cur=black
+set color_win_cur=red
+set color_statusline_fg=black
+set color_statusline_fg=red
+set color_info=red
+set color_win_title_fg=white
+set color_win_title_fg=black
+set color_win_title_fg=red
+set color_win_sel_bg=black
+set color_win_sel_bg=red
+set color_win_inactive_sel_fg=black
+set color_win_inactive_sel_fg=red
+set color_win_inactive_cur_sel_bg=black
+set color_win_inactive_cur_sel_fg=white
+set color_win_inactive_cur_sel_fg=red
+set color_win_cur_sel_fg=white
+set color_win_cur_sel_fg=red
+set color_win_cur_sel_fg=blacklight
+set color_win_cur_sel_fg=141 154 175 100
+set color_win_cur_sel_fg=#8d9aaf
+set color_win_cur_sel_fg=8d9aaf
+set color_win_cur_sel_fg=black
+set color_win_cur=lightgray
+set color_win_cur=lightblack
+add -p /home/owl/home/Music/90X/
+pl-create 9X
+add -p /home/owl/home/Music/core/
+pl-create core
+add -p /home/owl/home/Music/beat & Hip-hap/
+pl-create beat & hip-hap
+add -p /home/owl/home/Music/trash/
+set format_title=%a - %l - %t (%y) \n
+pl-create trash
+set format_title=%a - %l - %t (%y)
+add -p /home/owl/home/Music/indie rock/
+pl-create indie rock
+set format_playlist_va= %F
+set altformat_playlist= %F
+set format_playlist= %F
+set color_win_sel_fg=white
+set color_win_sel_fg=black
+set color_win_inactive_sel_bg=gray
+set color_win_inactive_sel_bg=black
+set color_win_inactive_cur_sel_bg=gray
+set altformat_playlist=%F
+set altformat_playlist=  %F
+set altformat_playlist=%21%F
+set altformat_playlist=%20%F
+set auto_reshuffle=false
+set altformat_title= %F
+set altformat_title=%F
+set altformat_current= %F
+set altformat_current=%F
+set altformat_trackwin= %F
+set altformat_current=  %F 
+set altformat_title=  %F
+set altformat_trackwin=  %F 
+set altformat_trackwin= %F 
+set altformat_current= %F 
+set color_win_inactive_cur_sel_fg=lightyellow
+set color_win_inactive_cur_sel_fg=lightblue
+set color_info=black
+set color_statusline_fg=gray
+set color_titleline_bg=gray
+set color_titleline_bg=black
+set color_statusline_bg=gray
+set color_statusline_bg=black
+set color_win_cur_sel_bg=black
+set color_win_cur_sel_bg=gray
+set color_info=gray
+set color_win_cur=lightyellow
+set format_playlist_va=%F
+add -p /home/owl/home/Music/atmosfer
+set format_playlist=%F
+set auto_expand_albums_selcur=false
+set auto_expand_albums_search=false
+set auto_expand_albums_follow=false
+set color_win_cur=blue
+set color_win_cur=gray
+set altformat_current=%F 
+set altformat_trackwin=%F 
+set color_win_dir=black
+set color_statusline_fg=lightblack
+set color_separator=black
+set color_statusline_fg=GRAY
+set color_win_title_bg=bLACK
+:add -p /home/owl/home/Music/atmosfer
+pl-create atmosfer
+set mpris=false
