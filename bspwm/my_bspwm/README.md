@@ -1,4 +1,11 @@
-https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/my_bspwm/.img/0001-0664.mp4
+<script src="./yp-player.js"></script>
+<video class="video-js vjs-default-skin">
+<source src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/my_bspwm/.img/0001-0664.mp4" type="video/mp4">
+</video>
+<script>
+window.yp_player();
+</script>
+
 ## INFO
   
 
