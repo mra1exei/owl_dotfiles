@@ -1,4 +1,20 @@
-**VOID INSTALL**  
+
+## INFO
+  
+
+## GALLERY
+  
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/my_bspwm/.img/2022-12-12-135653_1920x1080_scrot.png" width="470" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/my_bspwm/.img/2022-12-12-135653_1920x1080_scrot.png" width="470" align="right">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/my_bspwm/.img/2022-12-12-135653_1920x1080_scrot.png" width="470" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/my_bspwm/.img/2022-12-12-135653_1920x1080_scrot.png" width="470" align="right">
+
+-----
+  
+## INSTALL:
+
+  
+**VOID INSTALL:**  
 ```
 BIOS:  
 cfdisk /dev/sda  
@@ -59,13 +75,13 @@ exit
 reboot  
 ```  
   
-**DHCPCD** 
+**DHCPCD:** 
 ```
 sudo ln -s /etc/sv/dhcpcd /var/service  
 sudo sv up dhcpcd  
 ``` 
   
-**AUTOLOGIN & AUTOSTRTX** 
+**AUTOLOGIN & AUTOSTRTX:** 
 ```
 sudo micro  /etc/sv/agetty-tty1/conf  
 GETTY_ARGS="-a username --noclear"  
@@ -79,21 +95,21 @@ if status is-login
 end
 ```  
   
-**ALSA**  
+**ALSA:**  
 ```
 sudo xbps-install alsa-lib alsa-lib-devel alsa-plugins alsa-tools alsa-utils  
 sudo ln -s /etc/sv/alsa /var/service  
 sudo sv up alsa  
 ```  
   
-**CHRONY**  
+**CHRONY:**  
 ```
 sudo xbps-install chrony  
 sudo ln -s /etc/sv/chronyd /var/service  
 sudo sv up chronyd  
 ```  
   
-**KEYBOARD**  
+**KEYBOARD:**  
 ```
 sudo micro /etc/X11/xorg.conf.d/00-keyboard.conf  
   
@@ -106,7 +122,7 @@ Section "InputClass"
 EndSection  
 ``` 
   
-**FISH-SHELL**  
+**FISH-SHELL:**  
 ```
 sudo xbps-install fish-shell 
 fish  
@@ -119,7 +135,7 @@ set -U fish_greeting
 tide configure - что бы конфигурировать тильды
 ```  
   
-**BSPWM** 
+**BSPWM:** 
 ```
 xbps-install bspwm sxhkd xorg xinit mesa numlockx nitrogen git make patch gcc  
 libX11-devel libXinerama-devel libXft-devel base-devel unzip fish-shell  
@@ -127,22 +143,22 @@ libX11-devel libXinerama-devel libXft-devel base-devel unzip fish-shell
 sudo chmod 777 .config/bspwm/bspwmrc  
 ```   
   
-**SOFT**  
+**SOFT:**  
 ```
 firefox telegram-desktop viewnior mpv Thunar tumbler mupdf leafpad gimp ardour lmms audacity obs ssr transmission transmission-gtk  
 ```  
 
-**TERMINAL**  
+**TERMINAL:**  
 ```
 htop links cmus neofetch scrot ranger cava ueberzug w3m ImageMagick  
 ```  
   
-**POLYBAR**  
+**POLYBAR:**  
 ```
 polybar font-awesome6 jq curl  
 ```  
   
-**INKSCAPE**  
+**INKSCAPE:**  
 ```
 git clone https://github.com/void-linux/void-packages.git  
 cd void-packages  
@@ -160,7 +176,7 @@ rm -rf ~/void-packages/srcpkgs/inkscape/patches & ~/void-packages/srcpkgs/inksca
 sudo xbps-install --repository hostdir/binpkgs inkscape   
 ```  
   
-**ICONS CURSORS**  
+**ICONS CURSORS:**  
 ```
 cd ~/.icons  
 git clone https://github.com/keeferrourke/la-capitaine-icon-theme.git  
@@ -168,7 +184,7 @@ git clone https://github.com/keeferrourke/la-capitaine-icon-theme.git
 set XCURSOR_THEME capitaine-cursors
 ```
   
-**CMUS**  
+**CMUS:**  
 ```
 start cmus
 disable mpris in the settings  
@@ -178,7 +194,7 @@ set mixer.alsa.device=default
 set mixer.alsa.channel=Master  
 ```  
   
-**VIRT-MANAGER**  
+**VIRT-MANAGER:**  
 ```
 sudo xbps-install virt-manager qemu bridge-utils dnsmasq  
   
@@ -191,7 +207,7 @@ sudo ln -s /etc/sv/virtlogd /var/service
 sudo ln -s /etc/sv/dbus /var/service  
 ```  
   
-**DMENU**  
+**DMENU:**  
 ```
 git clone https://git.suckless.org/dmenu  
 cd dmenu  
@@ -199,7 +215,7 @@ patch < dmenu-xyw-5.0.diff
 sudo make clean install  
 ```  
   
-**ST TERMINAL**  
+**ST TERMINAL:**  
 ```
 git clone https://git.suckless.org/st  
 cd st  
@@ -207,7 +223,7 @@ edit config.def.h
 sudo make clean install  
 ```  
   
-**LUTRIS**  
+**LUTRIS:**  
 ```
 sudo xbps-install void-repo-multilib  
 sudo xbps-install -Suy  
