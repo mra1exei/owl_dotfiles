@@ -53,5 +53,5 @@ tide configure - что бы конфигурировать тильды
 * move theme in ~/.config/xfce4/terminal/colorschemes/
 * change terminal setting:
   
-<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/XFCE/xfce_tokio_night/img/term_1.png" width="460" align="center">
-<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/XFCE/xfce_tokio_night/img/term_1.png" width="460" align="right">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/XFCE/xfce_tokio_night/img/term_1.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/XFCE/xfce_tokio_night/img/term_1.png" width="450" align="right">
