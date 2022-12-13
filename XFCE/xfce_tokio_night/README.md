@@ -63,3 +63,8 @@ tide configure - что бы конфигурировать тильды
 <img src="https://notabug.org/owl410/owl_dotfiles/raw/master/XFCE/xfce_tokio_night/img/dock.png" width="450" align="center">  
   
 ## Panel
+
+zentile
+
+xfce4-windowck-plugin
+vala-panel-appmenu-xfce 
