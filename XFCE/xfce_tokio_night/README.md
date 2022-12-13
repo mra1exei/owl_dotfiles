@@ -63,8 +63,13 @@ tide configure - что бы конфигурировать тильды
 <img src="https://notabug.org/owl410/owl_dotfiles/raw/master/XFCE/xfce_tokio_night/img/dock.png" width="450" align="center">  
   
 ## Panel
-
+* yay vala-panel-appmenu-xfce
+* sudo pacman - S appmenu-gtk-module
+* add new panel:
+  
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/XFCE/xfce_tokio_night/img/panel.png" width="450" align="center">  
+  
+  
 zentile
 
 xfce4-windowck-plugin
-vala-panel-appmenu-xfce 
