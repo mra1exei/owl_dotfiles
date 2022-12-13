@@ -54,4 +54,12 @@ tide configure - что бы конфигурировать тильды
 * download [this](https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80) wallpaper
 * change desktop setting:
   
-<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/XFCE/xfce_tokio_night/img/desktop.png" width="750" align="center"> 
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/XFCE/xfce_tokio_night/img/desktop.png" width="750" align="center">  
+  
+## Dock
+* yay xfce4-docklike-plugin
+* add new panel:  
+  
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/XFCE/xfce_tokio_night/img/dock.png" width="450" align="center">  
+  
+## Panel
