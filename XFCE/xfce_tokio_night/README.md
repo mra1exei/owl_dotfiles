@@ -58,7 +58,7 @@ tide configure - что бы конфигурировать тильды
   
 ## Dock
 * yay xfce4-docklike-plugin
-* add new panel:  
+* add new panel:
   
 <img src="https://notabug.org/owl410/owl_dotfiles/raw/master/XFCE/xfce_tokio_night/img/dock.png" width="450" align="center">  
   
