@@ -46,3 +46,12 @@ tide configure - что бы конфигурировать тильды
 * yay xcursor-simp1e-tokyo-night-storm   
 * yay xcursor-simp1e-tokyo-night-light  
 * yay xcursor-simp1e-tokyo-night
+
+## Terminal custom
+
+* download [this](https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/.config/xfce4/terminal/colorschemes/tokyonight_night.theme) theme
+* move theme in ~/.config/xfce4/terminal/colorschemes/
+* change terminal setting:
+  
+<img src="https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/img/term_1.png" width="400" align="center">  
+<img src="https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/img/term_2.png" width="400" align="center">  
