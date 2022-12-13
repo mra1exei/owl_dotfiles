@@ -69,7 +69,10 @@ tide configure - что бы конфигурировать тильды
   
 <img src="https://notabug.org/owl410/owl_dotfiles/raw/master/XFCE/xfce_tokio_night/img/panel.png" width="450" align="center">  
   
+## Picom
+* yay picom-tryone-git
+* add to autostart: picom --experimental-backend
   
-zentile
+## Conky
 
-xfce4-windowck-plugin
+zentile
