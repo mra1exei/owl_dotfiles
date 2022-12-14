@@ -9,6 +9,7 @@ picom &
 xsetroot -cursor_name left_ptr &
 firefox &
 telegram-desktop &
+picom &
 
 #ВОРКСПЕЙСЫ
 bspc monitor -d             
