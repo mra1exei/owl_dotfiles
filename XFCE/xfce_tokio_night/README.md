@@ -74,5 +74,5 @@ tide configure - что бы конфигурировать тильды
 * add to autostart: picom  
   
 ## Conky
-* sudo pacman - S conky jq
+* sudo pacman - S conky jq glava audacious
 zentile
