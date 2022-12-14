@@ -5,6 +5,7 @@ sxhkd &
 numlockx &
 nitrogen --restore &
 polybar example &
+picom &
 xsetroot -cursor_name left_ptr &
 firefox &
 telegram-desktop &
