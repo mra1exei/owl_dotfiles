@@ -71,7 +71,7 @@ tide configure - что бы конфигурировать тильды
   
 ## Picom
 * yay picom-tryone-git
-* add to autostart: picom --experimental-backend
+* add to autostart: picom  
   
 ## Conky
 
