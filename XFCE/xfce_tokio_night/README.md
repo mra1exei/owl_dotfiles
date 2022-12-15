@@ -94,6 +94,11 @@ tide configure
 * ctrl+e
 * set colorsheme tokyo_night
   
+## Neofetch
+* sudo pacman - S neofetch
+* mkdir -p ~/.config/neofetch
+* download [this](https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/.config/neofetch/config.conf) file and move to ~/.config/neofetch
+  
 ## Telegram
 * sudo pacman - S telegram-desktop
 * download [this](https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/telegram/TokyoNight.tdesktop-theme) file, sand message to telegram, apply sheme
