@@ -44,7 +44,7 @@ tide configure - что бы конфигурировать тильды
   
 ## Terminal custom
 * download [this](https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/.config/xfce4/terminal/colorschemes/tokyonight_night.theme) theme
-* move theme in ~/.config/xfce4/terminal/colorschemes/
+* move theme to ~/.config/xfce4/terminal/colorschemes/
 * change terminal setting:
   
 <img src="https://notabug.org/owl410/owl_dotfiles/raw/master/XFCE/xfce_tokio_night/img/term_1.png" width="450" align="center">
@@ -74,5 +74,10 @@ tide configure - что бы конфигурировать тильды
 * add to autostart: picom  
   
 ## Conky
-* sudo pacman - S conky jq glava audacious
+* sudo pacman - S conky jq glava
+* download [this](https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/.config/conky/conky.tar.gz) archive and unzip to ~/.config/conky
+*download [this](https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/.config/glava/glava.tar.gz) archive and unzip to ~/.config/glava
+*add to autostart glava --desktop
+*add to autostart conky
+
 zentile
