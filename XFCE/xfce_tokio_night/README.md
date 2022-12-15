@@ -71,13 +71,14 @@ tide configure - что бы конфигурировать тильды
   
 ## Picom
 * yay picom-tryone-git
+* download [this](https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/.config/picom/picom.conf) archive and unzip to ~/.config/picom
 * add to autostart: picom  
   
 ## Conky
 * sudo pacman - S conky jq glava
 * download [this](https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/.config/conky/conky.tar.gz) archive and unzip to ~/.config/conky
-*download [this](https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/.config/glava/glava.tar.gz) archive and unzip to ~/.config/glava
-*add to autostart glava --desktop
-*add to autostart conky
+*download [this](https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/.config/glava/glava.tar.gz) file and move to ~/.config/glava
+* add to autostart glava --desktop
+* add to autostart conky
 
 zentile
