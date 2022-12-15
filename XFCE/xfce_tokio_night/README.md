@@ -29,7 +29,7 @@ copy & unzip gtk themes in ~/.themes
 * chsh -s /usr/bin/fish  
 * set -U fish_greeting  
   
-tide configure - что бы конфигурировать тильды  
+tide configure    
 
 ## Install yay
 * sudo pacman -S --needed git base-devel  
@@ -44,7 +44,8 @@ tide configure - что бы конфигурировать тильды
   
 ## Terminal custom
 * download [this](https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/.config/xfce4/terminal/colorschemes/tokyonight_night.theme) theme
-* move theme to ~/.config/xfce4/terminal/colorschemes/
+* mkdir -p ~/.config/xfce4/terminal/colorschemes
+* move theme to ~/.config/xfce4/terminal/colorschemes
 * change terminal setting:
   
 <img src="https://notabug.org/owl410/owl_dotfiles/raw/master/XFCE/xfce_tokio_night/img/term_1.png" width="450" align="center">
@@ -71,14 +72,24 @@ tide configure - что бы конфигурировать тильды
   
 ## Picom
 * yay picom-tryone-git
+* mkdir -p ~/.config/picom
 * download [this](https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/.config/picom/picom.conf) archive and unzip to ~/.config/picom
 * add to autostart: picom  
   
-## Conky
-* sudo pacman - S conky jq glava
+
+## Conky(for cmus player)
+* sudo pacman - S conky jq glava cmus
+* mkdir -p ~/.config/conky
+* mkdir -p ~/.config/glava
 * download [this](https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/.config/conky/conky.tar.gz) archive and unzip to ~/.config/conky
 *download [this](https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/.config/glava/glava.tar.gz) file and move to ~/.config/glava
-* add to autostart glava --desktop
-* add to autostart conky
+* add to autostart: glava --desktop
+* add to autostart: conky
 
-zentile
+## Micro
+* sudo pacman - S micro
+* mkdir -p ~/.config/micro/colorshemes
+* download [this](https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/.config/micro/colorshemes/tokyo_night.micro) file and move to ~/.config/micro/colorshemes
+* start micro
+* ctrl+e
+* set colorsheme tokyo_night
