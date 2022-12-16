@@ -1,8 +1,8 @@
 ## GALLERY
-<img src="https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/img/src_1.png" width="450" align="right">
+<img src="https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/img/src_1.png" width="450" align="left">
 <img src="https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/img/src_2.png" width="450" align="right">
 <img src="https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/img/src_3.png" width="450" align="left">
-<img src="https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/img/src_4.png" width="450" align="left">
+<img src="https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/img/src_4.png" width="450" align="right">
   
 ## Install GTK theme
 
