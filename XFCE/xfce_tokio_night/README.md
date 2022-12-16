@@ -1,8 +1,8 @@
 ## GALLERY
-<img src="https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/img/src_1.jpg" width="450" align="left">
-<img src="https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/img/src_2.jpg" width="450" align="right">
-<img src="https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/img/src_3.jpg" width="450" align="left">
-<img src="https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/img/src_4.jpg" width="450" align="right">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/XFCE/xfce_tokio_night/img/src_1.jpg" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/XFCE/xfce_tokio_night/img/src_2.jpg" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/XFCE/xfce_tokio_night/img/src_3.jpg" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/XFCE/xfce_tokio_night/img/src_4.jpg" width="450" align="center">
   
 ## Install GTK theme
 
@@ -91,6 +91,8 @@ tide configure
 *download [this](https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/.config/glava/glava.tar.gz) file and move to ~/.config/glava
 * add to autostart: glava --desktop
 * add to autostart: conky
+* chmod u+x ~/.config/conky/weather.sh
+* chmod u+x ~/.config/conky/cmus.sh
 
 ## Micro
 * sudo pacman - S micro
@@ -104,6 +106,12 @@ tide configure
 * sudo pacman - S neofetch
 * mkdir -p ~/.config/neofetch
 * download [this](https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/.config/neofetch/config.conf) file and move to ~/.config/neofetch
+  
+## Ranger
+* sudo pacman - S ranger
+* mkdir -p ~/.config/ranger
+* download [this](https://notabug.org/owl410/owl_dotfiles/src/master/XFCE/xfce_tokio_night/.config/ranger) archive and unzip to ~/.config/ranger
+* chmod u+x ~/.config/conky/scope.sh
   
 ## Telegram
 * sudo pacman - S telegram-desktop
