@@ -35,6 +35,7 @@ EDITOR=micro visudo user ALL=(ALL) ALL
   
 systemctl enable dhcpcd  
 ```  
+
 **Keyboard**  
 sudo micro /etc/X11/xorg.conf.d/00-keyboard.conf  
 ```
@@ -50,6 +51,11 @@ EndSection
 **BSPWM INSTALL**  
 ```
 sudo pacman -S xorg xorg-xinit mesa bspwm sxhkd alacritty  
+  
+mkdir -p .config/bspwm  
+mkdir -p .config/sxhkd  
+  
+
 ``` 
 
 **SOFT**  
