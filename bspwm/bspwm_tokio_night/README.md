@@ -6,7 +6,7 @@
 **ARCH LINUX INSTALL EFI**  
   
 ```
-cfdisk /dev/sdaX  
+cfdisk /dev/sdaX  (make partition for root & efi)
 mkfs.fat -F 32 /dev/sdaX1  
 mkfs.ext4 /dev/sdaX2  
 mount /dev/sdaX2 /mnt  
@@ -25,7 +25,7 @@ locale-gen
 ln -sf /usr/share/zoneinfo/Region/City /etc/localtime  
 hwclock --systohc 
 
-grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot/efi --removable  
+grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot/EFI --removable  
 grub-mkconfig -o /boot/grub/grub.cfg  
 
 passwd  
