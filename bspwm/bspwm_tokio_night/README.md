@@ -52,10 +52,22 @@ EndSection
 ```
 sudo pacman -S xorg xorg-xinit mesa bspwm sxhkd alacritty  
   
+.xinitrc:
+exec sxhkd &
+exec bspwm
+
 mkdir -p .config/bspwm  
 mkdir -p .config/sxhkd  
   
+micro .config/bspwm/bspwmrc:
+#1 /bin/bash
+sxhkd &
 
+micro .config/sxhkd/sxhkdrc:
+super + {_,shift + }Return
+	{st, bspc node -s biggest.local}
+  
+chmod u+x .config/bspwm/bspwmrc
 ``` 
 
 **SOFT**  
