@@ -35,8 +35,24 @@ EDITOR=micro visudo user ALL=(ALL) ALL
   
 systemctl enable dhcpcd  
 ```  
+**Keyboard**  
+sudo micro /etc/X11/xorg.conf.d/00-keyboard.conf  
+```
+Section "InputClass"  
+    Identifier "system-keyboard"  
+    MatchIsKeyboard "on"  
+    Option "XkbLayout" "us,ru"  
+    Option "XkbModel" "pc105"  
+    Option "XkbOptions" "grp:alt_shift_toggle"  
+EndSection  
+```
   
 **BSPWM INSTALL**  
 ```
-sudo pacman -S xorg xorg-xinit bspwm sxhkd alacritty
+sudo pacman -S xorg xorg-xinit mesa bspwm sxhkd alacritty  
+``` 
+
+**SOFT**  
+```
+sudo pacman -S pulseaudio pavucontrol firefox obs-studio  
 ``` 
