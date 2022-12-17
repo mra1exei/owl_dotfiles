@@ -72,5 +72,5 @@ chmod u+x .config/bspwm/bspwmrc
 
 **SOFT**  
 ```
-sudo pacman -S pulseaudio pavucontrol firefox obs-studio  
+sudo pacman -S pulseaudio pavucontrol firefox obs-studio alsa-lib alsa-plugins alsa-tools alsa-utils    
 ``` 
