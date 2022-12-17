@@ -2,11 +2,11 @@
 ####   ХОТКЕИ ДЛЯ ЗАПУСКА ПРИЛОЖЕНИЙ   ####
 ###########################################
 
-super + d
-	dmenu_run -fn 'JetBrainsMono-9' -nb '#2f343f' -nf '#f2f2f2' -sb '#f2f2f2' -sf '#2f343f' -y '15' -x '660' -z '600'
+#super + d
+#	dmenu_run -fn 'JetBrainsMono-9' -nb '#2f343f' -nf '#f2f2f2' -sb '#f2f2f2' -sf '#2f343f' -y '15' -x #'660' -z '600'
 
 super + {_,shift + }Return
-	{st, bspc node -s biggest.local}
+	{alacritty, bspc node -s biggest.local}
 
 @Print
 	scrot
@@ -14,20 +14,8 @@ super + {_,shift + }Return
 shift + @Print
 	scrot -d 5
 
-super + n
-        thunar
-
-super + v
-	virt-manager
-
-super + b
-	blender
-
-super + i
-	inkscape
-
-super + l
-	lutris
+super + f
+        firefox
 
 
 ###########################################
