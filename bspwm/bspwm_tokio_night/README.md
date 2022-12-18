@@ -50,7 +50,7 @@ EndSection
   
 **BSPWM INSTALL**  
 ```
-sudo pacman -S xorg xorg-xinit mesa bspwm sxhkd alacritty numlockx nitrogen thunar  
+sudo pacman -S xorg xorg-xinit mesa bspwm sxhkd alacritty numlockx nitrogen thunar unzip lxappearance  
   
 .xinitrc:
 exec sxhkd &
