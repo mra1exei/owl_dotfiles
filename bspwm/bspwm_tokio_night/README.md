@@ -65,7 +65,7 @@ sxhkd &
 
 micro .config/sxhkd/sxhkdrc:
 super + {_,shift + }Return
-	{st, bspc node -s biggest.local}
+	{alacritty, bspc node -s biggest.local}
   
 chmod u+x .config/bspwm/bspwmrc
 ``` 
