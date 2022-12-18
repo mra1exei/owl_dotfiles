@@ -74,3 +74,8 @@ chmod u+x .config/bspwm/bspwmrc
 ```
 sudo pacman -S pulseaudio pavucontrol firefox obs-studio alsa-lib alsa-plugins alsa-tools alsa-utils    
 ``` 
+
+**PICOM**  
+```
+yay picom-animations-git      
+``` 
