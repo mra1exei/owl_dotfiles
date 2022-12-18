@@ -50,7 +50,7 @@ EndSection
   
 **BSPWM INSTALL**  
 ```
-sudo pacman -S xorg xorg-xinit mesa bspwm sxhkd alacritty numlockx nitrogen thunar unzip lxappearance  
+sudo pacman -S xorg xorg-xinit mesa bspwm sxhkd alacritty numlockx nitrogen thunar unzip lxappearance scrot  
   
 .xinitrc:
 exec sxhkd &
@@ -72,7 +72,7 @@ chmod u+x .config/bspwm/bspwmrc
 
 **SOFT**  
 ```
-sudo pacman -S pulseaudio pavucontrol firefox obs-studio alsa-lib alsa-plugins alsa-tools alsa-utils    
+sudo pacman -S pulseaudio pavucontrol firefox obs-studio alsa-lib alsa-plugins alsa-tools alsa-utils inkscape mousepad     
 ``` 
 
 **PICOM**  
