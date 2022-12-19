@@ -1,4 +1,4 @@
-**ARCH LINUX INSTALL EFI**  
+## ARCH LINUX INSTALL EFI
   
 ```
 cfdisk /dev/sdaX  (make partition for root & efi)
@@ -32,13 +32,17 @@ systemctl enable dhcpcd
 ```  
 
 ## Install yay
+```
 * sudo pacman -S --needed git base-devel  
 * git clone https://aur.archlinux.org/yay.git  
 * cd yay  
-* makepkg -si  
+* makepkg -si
+```  
   
 ## Install NEWM
+```
 * sudo pacman -S wayland mesa wlroots  
 * yay newm-git  
     
 start-newm  
+```
