@@ -41,8 +41,18 @@ systemctl enable dhcpcd
   
 ## Install NEWM
 ```
-* sudo pacman -S wayland mesa wlroots alacritty   
+* sudo pacman -S wayland mesa wlroots polkit alacritty   
 * yay newm-git  
     
 start-newm  
+```
+  
+## SOFT
+```
+sudo pacman -S firefox telegram-desktop thunar tumbler awesome-terminal-fonts imv mpv wofi mousepad blender inkscape  
+```
+
+## TERMINAL SOFT
+```
+sudo pacman -S htop links cmus neofetch ranger grim unzip  
 ```
