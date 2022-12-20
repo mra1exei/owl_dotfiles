@@ -33,16 +33,16 @@ systemctl enable dhcpcd
 
 ## Install yay
 ```
-* sudo pacman -S --needed git base-devel  
-* git clone https://aur.archlinux.org/yay.git  
-* cd yay  
-* makepkg -si
+sudo pacman -S --needed git base-devel  
+git clone https://aur.archlinux.org/yay.git  
+cd yay  
+makepkg -si
 ```  
   
 ## Install NEWM
 ```
-* sudo pacman -S wayland mesa wlroots polkit alacritty waybar   
-* yay newm-git  
+sudo pacman -S wayland mesa wlroots polkit alacritty waybar   
+yay newm-git  
     
 start-newm  
 ```
