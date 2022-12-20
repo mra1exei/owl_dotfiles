@@ -47,6 +47,23 @@ systemctl enable dhcpcd
 start-newm  
 ```
   
+**ALSA INSTALL**  
+```
+sudo pacman -S alsa-lib alsa-plugins alsa-tools alsa-utils alsa-firmware  
+sudo gpasswd -a username audio  
+```
+  
+**FISH-SHELL**  
+```
+sudo pacman -S fish
+fish  
+curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher  
+fisher install jorgebucaran/nvm.fish  
+fisher install IlanCosman/tide@v5  
+chsh -s /usr/bin/fish  
+set -U fish_greeting  
+``` 
+  
 ## SOFT
 ```
 sudo pacman -S firefox telegram-desktop thunar tumbler awesome-terminal-fonts imv mpv wofi mousepad blender inkscape  
