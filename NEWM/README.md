@@ -41,7 +41,7 @@ systemctl enable dhcpcd
   
 ## Install NEWM
 ```
-* sudo pacman -S wayland mesa wlroots polkit alacritty   
+* sudo pacman -S wayland mesa wlroots polkit alacritty waybar   
 * yay newm-git  
     
 start-newm  
