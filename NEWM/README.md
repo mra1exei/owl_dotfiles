@@ -47,13 +47,13 @@ yay newm-git
 start-newm  
 ```
   
-**ALSA INSTALL**  
+## ALSA INSTALL  
 ```
 sudo pacman -S alsa-lib alsa-plugins alsa-tools alsa-utils alsa-firmware  
 sudo gpasswd -a username audio  
 ```
   
-**FISH-SHELL**  
+## FISH-SHELL  
 ```
 sudo pacman -S fish
 fish  
@@ -72,4 +72,9 @@ sudo pacman -S firefox telegram-desktop thunar tumbler awesome-terminal-fonts im
 ## TERMINAL SOFT
 ```
 sudo pacman -S htop links cmus neofetch ranger grim unzip  
+```
+  
+## WLOGOUT
+```
+yay wlogout-git  
 ```
