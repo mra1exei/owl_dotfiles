@@ -41,7 +41,7 @@ makepkg -si
   
 ## Install NEWM
 ```
-sudo pacman -S wayland mesa wlroots polkit alacritty waybar   
+sudo pacman -S wayland python-pywayland python-pywlroots mesa wlroots polkit alacritty waybar   
 yay newm-git  
     
 start-newm  
