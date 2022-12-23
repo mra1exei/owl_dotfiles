@@ -64,6 +64,11 @@ chsh -s /usr/bin/fish
 set -U fish_greeting  
 ``` 
   
+## MICRO
+```
+micro --plugin install nordcolors  
+```
+  
 ## SOFT
 ```
 sudo pacman -S firefox telegram-desktop thunar tumbler awesome-terminal-fonts imv mpv wofi mousepad blender inkscape  
