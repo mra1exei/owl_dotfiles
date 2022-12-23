@@ -95,7 +95,7 @@ sudo pacman -S firefox telegram-desktop thunar tumbler awesome-terminal-fonts im
 
 ## TERMINAL SOFT
 ```
-sudo pacman -S htop links cmus neofetch ranger grim unzip ueberzug w3m imagemagick  
+sudo pacman -S htop links cmus neofetch ranger grim unzip ueberzug w3m imagemagick wf-recorder  
 ```
   
 ## WLOGOUT
