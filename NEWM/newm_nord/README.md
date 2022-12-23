@@ -1,5 +1,8 @@
 ## GALLERY
-<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/my_bspwm/.img/2022-12-12-151307_1920x1080_scro1t.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/NEWM/newm_nord/.img/20221224_01h20m59s_grim.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/NEWM/newm_nord/.img/20221224_01h45m59s_grim.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/NEWM/newm_nord/.img/20221224_01h46m24s_grim.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/NEWM/newm_nord/.img/20221224_01h47m17s_grim.png" width="450" align="center">
   
 ## INFO
 |DIstro|[ARCH](https://archlinux.org/)|
