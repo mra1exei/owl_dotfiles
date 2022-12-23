@@ -1,3 +1,15 @@
+## INFO
+|DIstro|[ARCH](https://archlinux.org/)|
+|:---:|:---:|
+|WM|[NEWM](https://github.com/jbuchermn/newm)|
+|Bar|[Waybar](https://github.com/Alexays/Waybar)|
+|Terminal|[Alacritty](https://github.com/alacritty/alacritty)|
+|Shell|[Fish](https://fishshell.com/)|
+|Icon|[Nordzy](https://github.com/alvatip/Nordzy-icon)|
+|GTK3|[Nordic](https://github.com/EliverLara/Nordic)|
+|Cursors|[Nordzy](https://github.com/alvatip/Nordzy-cursors)|
+|Fonts|[JetBrainsMono](https://www.jetbrains.com/lp/mono/)|
+  
 ## ARCH LINUX INSTALL EFI
   
 ```
