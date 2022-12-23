@@ -1,8 +1,5 @@
 ## GALLERY
 <img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/my_bspwm/.img/2022-12-12-151307_1920x1080_scro1t.png" width="450" align="center">
-<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/my_bspwm/.img/2022-12-12-153156_1920x1080_scr1ot.png" width="450" align="center">
-<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/my_bspwm/.img/2022-12-12-161038_1920x1080_scr1ot.png" width="450" align="center">
-<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/my_bspwm/.img/2022-12-12-160947_1920x1080_scr1ot.png" width="450" align="center">
   
 ## INFO
 |DIstro|[ARCH](https://archlinux.org/)|
@@ -15,6 +12,7 @@
 |GTK3|[Nordic](https://github.com/EliverLara/Nordic)|
 |Cursors|[Nordzy](https://github.com/alvatip/Nordzy-cursors)|
 |Fonts|[JetBrainsMono](https://www.jetbrains.com/lp/mono/)|
+|Menu|Wofi|
   
 ## ARCH LINUX INSTALL EFI
   
