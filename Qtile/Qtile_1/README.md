@@ -78,15 +78,19 @@ exec qtile start >> .xinitrc
 startx
 ``` 
     
-## SOFT INSTALL
+## SOFT INSTALL (FOR WAYLAND)
 ```
-sudo pacman -S firefox telegram-desktop imv mpv thunar tumbler wofi mousepad blender inkscape  
+sudo pacman -S firefox telegram-desktop imv mpv thunar tumbler wofi mousepad blender inkscape grim wf-recorder  
 ```  
-  
-  
+
+## SOFT INSTALL (FOR XORG)
+```
+sudo pacman -S firefox telegram-desktop viewnior mpv thunar tumbler rofi mousepad blender inkscape numlockx nitrogen picom lxappearance scrot  
+```  
+ 
 ## TERMINAL SOFT INSTALL
 ```
-sudo pacman -S htop links cmus neofetch ranger grim unzip  
+sudo pacman -S htop links cmus neofetch ranger unzip  
 ```  
   
 ## FISH-SHELL 
