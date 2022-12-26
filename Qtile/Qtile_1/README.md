@@ -77,7 +77,7 @@ sudo pacman -S firefox telegram-desktop imv mpv thunar tumbler wofi mousepad ble
 ## TERMINAL SOFT INSTALL
 ```
 sudo pacman -S htop links cmus neofetch ranger grim unzip  
-``  
+```  
   
 ## FISH-SHELL 
 ```
