@@ -58,7 +58,7 @@ makepkg -si
   
 ## Install Qtile
 ```
-sudo pacman -S qtile mesa alacritty wayland wlroots python-pywayland python-pywlroots polkit pango  	python-cairocffi python-xcffib python-xkbcommon  
+sudo pacman -S qtile mesa alacritty wayland wlroots python-pywayland python-pywlroots polkit pango python-cairocffi python-xcffib python-xkbcommon  
   
 mkdir -p ~/.config/qtile/  
 cp /usr/share/doc/qtile_dir/default_config.py ~/.config/qtile/config.py  
