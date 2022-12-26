@@ -64,11 +64,20 @@ polkit pango python-cairocffi python-xcffib python-xkbcommon pulseaudio pavucont
 mkdir -p ~/.config/qtile/  
 cp /usr/share/doc/qtile_dir/default_config.py ~/.config/qtile/config.py  
   
+
 qtile start -b wayland  
+
+echo qti
 ```  
-  
-https://docs.qtile.org/en/stable/index.html
-  
+```
+WAYLAND: 
+qtile start -b wayland  
+
+XORG
+exec qtile start >> .xinitrc
+startx
+``` 
+    
 ## SOFT INSTALL
 ```
 sudo pacman -S firefox telegram-desktop imv mpv thunar tumbler wofi mousepad blender inkscape  
