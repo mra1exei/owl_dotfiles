@@ -9,9 +9,9 @@
 |Bar|Qtile-bar|
 |Terminal|[Alacritty](https://github.com/alacritty/alacritty)|
 |Shell|[Fish](https://fishshell.com/)|
-|Icon|[---](---)|
-|GTK3|[---](---|
-|Cursors|[---](---)|
+|Icon|[La-Capitaine-Icon](git clone https://github.com/keeferrourke/la-capitaine-icon-theme.git)|
+|GTK3|[X-Arc-White](https://www.gnome-look.org/p/1167049/|
+|Cursors|[capitaine-cursors](https://github.com/keeferrourke/capitaine-cursors)|
 |Fonts|[JetBrainsMono](https://www.jetbrains.com/lp/mono/)|
 |Menu|Wofi|
   
@@ -90,7 +90,6 @@ Section "InputClass"
     Option "XkbOptions" "grp:alt_shift_toggle"  
 EndSection  
 ``` 
-  
   
 ## SOFT INSTALL (FOR WAYLAND)
 ```
