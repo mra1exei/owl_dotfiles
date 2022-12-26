@@ -13,7 +13,7 @@
 |GTK3|[X-Arc-White](https://www.gnome-look.org/p/1167049/)|
 |Cursors|[capitaine-cursors](https://github.com/keeferrourke/capitaine-cursors)|
 |Fonts|[JetBrainsMono](https://www.jetbrains.com/lp/mono/)|
-|Menu|Wofi|
+|Menu|Wofi/Rofi|
   
 ## ARCH LINUX INSTALL EFI
   
