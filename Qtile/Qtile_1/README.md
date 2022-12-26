@@ -65,3 +65,5 @@ cp /usr/share/doc/qtile_dir/default_config.py ~/.config/qtile/config.py
   
 qtile start -b wayland  
 ```  
+  
+https://docs.qtile.org/en/stable/index.html
