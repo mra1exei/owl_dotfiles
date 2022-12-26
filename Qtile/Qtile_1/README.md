@@ -73,7 +73,7 @@ echo qti
 WAYLAND: 
 qtile start -b wayland  
 
-XORG
+XORG:
 exec qtile start >> .xinitrc
 startx
 ``` 
