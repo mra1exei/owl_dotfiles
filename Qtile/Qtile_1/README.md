@@ -77,7 +77,21 @@ XORG:
 exec qtile start >> .xinitrc
 startx
 ``` 
-    
+  
+## KEYBOARD FOR XORG  
+```
+sudo micro /etc/X11/xorg.conf.d/00-keyboard.conf  
+  
+Section "InputClass"  
+    Identifier "system-keyboard"  
+    MatchIsKeyboard "on"  
+    Option "XkbLayout" "us,ru"  
+    Option "XkbModel" "pc105"  
+    Option "XkbOptions" "grp:alt_shift_toggle"  
+EndSection  
+``` 
+  
+  
 ## SOFT INSTALL (FOR WAYLAND)
 ```
 sudo pacman -S firefox telegram-desktop imv mpv thunar tumbler wofi mousepad blender inkscape grim wf-recorder  
