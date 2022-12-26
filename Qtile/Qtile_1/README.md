@@ -58,7 +58,7 @@ makepkg -si
   
 ## Install Qtile
 ```
-sudo pacman -S qtile mesa alacritty wayland wlroots python-pywayland python-pywlroots polkit pango python-cairocffi python-xcffib python-xkbcommon  
+sudo pacman -S qtile mesa alacritty wayland wlroots python-pywayland python-pywlroots polkit pango python-cairocffi python-xcffib python-xkbcommon pulseaudio pavucontrol  
   
 mkdir -p ~/.config/qtile/  
 cp /usr/share/doc/qtile_dir/default_config.py ~/.config/qtile/config.py  
@@ -67,3 +67,24 @@ qtile start -b wayland
 ```  
   
 https://docs.qtile.org/en/stable/index.html
+  
+## SOFT INSTALL
+```
+sudo pacman -S firefox telegram-desktop imv mpv thunar tumbler wofi mousepad blender inkscape  
+```  
+  
+  
+## TERMINAL SOFT INSTALL
+```
+sudo pacman -S htop links cmus neofetch ranger grim unzip  
+``  
+  
+## FISH-SHELL 
+```
+fish  
+curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher  
+fisher install jorgebucaran/nvm.fish  
+fisher install IlanCosman/tide@v5  
+chsh -s /usr/bin/fish  
+set -U fish_greeting  
+``` 
