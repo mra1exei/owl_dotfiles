@@ -103,7 +103,7 @@ sudo pacman -S firefox telegram-desktop viewnior mpv thunar tumbler rofi mousepa
  
 ## TERMINAL SOFT INSTALL
 ```
-sudo pacman -S htop links cmus neofetch ranger unzip  
+sudo pacman -S htop links cmus neofetch ranger unzip ueberzug w3m imagemagick  
 ```  
   
 ## FISH-SHELL 
