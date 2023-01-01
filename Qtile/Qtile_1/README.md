@@ -98,7 +98,7 @@ sudo pacman -S firefox telegram-desktop imv mpv thunar tumbler wofi mousepad ble
 
 ## SOFT INSTALL (FOR XORG)
 ```
-sudo pacman -S firefox telegram-desktop viewnior mpv thunar tumbler rofi mousepad blender inkscape numlockx nitrogen picom lxappearance scrot  
+sudo pacman -S firefox telegram-desktop imv mpv thunar tumbler rofi mousepad blender inkscape numlockx nitrogen picom lxappearance scrot simplescreenrecorder  
 ```  
  
 ## TERMINAL SOFT INSTALL
