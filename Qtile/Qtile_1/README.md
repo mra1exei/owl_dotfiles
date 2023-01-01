@@ -68,12 +68,8 @@ polkit pango python-cairocffi python-xcffib python-xkbcommon python-pyxdg pulsea
   
 mkdir -p ~/.config/qtile/  
 cp /usr/share/doc/qtile_dir/default_config.py ~/.config/qtile/config.py  
-  
-
-qtile start -b wayland  
-
-echo qti
 ```  
+  
 ```
 WAYLAND: 
 qtile start -b wayland  
@@ -119,9 +115,4 @@ fisher install jorgebucaran/nvm.fish
 fisher install IlanCosman/tide@v5  
 chsh -s /usr/bin/fish  
 set -U fish_greeting  
-```  
-  
-## CAVA 
-```
-yay cava  
 ```  
