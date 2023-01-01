@@ -1,5 +1,10 @@
 ## GALLERY
-<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/NEWM/newm_nord/.img/111.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/Qtile/Qtile_1/.img/2023-01-02-024651_1920x1080_scrot.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/Qtile/Qtile_1/.img/2023-01-02-030918_1920x1080_scrot.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/Qtile/Qtile_1/.img/2023-01-02-020525_1920x1080_scrot.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/Qtile/Qtile_1/.img/2023-01-02-031718_1920x1080_scrot.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/Qtile/Qtile_1/.img/2023-01-02-031804_1920x1080_scrot.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/Qtile/Qtile_1/.img/2023-01-02-031804_1920x1080_scrot.png" width="450" align="center">
 
   
 ## INFO
