@@ -3,7 +3,7 @@
 <img src="https://notabug.org/owl410/owl_dotfiles/raw/master/Qtile/Qtile_1/.img/2023-01-02-030918_1920x1080_scrot.png" width="450" align="center">
 <img src="https://notabug.org/owl410/owl_dotfiles/raw/master/Qtile/Qtile_1/.img/2023-01-02-020525_1920x1080_scrot.png" width="450" align="center">
 <img src="https://notabug.org/owl410/owl_dotfiles/raw/master/Qtile/Qtile_1/.img/2023-01-02-031718_1920x1080_scrot.png" width="450" align="center">
-<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/Qtile/Qtile_1/.img/2023-01-02-031804_1920x1080_scrot.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/Qtile/Qtile_1/.img/2023-01-02-032213_1920x1080_scrot.png" width="450" align="center">
 <img src="https://notabug.org/owl410/owl_dotfiles/raw/master/Qtile/Qtile_1/.img/2023-01-02-031804_1920x1080_scrot.png" width="450" align="center">
 
   
@@ -14,11 +14,11 @@
 |Bar|Qtile-bar|
 |Terminal|[Alacritty](https://github.com/alacritty/alacritty)|
 |Shell|[Fish](https://fishshell.com/)|
-|Icon|[La-Capitaine-Icon](https://github.com/keeferrourke/la-capitaine-icon-theme.git)|
-|GTK3|[X-Arc-White](https://www.gnome-look.org/p/1167049/)|
+|Icon|[La-Capitaine-Icon (edit)](https://github.com/keeferrourke/la-capitaine-icon-theme.git)|
+|GTK3|[Adapta-Cyan-Nokto-Eta](https://github.com/adapta-project/adapta-gtk-theme)|
 |Cursors|[capitaine-cursors](https://github.com/keeferrourke/capitaine-cursors)|
 |Fonts|[JetBrainsMono](https://www.jetbrains.com/lp/mono/)|
-|Menu|Wofi/Rofi|
+|Menu|qtile Promt|
   
 ## ARCH LINUX INSTALL EFI
   
