@@ -93,12 +93,12 @@ EndSection
   
 ## SOFT INSTALL (FOR WAYLAND)
 ```
-sudo pacman -S firefox telegram-desktop imv mpv thunar tumbler wofi mousepad blender inkscape grim wf-recorder  
+sudo pacman -S firefox telegram-desktop imv mpv thunar tumbler mousepad blender inkscape grim wf-recorder  
 ```  
 
 ## SOFT INSTALL (FOR XORG)
 ```
-sudo pacman -S firefox telegram-desktop imv mpv thunar tumbler rofi mousepad blender inkscape numlockx nitrogen picom lxappearance scrot simplescreenrecorder  
+sudo pacman -S firefox telegram-desktop imv mpv thunar tumbler mousepad blender inkscape numlockx nitrogen picom lxappearance scrot simplescreenrecorder  
 ```  
  
 ## TERMINAL SOFT INSTALL
