@@ -1,0 +1,54 @@
+window:
+  padding:
+    x: 15
+    y: 15
+  opacity: 0.6
+
+scrolling:
+  history: 100
+
+font:
+  normal:
+    family: JetBrainsMono
+    style: Regular
+
+  bold:
+    family: JetBrainsMono
+    style: Bold
+
+  size: 10.0
+
+colors:
+  primary:
+      background: '#263238'
+      foreground: '#e1e2e6'
+
+  normal:
+    black:   '#263238'
+    red:     '#c43060'
+    green:   '#9cf087'
+    yellow:  '#ffc107'
+    blue:    '#00bcd4'
+    magenta: '#ff94c2'
+    cyan:    '#00ffff'
+    white:   '#f9f9f9'
+
+  bright:
+    black:   '#263238'
+    red:     '#c43060'
+    green:   '#9cf087'
+    yellow:  '#ffc107'
+    blue:    '#00bcd4'
+    magenta: '#ff94c2'
+    cyan:    '#00ffff'
+    white:   '#f9f9f9'
+
+
+
+
+
+
+
+
+
+
