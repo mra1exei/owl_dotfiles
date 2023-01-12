@@ -72,7 +72,9 @@ keys = [
     # Выполнить команды (типо встроенное dmenu)
     Key([mod], "d", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
 
-    Key(["shift"], "space", lazy.widget["keyboardlayout"].next_keyboard(), desc="Next keyboard layout."),
+	# Раскладка клавиатуры
+    Key(["mod"], "space", lazy.widget["keyboardlayout"].next_keyboard(), desc="Next keyboard layout."),
+
     # Яхз что за это, типо все окна на месте одного окна отображаются.
     # Toggle between split and unsplit sides of stack.
     # Split = all windows displayed
