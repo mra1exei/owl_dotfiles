@@ -72,7 +72,7 @@ chmod u+x .config/bspwm/bspwmrc
 
 **SOFT**  
 ```
-sudo pacman -S pulseaudio pavucontrol firefox obs-studio python  
+sudo pacman -S pulseaudio pavucontrol firefox obs-studio python thunat tumblr  
 ``` 
 
 **YAY**  
