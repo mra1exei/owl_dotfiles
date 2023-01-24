@@ -13,6 +13,7 @@
 |Shell|[Fish](https://fishshell.com/)|
 |Icon|[Nordzy-icon](https://github.com/alvatip/Nordzy-icon)|
 |GTK3|[Nordic](https://github.com/EliverLara/Nordic)|
+|Cursor|[Nordzy-cursors](https://github.com/alvatip/Nordzy-cursors)|
 |Fonts|[JetBrainsMono](https://www.jetbrains.com/lp/mono/)|
 |Picom|[jonaburg](https://github.com/jonaburg/picom)|
 |Launcher|rofi|
