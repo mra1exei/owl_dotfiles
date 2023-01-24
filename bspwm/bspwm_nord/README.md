@@ -73,9 +73,27 @@ chmod u+x .config/bspwm/bspwmrc
 
 ## SOFT 
 ```
-sudo pacman -S pulseaudio pavucontrol firefox gimp inkscape telegram-desktop lxappearance nitrogen viewnior obs-studio python thunat tumbler jq polybar  
+sudo pacman -S pulseaudio pavucontrol firefox gimp inkscape telegram-desktop lxappearance nitrogen viewnior obs-studio python thunat tumbler jq polybar awesome-terminal-fonts  
 ``` 
-
+  
+## TERMINAL SOFT  
+```
+htop links cmus neofetch scrot ranger cava ueberzug w3m ImageMagick  
+```  
+  
+## FISH  
+```
+sudo xbps-install fish-shell 
+fish  
+curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher  
+fisher install jorgebucaran/nvm.fish  
+fisher install IlanCosman/tide@v5  
+chsh -s /usr/bin/fish  
+set -U fish_greeting  
+  
+tide configure - что бы конфигурировать тильды
+```  
+  
 ## YAY
 ```
 git clone https://aur.archlinux.org/yay.git  
