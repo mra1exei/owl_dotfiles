@@ -4,11 +4,10 @@
 sxhkd &
 numlockx &
 nitrogen --restore &
-#polybar example &
+~/.config/polybar/launch.sh
 picom &
 xsetroot -cursor_name left_ptr &
-#firefox &
-#telegram-desktop &
+
 
 #ВОРКСПЕЙСЫ
 bspc monitor -d                   
@@ -50,12 +49,11 @@ bspc config paddingless_monocle	 true
 #bspc config automatic_scheme	spiral
 
 #ПРАВИЛА ОКОН
-#bspc rule -a Firefox state=floating rectangle=1350x900+50+90 desktop='^1'
+bspc rule -a Firefox state=floating rectangle=1350x900+50+90 desktop='^1'
 #bspc rule -a TelegramDesktop state=floating follow=off desktop='^1'
-#bspc rule -a TelegramDesktop state=floating follow=off rectangle=420x900+1450+90 desktop='^1'
-#bspc rule -a Lutris state=floating follow=off rectangle=1200x700+360+190 desktop='^6' 
-#bspc rule -a mpv state=floating rectangle=800x450+560+315 follow=off
-#bspc rule -a dmenu rectangle=900x22+610+90
-#bspc rule -a Media viewer rectangle=1350x900+285+90 state=floating
-#bspc rule -a Inkscape desktop='^3'
-#bspc rule -a Blender desktop='^2'
+bspc rule -a TelegramDesktop state=floating follow=off rectangle=420x900+1450+90 desktop='^1'
+bspc rule -a Lutris state=floating follow=off rectangle=1200x700+360+190 desktop='^6' 
+bspc rule -a mpv state=floating rectangle=800x450+560+315 follow=off
+bspc rule -a Media viewer rectangle=1350x900+285+90 state=floating
+bspc rule -a Inkscape desktop='^3'
+bspc rule -a Blender desktop='^2'
