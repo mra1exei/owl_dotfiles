@@ -3,6 +3,8 @@
 <img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/bspwm_nord/.img/2023-01-25-021839_1920x1080_scrot.png" width="450" align="center">
 <img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/bspwm_nord/.img/2023-01-25-021705_1920x1080_scrot.png" width="450" align="center">
 <img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/bspwm_nord/.img/2023-01-25-021745_1920x1080_scrot.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/bspwm_nord/.img/2023-01-25-022931_1920x1080_scrot.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/bspwm_nord/.img/2023-01-25-022906_1920x1080_scrot.png" width="450" align="center">
   
 ## INFO
 |DIstro|[ARCH](https://archlinux.org/)|
