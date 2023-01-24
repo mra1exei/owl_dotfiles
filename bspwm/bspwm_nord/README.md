@@ -75,12 +75,12 @@ chmod u+x .config/bspwm/bspwmrc
 
 ## SOFT 
 ```
-sudo pacman -S pulseaudio pavucontrol firefox gimp inkscape telegram-desktop lxappearance nitrogen viewnior  obs-studio python thunat tumbler jq polybar awesome-terminal-fonts rofi    
+sudo pacman -S pulseaudio pavucontrol firefox gimp inkscape telegram-desktop lxappearance nitrogen viewnior obs-studio python  thunat tumbler jq polybar awesome-terminal-fonts rofi    
 ``` 
   
 ## TERMINAL SOFT  
 ```
-htop links cmus neofetch scrot ranger cava ueberzug w3m ImageMagick  
+sudo pacman -S htop links cmus neofetch scrot ranger cava ueberzug w3m ImageMagick  
 ```  
   
 ## FISH  
