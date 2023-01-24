@@ -73,7 +73,7 @@ chmod u+x .config/bspwm/bspwmrc
 
 ## SOFT 
 ```
-sudo pacman -S pulseaudio pavucontrol firefox gimp inkscape telegram-desktop lxappearance nitrogen viewnior obs-studio python thunat tumbler jq polybar awesome-terminal-fonts  
+sudo pacman -S pulseaudio pavucontrol firefox gimp inkscape telegram-desktop lxappearance nitrogen viewnior obs-studio python thunat tumbler jq polybar awesome-terminal-fonts rofi    
 ``` 
   
 ## TERMINAL SOFT  
@@ -99,4 +99,9 @@ tide configure - что бы конфигурировать тильды
 git clone https://aur.archlinux.org/yay.git  
 cd yay  
 makepkg -si       
-``` 
+```  
+  
+## PICOM
+```
+yay picom-jonaburg-git  
+```  
