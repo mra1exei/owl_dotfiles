@@ -1,10 +1,22 @@
-<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/Hyprland/Hypr_Arch/img/20221115_23h51m53s_grim1.png" width="0" align="center"> 
-<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/Hyprland/Hypr_Arch/img/20221115_23h52m09s_grim1.png" width="0" align="center">
-<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/Hyprland/Hypr_Arch/img/20221115_23h51m45s_grim1.png" width="0" align="center">
-<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/Hyprland/Hypr_Arch/img/20221115_23h51m40s_grim1.png" width="0" align="center"> 
-
-**ARCH LINUX INSTALL EFI**  
+## GALLERY
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/my_bspwm/.img/2022-12-12-151307_1920x1080_scro1t.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/my_bspwm/.img/2022-12-12-153156_1920x1080_scro1t.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/my_bspwm/.img/2022-12-12-161038_1920x1080_scro1t.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/my_bspwm/.img/2022-12-12-160947_1920x1080_scro1t.png" width="450" align="center">
   
+## INFO
+|DIstro|[ARCH](https://archlinux.org/)|
+|:---:|:---:|
+|WM|[BSPWM](https://github.com/baskerville/bspwm)|
+|Bar|[Polybar](https://github.com/polybar/polybar)|
+|Terminal|[Alacritty](https://github.com/alacritty/alacritty)|
+|Shell|[Fish](https://fishshell.com/)|
+|Icon|[Nordzy-icon](https://github.com/alvatip/Nordzy-icon)|
+|GTK3|[Nordic](https://github.com/EliverLara/Nordic)|
+|Fonts|[JetBrainsMono](https://www.jetbrains.com/lp/mono/)|
+|Picom|[jonaburg](https://github.com/jonaburg/picom)|
+  
+## INSTALL
 ```
 cfdisk /dev/sdaX  (make partition for root & efi)
 mkfs.fat -F 32 /dev/sdaX1  
@@ -36,7 +48,7 @@ EDITOR=micro visudo user ALL=(ALL) ALL
 systemctl enable dhcpcd  
 ```  
 
-**Keyboard**  
+## KEYBOARD  
 sudo micro /etc/X11/xorg.conf.d/00-keyboard.conf  
 ```
 Section "InputClass"  
@@ -48,34 +60,23 @@ Section "InputClass"
 EndSection  
 ```
   
-**BSPWM INSTALL**  
+## BSPWM INSTALL 
 ```
 sudo pacman -S xorg xorg-xinit mesa bspwm git base-devel sxhkd alacritty  
   
 .xinitrc:
 exec sxhkd &
 exec bspwm
-
-mkdir -p .config/bspwm  
-mkdir -p .config/sxhkd  
-  
-micro .config/bspwm/bspwmrc:
-#1 /bin/bash
-sxhkd &
-
-micro .config/sxhkd/sxhkdrc:
-super + {_,shift + }Return
-	{alacritty, bspc node -s biggest.local}
-  
+    
 chmod u+x .config/bspwm/bspwmrc
 ``` 
 
-**SOFT**  
+## SOFT 
 ```
-sudo pacman -S pulseaudio pavucontrol firefox obs-studio python thunat tumbler  
+sudo pacman -S pulseaudio pavucontrol firefox gimp inkscape telegram-desktop lxappearance nitrogen viewnior obs-studio python thunat tumbler jq polybar  
 ``` 
 
-**YAY**  
+## YAY
 ```
 git clone https://aur.archlinux.org/yay.git  
 cd yay  
