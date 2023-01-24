@@ -15,6 +15,7 @@
 |GTK3|[Nordic](https://github.com/EliverLara/Nordic)|
 |Fonts|[JetBrainsMono](https://www.jetbrains.com/lp/mono/)|
 |Picom|[jonaburg](https://github.com/jonaburg/picom)|
+|Launcher|rofi|
   
 ## INSTALL
 ```
@@ -73,7 +74,7 @@ chmod u+x .config/bspwm/bspwmrc
 
 ## SOFT 
 ```
-sudo pacman -S pulseaudio pavucontrol firefox gimp inkscape telegram-desktop lxappearance nitrogen viewnior obs-studio python thunat tumbler jq polybar awesome-terminal-fonts rofi    
+sudo pacman -S pulseaudio pavucontrol firefox gimp inkscape telegram-desktop lxappearance nitrogen viewnior  obs-studio python thunat tumbler jq polybar awesome-terminal-fonts rofi    
 ``` 
   
 ## TERMINAL SOFT  
