@@ -1,4 +1,4 @@
-##VOID:  
+## VOID:  
 sudo xbps-install void-repo-multilib  
 sudo xbps-install -Suy  
   
@@ -11,7 +11,7 @@ amdvlk amdvlk-32bit vkd3d vkd3d-devel vkd3d-32bit vulkan-loader vulkan-loader-32
 libX11-devel-32bit libgpg-error libgpg-error-32bit gdk-pixbuf gdk-pixbuf-32bit libgcc libgcc-32bit  
 libglvnd libglvnd-32bit mesa-vulkan-radeon mesa-vulkan-radeon-32bit libopenal-32bit  
 
-##ARCH:  
+## ARCH:  
 sudo nano /etc/pacman.conf
 
 Раскоментировать:  
