@@ -1,4 +1,6 @@
-Привет, это мой гайд по установке lutris на разные дистрибутивы линукс. У меня видеокарта от красных так что   все ориентированно на красных. Владельцы нвидии сори( Количество пакетов может показаться избыточным или   недостаточным, но именно так у меня все работает. Гайд основан на личном опыте.  
+# УСТАНОВКА LUTRIS
+  
+Привет, это мой гайд по установке lutris на разные дистрибутивы линукс. У меня видеокарта от красных так что все ориентированно на красных. Владельцы нвидии сори( Количество пакетов может показаться избыточным или недостаточным, но именно так у меня все работает. Гайд основан на личном опыте.
 
 ## VOID:  
 sudo xbps-install void-repo-multilib  
@@ -12,7 +14,9 @@ ocl-icd ocl-icd-32bit libxslt libxslt-32bit libva libva-32bit gst-plugins-base1 
 amdvlk amdvlk-32bit vkd3d vkd3d-devel vkd3d-32bit vulkan-loader vulkan-loader-32bit libX11-devel  
 libX11-devel-32bit libgpg-error libgpg-error-32bit gdk-pixbuf gdk-pixbuf-32bit libgcc libgcc-32bit  
 libglvnd libglvnd-32bit mesa-vulkan-radeon mesa-vulkan-radeon-32bit libopenal-32bit  
-
+  
+> Если система с pulseaudio то alsa-пакеты не нужны  
+  
 ## ARCH:  
 sudo nano /etc/pacman.conf
 
