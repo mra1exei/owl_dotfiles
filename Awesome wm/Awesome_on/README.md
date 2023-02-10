@@ -18,7 +18,7 @@
 |Picom|[--)|
 |Launcher|--|
   
-## INSTALL
+## INSTALL ARCH UEFI
 ```
 cfdisk /dev/sdaX  (make partition for root & efi)
 mkfs.fat -F 32 /dev/sdaX1  
@@ -64,7 +64,7 @@ Section "InputClass"
 EndSection  
 ```
   
-## BSPWM INSTALL 
+## INSTALL AWESOME
 ```
 sudo pacman -S xorg xorg-xinit mesa awesome git base-devel alacritty  
   
@@ -73,8 +73,9 @@ sudo pacman -S xorg xorg-xinit mesa awesome git base-devel alacritty
 
 ## SOFT 
 ```
-sudo pacman -S pulseaudio pavucontrol firefox gimp inkscape telegram-desktop lxappearance nitrogen viewnior  
-obs-studio python  thunar tumbler jq polybar awesome-terminal-fonts rofi  
+sudo pacman -S pulseaudio pavucontrol firefox inkscape telegram-desktop viewnior  
+obs-studio python thunar tumbler awesome-terminal-fonts  
+!!!lxappearance nitrogen  
 ``` 
   
 ## TERMINAL SOFT  
@@ -104,5 +105,5 @@ makepkg -si
   
 ## PICOM
 ```
-yay picom-jonaburg-git  
+!!!yay picom-jonaburg-git  
 ```  
