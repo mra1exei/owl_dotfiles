@@ -107,3 +107,8 @@ makepkg -si
 ```
 !!!yay picom-jonaburg-git  
 ```  
+  
+## Links:
+https://www.reddit.com/r/unixporn/comments/op73tw/awesomewm_neumorphic_awesome/  
+https://awesomewm.org/apidoc/popups_and_bars/awful.wibar.html  
+https://github.com/saimoomedits/dotfiles  
