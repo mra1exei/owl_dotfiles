@@ -41,6 +41,8 @@ locale-gen
 ln -sf /usr/share/zoneinfo/Region/City /etc/localtime  
 hwclock --systohc 
 
+mkdir /boot/efi  
+mount /dev/sdaX1 /boot/efi  
 grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot/EFI --removable  
 grub-mkconfig -o /boot/grub/grub.cfg  
 
