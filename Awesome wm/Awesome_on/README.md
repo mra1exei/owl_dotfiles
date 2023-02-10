@@ -68,24 +68,28 @@ EndSection
 ```
 sudo pacman -S xorg xorg-xinit mesa awesome git base-devel alacritty  
   
-.xinitrc: exec awesome
+.xinitrc: exec awesome  
+  
+mkdir -p ~/.config/awesome/  
+cp /etc/xdg/awesome/rc.lua ~/.config/awesome/
+cp -r /usr/share/awesome/themes/default ~/.config/awesome/themes/default
 ``` 
 
 ## SOFT 
 ```
-sudo pacman -S pulseaudio pavucontrol firefox inkscape telegram-desktop viewnior  
+sudo pacman -S pulseaudio pavucontrol firefox inkscape blender telegram-desktop viewnior  
 obs-studio python thunar tumbler awesome-terminal-fonts  
 !!!lxappearance nitrogen  
 ``` 
   
 ## TERMINAL SOFT  
 ```
-sudo pacman -S htop links cmus neofetch scrot ranger cava ueberzug w3m ImageMagick  
+sudo pacman -S htop links cmus neofetch scrot ranger  
 ```  
   
 ## FISH  
 ```
-sudo xbps-install fish-shell 
+sudo pacman -S fish  
 fish  
 curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher  
 fisher install jorgebucaran/nvm.fish  
