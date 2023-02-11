@@ -78,7 +78,7 @@ cp -r /usr/share/awesome/themes/default ~/.config/awesome/themes/default
 ## SOFT 
 ```
 sudo pacman -S pulseaudio pavucontrol firefox inkscape blender telegram-desktop viewnior  
-obs-studio libxss python thunar tumbler awesome-terminal-fonts  
+obs-studio libxss libfdk-aac libva-mesa-driver wget python thunar tumbler awesome-terminal-fonts  
 !!!lxappearance nitrogen  
 ``` 
   
