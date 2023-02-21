@@ -149,7 +149,7 @@ sudo chmod 777 .config/bspwm/bspwmrc
   
 **SOFT:**  
 ```
-firefox telegram-desktop viewnior mpv Thunar tumbler mupdf leafpad gimp ardour lmms audacity obs ssr transmission transmission-gtk  
+firefox telegram-desktop viewnior mpv Thunar tumbler mupdf leafpad gimp ardour lmms audacity obs ssr transmission transmission-gtk ghostscript  
 ```  
 
 **TERMINAL:**  
