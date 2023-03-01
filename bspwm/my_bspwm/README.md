@@ -149,7 +149,7 @@ sudo chmod 777 .config/bspwm/bspwmrc
   
 **SOFT:**  
 ```
-firefox telegram-desktop viewnior mpv Thunar tumbler mupdf leafpad gimp ardour lmms audacity obs ssr transmission transmission-gtk ghostscript  
+firefox telegram-desktop viewnior mpv Thunar tumbler mupdf leafpad gimp ardour lmms audacity obs transmission transmission-gtk inkscape blender ghostscript  
 ```  
 
 **TERMINAL:**  
@@ -160,24 +160,6 @@ htop links cmus neofetch scrot ranger cava ueberzug w3m ImageMagick
 **POLYBAR:**  
 ```
 polybar font-awesome6 jq curl  
-```  
-  
-**INKSCAPE:**  
-```
-git clone https://github.com/void-linux/void-packages.git  
-cd void-packages  
-./xbps-src binary-bootstrap  
-  
-echo XBPS_ALLOW_RESTRICTED=yes >> etc/conf  
-  
-micro ~/void-packages/srcpkgs/inkscape/template  
-  version=1.2.2    
-  checksum=a0c7fd0d03c0a21535e648ef301dcf80dd7cfc1f3545e51065fbf1ba3ee8a5c4
-
-rm -rf ~/void-packages/srcpkgs/inkscape/patches & ~/void-packages/srcpkgs/inkscape/update
-./xbps-src pkg inkscape  
-  
-sudo xbps-install --repository hostdir/binpkgs inkscape   
 ```  
   
 **ICONS CURSORS:**  
