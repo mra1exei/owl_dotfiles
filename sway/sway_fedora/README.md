@@ -4,17 +4,17 @@
 <img src="https://notabug.org/1.png" width="450" align="center"> 
 
 ## INFO
-|DIstro|[ARCH](https://archlinux.org/)|
+|DIstro|[Fedora](https://getfedora.org/)|
 |:---:|:---:|
-|WM|[Qtile](https://docs.qtile.org)|
-|Bar|Qtile-bar|
+|WM|[Sway](https://swaywm.org/)|
+|Bar|[Waybar](https://github.com/Alexays/Waybar)|
 |Terminal|[Alacritty](https://github.com/alacritty/alacritty)|
 |Shell|[Fish](https://fishshell.com/)|
 |Icon|[La-Capitaine-Icon (edit)](https://github.com/keeferrourke/la-capitaine-icon-theme.git)|
 |GTK3|[Adapta-Cyan-Nokto-Eta](https://github.com/adapta-project/adapta-gtk-theme)|
 |Cursors|[capitaine-cursors](https://github.com/keeferrourke/capitaine-cursors)|
 |Fonts|[JetBrainsMono](https://www.jetbrains.com/lp/mono/)|
-|Menu|qtile Promt|
+|Menu|wofi|
   
 **SWAY INSTALL**  
 ```
