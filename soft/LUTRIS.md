@@ -22,7 +22,15 @@ Include = /etc/pacman.d/mirrorlist
 sudo pacman -Suy  
   
 ```
-lutris wine wine-gecko wine-mono winetricks giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls openal lib32-openal v4l-utils lib32-v4l-utils libx11 lib32-libx11 ncurses lib32-ncurses libgcrypt lib32-libgcrypt libxcomposite lib32-libxcomposite dqlite lib32-sqlite libxinerama lib32-libxinerama gdk-pixbuf2 lib32-gdk-pixbuf2 gcc-libs lib32-gcc-libs ocl-icd lib32-ocl-icd libxslt lib32-libxslt libva lib32-libva gst-plugins-base lib32-gst-plugins-base libgpg-error lib32-libgpg-error libjpeg-turbo lib32-libjpeg-turbo libglvnd lib32-libglvnd libva-mesa-driver lib32-libva-mesa-driver amdvlk lib32-amdvlk vkd3d lib32-vkd3d lib32-vulkan-icd-loader vulkan-icd-loader glad
+sudo pacman -S lutris wine wine-gecko wine-mono winetricks giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls openal lib32-openal v4l-utils lib32-v4l-utils libx11 lib32-libx11 ncurses lib32-ncurses libgcrypt lib32-libgcrypt libxcomposite lib32-libxcomposite dqlite lib32-sqlite libxinerama lib32-libxinerama gdk-pixbuf2 lib32-gdk-pixbuf2 gcc-libs lib32-gcc-libs ocl-icd lib32-ocl-icd libxslt lib32-libxslt libva lib32-libva gst-plugins-base lib32-gst-plugins-base libgpg-error lib32-libgpg-error libjpeg-turbo lib32-libjpeg-turbo libglvnd lib32-libglvnd libva-mesa-driver lib32-libva-mesa-driver amdvlk lib32-amdvlk vkd3d lib32-vkd3d lib32-vulkan-icd-loader vulkan-icd-loader glad
+```
+  
+## FEDORA:  
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm  
+sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm  
+
+```
+sudo dnf install lutris wine winetricks wine-mono mingw32-wine-gecko giflib glad dqlite libva openal ncurses v4l-utils libgcrypt libgcrypt.i686 libXinerama libXinerama.i686 libglvnd libglvnd.i686 libXcomposite libXcomposite.i686 libX11 libX11.i686 libpng libpng.i686 gnutls gnutls.i686 libgpg-error libgpg-error.i686 libxslt libxslt.i686 ocl-icd ocl-icd.i686 libjpeg-turbo libjpeg-turbo.i686 gdk-pixbuf2 gdk-pixbuf2.i686 gcc gcc.i686 giflib.i686 mesa-omx-drivers vulkan gamemode gamemode.i686 mesa-libGL mesa-libGL.i686 libvkd3d libvkd3d.i686 openldap openldap.i686 openal-soft openal-soft.i686 gstreamer1-plugins-base gstreamer1-plugins-base.i686 libv4l-1.22.1-4.fc37.i686    
 ```
   
 ## УСТАНОВКА MANGOHUD  
