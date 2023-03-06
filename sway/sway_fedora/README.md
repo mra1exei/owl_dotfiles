@@ -12,7 +12,7 @@
 |Shell|[Fish](https://fishshell.com/)|
 |Icon|[Fluent](https://github.com/vinceliuice/Fluent-icon-theme)|
 |GTK3|[Flat-Remix-GTK](https://github.com/daniruiz/Flat-Remix-GTK)|
-|Cursors|[capitaine-cursors](https://github.com/keeferrourke/capitaine-cursors)|
+|Cursors|[Capitaine cursors](https://github.com/keeferrourke/capitaine-cursors)|
 |Fonts|[JetBrainsMono](https://www.jetbrains.com/lp/mono/)|
 |Menu|wofi|
   
