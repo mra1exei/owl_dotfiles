@@ -10,8 +10,8 @@
 |Bar|[Waybar](https://github.com/Alexays/Waybar)|
 |Terminal|[Alacritty](https://github.com/alacritty/alacritty)|
 |Shell|[Fish](https://fishshell.com/)|
-|Icon|[La-Capitaine-Icon (edit)](https://github.com/keeferrourke/la-capitaine-icon-theme.git)|
-|GTK3|[Adapta-Cyan-Nokto-Eta](https://github.com/adapta-project/adapta-gtk-theme)|
+|Icon|[Fluent (edit)](https://github.com/vinceliuice/Fluent-icon-theme)|
+|GTK3|[Flat-Remix-GTK](https://github.com/daniruiz/Flat-Remix-GTK)|
 |Cursors|[capitaine-cursors](https://github.com/keeferrourke/capitaine-cursors)|
 |Fonts|[JetBrainsMono](https://www.jetbrains.com/lp/mono/)|
 |Menu|wofi|
