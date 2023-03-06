@@ -10,7 +10,7 @@
 |Bar|[Waybar](https://github.com/Alexays/Waybar)|
 |Terminal|[Alacritty](https://github.com/alacritty/alacritty)|
 |Shell|[Fish](https://fishshell.com/)|
-|Icon|[Fluent (edit)](https://github.com/vinceliuice/Fluent-icon-theme)|
+|Icon|[Fluent](https://github.com/vinceliuice/Fluent-icon-theme)|
 |GTK3|[Flat-Remix-GTK](https://github.com/daniruiz/Flat-Remix-GTK)|
 |Cursors|[capitaine-cursors](https://github.com/keeferrourke/capitaine-cursors)|
 |Fonts|[JetBrainsMono](https://www.jetbrains.com/lp/mono/)|
