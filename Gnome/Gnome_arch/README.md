@@ -97,7 +97,10 @@ sudo pacman -S lutris wine wine-gecko wine-mono winetricks giflib lib32-giflib l
 ```
   
 ## GNOME SHELL EXTENSION
-[ArcMenu](https://extensions.gnome.org/extension/3628/arcmenu/)
-[Auto Move Windows](https://extensions.gnome.org/extension/16/auto-move-windows/)
-[User Themes](https://extensions.gnome.org/extension/19/user-themes/)
+[ArcMenu](https://extensions.gnome.org/extension/3628/arcmenu/)  
+[Auto Move Windows](https://extensions.gnome.org/extension/16/auto-move-windows/)  
+[User Themes](https://extensions.gnome.org/extension/19/user-themes/)  
+[App Icons Taskbar](https://extensions.gnome.org/extension/4944/app-icons-taskbar/)
+  
+
 [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
