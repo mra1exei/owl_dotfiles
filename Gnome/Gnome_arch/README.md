@@ -56,6 +56,8 @@ systemctl enable dhcpcd
 sudo pacman -S gnome gdm  
   
 systemctl enable gdm  
+  
+yay gnome-browser-connector  
 ``` 
 
 ## SOFT 
