@@ -1,7 +1,7 @@
-<img src="https://notabug.org/1.png" width="450" align="center"> 
-<img src="https://notabug.org/1.png" width="450" align="center"> 
-<img src="https://notabug.org/1.png" width="450" align="center"> 
-<img src="https://notabug.org/1.png" width="450" align="center"> 
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/sway/sway_fedora/img/screen-1678358997.png" width="450" align="center"> 
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/sway/sway_fedora/img/screen-1678359008.png" width="450" align="center"> 
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/sway/sway_fedora/img/screen-1678359075.png" width="450" align="center"> 
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/sway/sway_fedora/img/screen-1678359175.png" width="450" align="center"> 
 
 ## INFO
 |DIstro|[Fedora](https://getfedora.org/)|
