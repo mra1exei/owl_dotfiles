@@ -53,7 +53,7 @@ EDITOR=micro visudo user ALL=(ALL) ALL
 systemctl enable dhcpcd  
 ```  
 
-## Install yay
+## INSTALL YAY
 ```
 sudo pacman -S --needed git base-devel  
 git clone https://aur.archlinux.org/yay.git  
@@ -61,7 +61,7 @@ cd yay
 makepkg -si
 ```  
   
-## Install Qtile
+## INSTALL QTILE
 ```
 sudo pacman -S qtile mesa alacritty wayland wlroots python-pywayland python-pywlroots  
 polkit pango python-cairocffi python-xcffib python-xkbcommon python-pyxdg pulseaudio pavucontrol  
