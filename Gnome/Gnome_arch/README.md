@@ -104,3 +104,6 @@ sudo pacman -S lutris wine wine-gecko wine-mono winetricks giflib lib32-giflib l
   
 
 [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
+
+
+[Remove App Menu](https://extensions.gnome.org/extension/3906/remove-app-menu/)
