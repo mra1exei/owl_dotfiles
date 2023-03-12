@@ -74,7 +74,7 @@ sudo pacman -S alacritty firefox telegram-desktop imv mpv nemo wofi mousepad gim
   
 ## TERMINAL SOFT INSTALL
 ```
-sudo dnf install htop links cmus neofetch scrot ranger cava unzip micro  
+sudo pacman -S htop links cmus neofetch scrot ranger cava unzip micro  
 ```  
   
 ## FISH-SHELL INSTALL
