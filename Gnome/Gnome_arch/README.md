@@ -101,7 +101,8 @@ sudo pacman -S lutris wine wine-gecko wine-mono winetricks giflib lib32-giflib l
 [Auto Move Windows](https://extensions.gnome.org/extension/16/auto-move-windows/)  
 [User Themes](https://extensions.gnome.org/extension/19/user-themes/)  
 [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)
-  
+[EasyScreenCast](https://extensions.gnome.org/extension/690/easyscreencast/)
+
 
 [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
 
