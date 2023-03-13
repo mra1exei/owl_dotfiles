@@ -53,7 +53,7 @@ systemctl enable dhcpcd
   
 ## INSTALL GNOME
 ```
-sudo pacman -S gnome gdm  
+sudo pacman -S gnome gdm gnome-shell-extensions gnome-tweaks  
   
 systemctl enable gdm  
   
