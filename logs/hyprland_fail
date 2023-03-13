@@ -1,0 +1,48 @@
+ar 12 23:56:22 archlinux systemd[1]: Started Process Core Dump (PID 65423/UID 0).
+Mar 12 23:56:22 archlinux systemd-coredump[65424]: [🡕] Process 508 (Hyprland) of user 1000 dumped core.
+ 
+                                                   Stack trace of thread 508:
+                                                   #0  0x00007f928cdb88ec n/a (libc.so.6 + 0x878ec)
+                                                   #1  0x00007f928cd69ea8 raise (libc.so.6 + 0x38ea8)
+                                                   #2  0x00007f928cd5353d abort (libc.so.6 + 0x2253d)
+                                                   #3  0x00007f928cd5345c n/a (libc.so.6 + 0x2245c)
+                                                   #4  0x00007f928cd629f6 __assert_fail (libc.so.6 + 0x319f6)
+                                                   #5  0x00007f928d69de4e n/a (/usr/lib/libwlroots.so.12032 (dele>
+                                                   ELF object binary architecture: AMD x86-64
+Mar 12 23:56:22 archlinux systemd[1]: systemd-coredump@0-65423-0.service: Deactivated successfully.
+Mar 12 23:56:22 archlinux xdg-desktop-portal-wlr[65399]: 2023/03/12 23:56:22 [ERROR] - Compositor doesn't support>
+Mar 12 23:56:22 archlinux xdg-desktop-portal-wlr[65399]: 2023/03/12 23:56:22 [ERROR] - xdpw: failed to initialize>
+Mar 12 23:56:22 archlinux xdg-desktop-portal-wlr[65399]: 'impl->enter_count > 0' failed at ../pipewire/spa/plugin>
+Mar 12 23:56:22 archlinux systemd[480]: xdg-desktop-portal-wlr.service: Main process exited, code=exited, status=>
+Mar 12 23:56:22 archlinux systemd[480]: xdg-desktop-portal-wlr.service: Failed with result 'exit-code'.
+Mar 12 23:56:22 archlinux systemd[480]: Failed to start Portal service (wlroots implementation).
+Mar 12 23:56:22 archlinux systemd[480]: xdg-desktop-portal-wlr.service: Scheduled restart job, restart counter is>
+Mar 12 23:56:22 archlinux systemd[480]: Stopped Portal service (wlroots implementation).
+Mar 12 23:56:22 archlinux systemd[480]: Starting Portal service (wlroots implementation)...
+Mar 12 23:56:22 archlinux xdg-desktop-portal-wlr[65445]: 2023/03/12 23:56:22 [ERROR] - wayland: failed to connect>
+Mar 12 23:56:22 archlinux systemd[480]: xdg-desktop-portal-wlr.service: Main process exited, code=exited, status=>
+Mar 12 23:56:22 archlinux systemd[480]: xdg-desktop-portal-wlr.service: Failed with result 'exit-code'.
+Mar 12 23:56:22 archlinux systemd[480]: Failed to start Portal service (wlroots implementation).
+Mar 12 23:56:23 archlinux systemd[480]: xdg-desktop-portal-wlr.service: Scheduled restart job, restart counter is>
+Mar 12 23:56:23 archlinux systemd[480]: Stopped Portal service (wlroots implementation).
+Mar 12 23:56:23 archlinux systemd[480]: Starting Portal service (wlroots implementation)...
+Mar 12 23:56:23 archlinux xdg-desktop-portal-wlr[65446]: 2023/03/12 23:56:23 [ERROR] - wayland: failed to connect>
+Mar 12 23:56:23 archlinux systemd[480]: xdg-desktop-portal-wlr.service: Main process exited, code=exited, status=>
+Mar 12 23:56:23 archlinux systemd[480]: xdg-desktop-portal-wlr.service: Failed with result 'exit-code'.
+Mar 12 23:56:23 archlinux systemd[480]: Failed to start Portal service (wlroots implementation).
+Mar 12 23:56:23 archlinux systemd[480]: xdg-desktop-portal-wlr.service: Scheduled restart job, restart counter is>
+Mar 12 23:56:23 archlinux systemd[480]: Stopped Portal service (wlroots implementation).
+Mar 12 23:56:23 archlinux systemd[480]: Starting Portal service (wlroots implementation)...
+Mar 12 23:56:23 archlinux xdg-desktop-portal-wlr[65447]: 2023/03/12 23:56:23 [ERROR] - wayland: failed to connect>
+Mar 12 23:56:23 archlinux systemd[480]: xdg-desktop-portal-wlr.service: Main process exited, code=exited, status=>
+Mar 12 23:56:23 archlinux systemd[480]: xdg-desktop-portal-wlr.service: Failed with result 'exit-code'.
+Mar 12 23:56:23 archlinux systemd[480]: Failed to start Portal service (wlroots implementation).
+Mar 12 23:56:23 archlinux systemd[480]: xdg-desktop-portal-wlr.service: Scheduled restart job, restart counter is>
+Mar 12 23:56:23 archlinux systemd[480]: Stopped Portal service (wlroots implementation).
+Mar 12 23:56:23 archlinux systemd[480]: Starting Portal service (wlroots implementation)...
+Mar 12 23:56:23 archlinux xdg-desktop-portal-wlr[65448]: 2023/03/12 23:56:23 [ERROR] - wayland: failed to connect>
+Mar 12 23:56:23 archlinux systemd[480]: xdg-desktop-portal-wlr.service: Main process exited, code=exited, status=>
+Mar 12 23:56:23 archlinux systemd[480]: xdg-desktop-portal-wlr.service: Failed with result 'exit-code'.
+Mar 12 23:56:23 archlinux systemd[480]: Failed to start Portal service (wlroots implementation).
+Mar 12 23:56:23 archlinux systemd[480]: xdg-desktop-portal-wlr.service: Scheduled restart job, restart counter is>
+Mar 12 23:56:23 archlinux systemd[480]: Stopped Portal service (wlroots implementation).
