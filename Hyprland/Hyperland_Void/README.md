@@ -92,3 +92,5 @@ set -U fish_greeting
   
 tide configure - что бы конфигурировать тильды
 ``` 
+  
+https://github.com/Fadest/hyprland-void/blob/master/srcpkgs/hyprland/template
