@@ -1,8 +1,8 @@
 ## GALLERY
-<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/my_bspwm/.img/2022-12-12-151307_1920x1080_scrot.png" width="450" align="center">
-<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/my_bspwm/.img/2022-12-12-153156_1920x1080_scrot.png" width="450" align="center">
-<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/my_bspwm/.img/2022-12-12-161038_1920x1080_scrot.png" width="450" align="center">
-<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/my_bspwm/.img/2022-12-12-160947_1920x1080_scrot.png" width="450" align="center">
+<img src="1" width="450" align="center">
+<img src="1" width="450" align="center">
+<img src="1" width="450" align="center">
+<img src="1" width="450" align="center">
 
 ## INFO
 |DIstro|[VOID](https://voidlinux.org/)|
