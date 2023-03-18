@@ -79,3 +79,16 @@ sudo xbps-install chrony
 sudo ln -s /etc/sv/chronyd /var/service  
 sudo sv up chronyd  
 ```
+  
+**FISH-SHELL:**  
+```
+sudo xbps-install fish-shell 
+fish  
+curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher  
+fisher install jorgebucaran/nvm.fish  
+fisher install IlanCosman/tide@v5  
+chsh -s /usr/bin/fish  
+set -U fish_greeting  
+  
+tide configure - что бы конфигурировать тильды
+``` 
