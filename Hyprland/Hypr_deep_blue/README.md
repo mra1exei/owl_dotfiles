@@ -1,7 +1,9 @@
-<img src="1" width="450" align="center"> 
-<img src="1" width="450" align="center">
-<img src="1" width="450" align="center">
-<img src="1" width="450" align="center"> 
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/Hyprland/Hypr_deep_blue/img/20230321_03h06m14s_grim.png" width="450" align="center"> 
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/Hyprland/Hypr_deep_blue/img/20230321_03h07m15s_grim.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/Hyprland/Hypr_deep_blue/img/20230321_03h07m02s_grim.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/Hyprland/Hypr_deep_blue/img/20230321_03h08m21s_grim.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/Hyprland/Hypr_deep_blue/img/20230321_03h06m09s_grim.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/Hyprland/Hypr_deep_blue/img/20230321_03h06m07s_grim.png" width="450" align="center">
   
 ## INFO
 |DIstro|[ArchLinux](https://archlinux.org/)|
