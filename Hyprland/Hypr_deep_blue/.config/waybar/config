@@ -1,0 +1,142 @@
+{
+	// НАСТРОЙКИ БАРА
+    "layer": "top", // Слой на котором расположен вайбар
+    "position": "bottom", // Положение бара (top|bottom|left|right)
+    "height": 30, // Высота бара
+    "width": 1900, // Ширина бара
+    "margin-bottom": 10, // Отступ снизу
+
+
+    "modules-left": ["cpu", "memory", "hyprland/window"],
+    "modules-center": ["custom/menu", "wlr/workspaces"],
+    "modules-right": ["custom/cmus", "tray", "pulseaudio", "clock", "custom/theme"],
+
+"wlr/workspaces": {
+     "format": "{icon}",
+     "on-scroll-up": "hyprctl dispatch workspace e+1",
+     "on-scroll-down": "hyprctl dispatch workspace e-1",
+     "on-click": "activate",
+     "all-outputs": false,
+     "format": "{icon}",
+     "format-icons": {
+             "1": "",
+             "2": "",
+             "3": "",
+             "4": "",
+             "5": "",
+             "6": "",
+             "urgent": "",
+             "focused": "",
+             "default": ""
+         }
+    },
+
+"sway/mode": {
+        "format": "<span style=\"italic\">{}</span>"
+    },
+    
+"tray": {
+        "spacing": 10,
+        "icon-size": 15
+    },
+    
+"clock": {
+        "format": "{:%H:%M}",
+        "format-alt": "{:%Y-%m-%d}"
+    },
+    
+"custom/cmus": {
+    "format": "   {}",
+    "max-length": 45,
+    "interval": 10,
+    "exec": "cmus-remote -C \"format_print '%F'\"",
+    "exec-if": "pgrep cmus",
+    "on-click": "cmus-remote -u",
+    "on-scroll-up": "cmus-remote --next",
+    "on-scroll-down": "cmus-remote --prev",
+    "escape": true
+},
+
+"custom/weather": {
+    "format": "{}",
+    "exec": "~/.config/waybar/openweathermap-simple.sh",
+//    "exec": "curl 'https://wttr.in/?format=1'",
+    "interval": 3600
+},
+
+"hyprland/window": {
+    "format": "{}",
+    "separate-outputs": false,
+    "max-length": 20
+},
+
+"hyprland/language": {
+    "format": "{}",
+    "format-us": "US",
+    "format-ru": "RU",
+    "keyboard-name": "AT Translated Set 82e38fb0"
+},
+
+	// ЗАГРУЗКА ПРОЦА
+    "cpu": {
+        "format": " {usage}%",
+        "tooltip": false
+    },
+
+    // ЗАГРУЗКА ПАМЯТИ
+    "memory": {
+        "format": " {}%"
+    },
+
+	// ПУЛЬСА    
+    "pulseaudio": {
+        "scroll-step": 5,
+        "format": "{icon} {volume}%",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": " {format_source}",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+
+	// ЛАУНЧЕР
+	"custom/menu": {
+		"format": "{icon}",
+		"format-icons": " ",
+    	"on-click": "set $menu dmenu_path | wofi --show drun -I | xargs swaymsg exec --",
+    	"escape": true
+	},
+
+	// ПЕРЕКЛЮЧАТЕЛЬ ТЕМ
+	"custom/theme": {
+		"format": "{icon}",
+		"format-icons": "  ",
+    	"on-click": " ",
+    	"escape": true
+	},
+
+    "custom/media": {
+        "format": "{icon} {}",
+        "return-type": "json",
+        "max-length": 40,
+        "format-icons": {
+            "spotify": "",
+            "default": "🎜"
+        },
+
+        "escape": true,
+        "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
+        // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
+    }
+}
+
