@@ -93,4 +93,6 @@ set -U fish_greeting
 tide configure - что бы конфигурировать тильды
 ``` 
   
+git firefox telegram-desktop imv mpv nemo tumbler wofi blender inkscape htop neofetch cmus ranger grim unzip links 
+  
 https://github.com/Fadest/hyprland-void/blob/master/srcpkgs/hyprland/template
