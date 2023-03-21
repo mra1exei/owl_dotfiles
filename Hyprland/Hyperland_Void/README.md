@@ -123,9 +123,15 @@ echo libliftoff.so.0 libliftoff-0.4.1_1 >> common/shlibs
   
 xbps-install --repository hostdir/binpkgs hyprland  
 ```
-
+  
+**ALSA:**  
+```
+sudo xbps-install alsa-lib alsa-lib-devel alsa-plugins alsa-tools alsa-utils  
+sudo ln -s /etc/sv/alsa /var/service  
+sudo sv up alsa  
+```  
   
 **SOFT:**
 ```
-firefox telegram-desktop imv mpv nemo tumbler wofi blender inkscape htop neofetch cmus ranger grim unzip links 
+firefox telegram-desktop imv mpv nemo tumbler wofi blender inkscape htop neofetch cmus ranger grim unzip links gimp ardour lmms audacity obs transmission transmission-gtk inkscape blender ghostscript  
 ```
