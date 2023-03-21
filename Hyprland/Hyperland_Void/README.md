@@ -135,3 +135,10 @@ sudo sv up alsa
 ```
 firefox telegram-desktop imv mpv nemo tumbler wofi blender inkscape htop neofetch cmus ranger grim unzip links gimp ardour lmms audacity obs transmission transmission-gtk inkscape blender ghostscript  
 ```
+  
+**THEMES, ICONS, FONTS**  
+```
+gsettings set org.gnome.desktop.interface icon-theme breeze-icons-dark  
+gsettings set org.gnome.desktop.interface gtk-theme Fantome
+gsettings set org.gnome.desktop.interface cursor-theme capitaine-cursors
+```  
