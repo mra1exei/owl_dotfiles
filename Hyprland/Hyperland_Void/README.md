@@ -133,7 +133,7 @@ sudo sv up alsa
   
 **SOFT:**
 ```
-firefox telegram-desktop imv mpv nemo tumbler wofi blender inkscape htop neofetch cmus ranger grim unzip links gimp ardour lmms audacity obs xdg-desktop-portal-wlr transmission transmission-gtk inkscape blender ghostscript  
+firefox telegram-desktop imv mpv nemo tumbler wofi blender inkscape htop neofetch cmus ranger grim unzip links gimp ardour lmms audacity obs xdg-desktop-portal-wlr transmission transmission-gtk inkscape blender ghostscript curl file-roller  
 ```
   
 **THEMES, ICONS, FONTS**  
