@@ -139,6 +139,6 @@ firefox telegram-desktop imv mpv nemo tumbler wofi blender inkscape htop neofetc
 **THEMES, ICONS, FONTS**  
 ```
 gsettings set org.gnome.desktop.interface icon-theme breeze-icons-dark  
-gsettings set org.gnome.desktop.interface gtk-theme Fantome
+gsettings set org.gnome.desktop.interface gtk-theme Flat-Remix-GTK-Green-Dark
 gsettings set org.gnome.desktop.interface cursor-theme capitaine-cursors
 ```  
