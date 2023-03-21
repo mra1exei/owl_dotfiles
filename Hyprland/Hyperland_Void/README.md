@@ -142,3 +142,13 @@ gsettings set org.gnome.desktop.interface icon-theme Flat-Remix-Green-Dark
 gsettings set org.gnome.desktop.interface gtk-theme Flat-Remix-GTK-Green-Dark
 gsettings set org.gnome.desktop.interface cursor-theme capitaine-cursors
 ```  
+  
+**WAYBAR**  
+```
+git clone https://github.com/Alexays/Waybar/  
+cd Waybar  
+
+sudo xbps-install fmt spdlog gtkmm libdbusmenu-gtk3 upower libmpdclient sndio gtk-layer-shell scdoc  
+clang font-awesome6 catch2 jq
+``` 
+  
