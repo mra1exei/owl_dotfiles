@@ -7,13 +7,15 @@
 ## INFO
 |DIstro|[VOID](https://voidlinux.org/)|
 |:---:|:---:|
-|WM|[--](--)|
-|Bar|[--](--)|
-|Terminal|[--](--)|
+|WM|[Hyprland](https://hyprland.org/)|
+|Bar|[Waybar](https://github.com/Alexays/Waybar)|
+|Terminal|[Alacritty](https://github.com/alacritty/alacritty)|
 |Shell|[Fish](https://fishshell.com/)|
 |Icon|[--](--)|
 |GTK3|[--](--)|
-|Fonts|[--](--)|
+|Cursors|[Capitaine cursors](https://github.com/keeferrourke/capitaine-cursors)|
+|Fonts|[JetBrainsMono](https://www.jetbrains.com/lp/mono/)|
+|Menu|wofi|
   
 ## INSTALL:
 
