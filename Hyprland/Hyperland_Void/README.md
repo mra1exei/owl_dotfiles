@@ -93,6 +93,24 @@ set -U fish_greeting
 tide configure - что бы конфигурировать тильды
 ``` 
   
+**SOFT:**
+```
 git firefox telegram-desktop imv mpv nemo tumbler wofi blender inkscape htop neofetch cmus ranger grim unzip links 
+```
+  
+```
+libgbm-devel, libglvnd-devel, libseat-devel, eudev-libudev-devel, libdrm-devel, libinput-devel, libxkbcommon-devel, pixman-devel, wayland-devel, wayland-protocols, vulkan-loader, Vulkan-Headers, xcb-util-errors-devel, xcb-util-wm-devel, xcb-util-renderutil-devel, pkg-config, seatd, dbus, elogind, pango-devel, cairo-devel, xorg-server-xwayland. git make wlroots meson cmake gcc polkit 
+
+glslang-devel glslang libavutil gdb libxcb xcb-proto xcb-util xcb-util-keysyms libXfixes libX11 libXcomposite xinput libXrender pixman xcb-util-wm
+
+libdrm-test-progs igt-gpu-tools libavcodec libavformat libavutil weston-x11 intel-gpu-tools
+
+НЕ помогло:
+ weston
+
+Enable seatd, dbus, elogind.
+Reboot.
+Add your user into _seatd group
   
 https://github.com/Fadest/hyprland-void/blob/master/srcpkgs/hyprland/template
+```
