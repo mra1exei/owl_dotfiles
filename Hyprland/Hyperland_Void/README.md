@@ -107,7 +107,21 @@ sudo ln -s /etc/sv/seatd /var/service
 sudo ln -s /etc/sv/dbus /var/service  
 sudo ln -s /etc/sv/elogind /var/service  
   
-sudo usermod -aG _seatd username
+sudo usermod -aG _seatd username  
+  
+git clone https://github.com/void-linux/void-packages.git  
+cd void-packages  
+./xbps-src binary-bootstrap  
+
+echo XBPS_ALLOW_RESTRICTED=yes >> etc/conf  
+echo libdisplay-info.so.1 libdisplay-info-0.1.1_1 >> common/shlibs  
+echo libliftoff.so.0 libliftoff-0.4.1_1 >> common/shlibs  
+  
+./xbps-src pkg libliftoff  
+./xbps-src pkg libdisplay-info  
+./xbps-src pkg hyprland  
+  
+xbps-install --repository hostdir/binpkgs hyprland  
 ```
 
   
