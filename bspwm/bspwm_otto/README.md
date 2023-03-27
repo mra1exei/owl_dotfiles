@@ -12,7 +12,7 @@
 |Terminal|[Alacritty](https://github.com/alacritty/alacritty)|
 |Shell|[Fish](https://fishshell.com/)|
 |Icon|[Breeze-dark-otto](https://notabug.org/owl410/owl_dotfiles/src/master/bspwm/bspwm_otto/.icons/breeze-dark-otto.tar.gz)|
-|GTK3|[Otto](123)|
+|GTK3|[Otto](https://notabug.org/owl410/owl_dotfiles/src/master/bspwm/bspwm_otto/.themes/otto-gtk.tar.gz)|
 |Fonts|[JetBrainsMono](https://www.jetbrains.com/lp/mono/)|
   
 ## INSTALL:
