@@ -1,9 +1,13 @@
 ## GALLERY
-<img src="1" width="450" align="center">
-<img src="1" width="450" align="center">
-<img src="1" width="450" align="center">
-<img src="1" width="450" align="center">
-
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/bspwm_otto/img/2023-03-28-000905_1920x1080_scrot.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/bspwm_otto/img/2023-03-28-002110_1920x1080_scrot.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/bspwm_otto/img/2023-03-28-001017_1920x1080_scrot.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/bspwm_otto/img/2023-03-28-000845_1920x1080_scrot.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/bspwm_otto/img/2023-03-28-002110_1920x1080_scrot.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/bspwm_otto/img/2023-03-27-234210_1920x1080_scrot.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/bspwm_otto/img/2023-03-27-233742_1920x1080_scrot.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/bspwm/bspwm_otto/img/2023-03-27-233809_1920x1080_scrot.png" width="450" align="center">
+  
 ## INFO
 |DIstro|[VOID](https://voidlinux.org/)|
 |:---:|:---:|
