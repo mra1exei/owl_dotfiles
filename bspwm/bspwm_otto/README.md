@@ -188,14 +188,6 @@ patch < dmenu-xyw-5.0.diff
 sudo make clean install  
 ```  
   
-**ST TERMINAL:**  
-```
-git clone https://git.suckless.org/st  
-cd st  
-edit config.def.h  
-sudo make clean install  
-```  
-  
 **LUTRIS:**  
 ```
 sudo xbps-install void-repo-multilib  
