@@ -11,7 +11,7 @@
 |Bar|[Polybar](https://github.com/polybar/polybar)|
 |Terminal|[Alacritty](https://github.com/alacritty/alacritty)|
 |Shell|[Fish](https://fishshell.com/)|
-|Icon|[Breeze-dark-otto](https://notabug.org/owl410/owl_dotfiles/src/master/bspwm/bspwm_otto/.icons/breeze-dark-otto.tar.gz)|
+|Icon|[Papirus](https://www.cinnamon-look.org/p/1166289/)|
 |GTK3|[Otto](https://notabug.org/owl410/owl_dotfiles/src/master/bspwm/bspwm_otto/.themes/otto-gtk.tar.gz)|
 |Fonts|[JetBrainsMono](https://www.jetbrains.com/lp/mono/)|
   
