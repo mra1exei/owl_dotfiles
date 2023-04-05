@@ -133,7 +133,7 @@ tide configure - что бы конфигурировать тильды
 **BSPWM:** 
 ```
 xbps-install bspwm sxhkd xorg xinit mesa numlockx nitrogen git make patch gcc  
-libX11-devel libXinerama-devel libXft-devel base-devel unzip fish-shell picom  
+libX11-devel libXinerama-devel libXft-devel base-devel gdk-pixbuf unzip fish-shell picom  
   
 sudo chmod 777 .config/bspwm/bspwmrc  
 ```   
