@@ -22,7 +22,7 @@ sudo systemctl enable auditd
 ```
 sudo aa-autodep /путь/к/файлу - создание профиля
 sudo aa-genprof /путь/к/файлу - генерация правил
-sudo aa-logprof
+sudo aa-logprof -d /var/log/audit
 ```
 sudo aa-autodep /usr/bin/lutris  
 sudo aa-enforce usr.bin.lutris  
