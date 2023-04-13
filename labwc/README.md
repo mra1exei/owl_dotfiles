@@ -20,7 +20,7 @@
   
 ## INSTALL
 ```
-cfdisk /dev/sdaX  (make partition for root & efi)
+cfdisk /dev/sdaX  
 mkfs.fat -F 32 /dev/sdaX1  
 mkfs.ext4 /dev/sdaX2  
 mount /dev/sdaX2 /mnt  
@@ -60,27 +60,22 @@ makepkg -si
   
 ## LABWC INSTALL 
 ```
-sudo pacman -S xorg xorg-xinit mesa bspwm git base-devel sxhkd alacritty  
+sudo pacman -S alacritty mesa wlroots polkit  
   
-.xinitrc:
-exec sxhkd &
-exec bspwm
-    
-chmod u+x .config/bspwm/bspwmrc
+yay labwc
+  
+cp -r /usr/share/doc/labwc .config/
+
+labwc - для того что бы запустить
 ``` 
 
 ## SOFT 
 ```
-sudo pacman -S pulseaudio pavucontrol firefox gimp inkscape telegram-desktop lxappearance nitrogen viewnior  
-obs-studio python  thunar tumbler jq polybar awesome-terminal-fonts rofi  
+sudo pacman -S pulseaudio pavucontrol firefox telegram-desktop gimp inkscape blender  
+ghostscript obs-studio xdg-desktop-portal-wlr transmission-gtk python imv mpv nemo wofi awesome-terminal-fonts rofi htop cmus neofetch grim ranger unzip  
 ``` 
   
-## TERMINAL SOFT  
-```
-sudo pacman -S htop links cmus neofetch scrot ranger cava ueberzug w3m ImageMagick  
-```  
-  
-## FISH  
+## FISH INSTALL  
 ```
 sudo xbps-install fish-shell 
 fish  
@@ -92,3 +87,8 @@ set -U fish_greeting
   
 tide configure - что бы конфигурировать тильды
 ```  
+  
+## LUTRIS INSTALL
+```
+sudo pacman -S lutris wine wine-gecko wine-mono winetricks giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls openal lib32-openal v4l-utils lib32-v4l-utils libx11 lib32-libx11 ncurses lib32-ncurses libgcrypt lib32-libgcrypt libxcomposite lib32-libxcomposite dqlite lib32-sqlite libxinerama lib32-libxinerama gdk-pixbuf2 lib32-gdk-pixbuf2 gcc-libs lib32-gcc-libs ocl-icd lib32-ocl-icd libxslt lib32-libxslt libva lib32-libva gst-plugins-base lib32-gst-plugins-base libgpg-error lib32-libgpg-error libjpeg-turbo lib32-libjpeg-turbo libglvnd lib32-libglvnd libva-mesa-driver lib32-libva-mesa-driver amdvlk lib32-amdvlk vkd3d lib32-vkd3d lib32-vulkan-icd-loader vulkan-icd-loader glad
+```
