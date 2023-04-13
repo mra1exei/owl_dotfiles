@@ -15,7 +15,7 @@ GRUB_CMDLINE_LINUX_DEFAULT="apparmor=1 security=apparmor"
 sudo grub-mkconfig -o /boot/grub/grub.cfg
   
 sudo systemctl enable apparmor  
-sudo touch /var/log/syslog  
+sudo systemctl enable auditd  
 ```
   
 ## Создание профиля
