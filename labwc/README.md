@@ -80,7 +80,7 @@ sudo pacman -S pulseaudio pavucontrol firefox telegram-desktop gimp inkscape ble
   
 ## FISH INSTALL  
 ```
-sudo xbps-install fish-shell 
+sudo pacman -S fish 
 fish  
 curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher  
 fisher install jorgebucaran/nvm.fish  
