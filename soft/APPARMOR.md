@@ -25,5 +25,5 @@ sudo aa-genprof /путь/к/файлу - генерация правил
 sudo aa-logprof -d /var/log/audit
 ```
 sudo aa-autodep /usr/bin/lutris  
-sudo aa-enforce usr.bin.lutris  
+sudo aa-complane usr.bin.lutris  
 sudo aa-logprof  
