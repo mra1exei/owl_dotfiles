@@ -14,7 +14,8 @@ GRUB_CMDLINE_LINUX_DEFAULT="apparmor=1 security=apparmor"
   
 sudo grub-mkconfig -o /boot/grub/grub.cfg
   
-sudo systemctl enable apparmor
+sudo systemctl enable apparmor  
+sudo touch /var/log/syslog  
 ```
   
 ## Создание профиля
@@ -23,3 +24,5 @@ sudo aa-autodep /путь/к/файлу - создание профиля
 sudo aa-genprof /путь/к/файлу - генерация правил
 sudo aa-logprof
 ```
+sudo aa-autodep /usr/bin/lutris
+aa-complain usr.bin.lutris
