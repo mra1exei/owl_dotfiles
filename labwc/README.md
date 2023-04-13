@@ -60,7 +60,7 @@ makepkg -si
   
 ## LABWC INSTALL 
 ```
-sudo pacman -S alacritty mesa base-devel wlroots polkit  
+sudo pacman -S alacritty mesa base-devel wlroots polkit waybar  
   
 libxcb xcb-proto xcb-util xcb-util-keysyms libxfixes libx11 libxcomposite xorg-xinput libxrender  
 pixman wayland-protocols cairo pango seatd libxkbcommon xcb-util-wm  
@@ -75,8 +75,7 @@ labwc - для того что бы запустить
 
 ## SOFT 
 ```
-sudo pacman -S pulseaudio pavucontrol firefox telegram-desktop gimp inkscape blender  
-ghostscript obs-studio xdg-desktop-portal-wlr transmission-gtk python imv mpv nemo wofi awesome-terminal-fonts rofi htop cmus neofetch grim ranger unzip  
+sudo pacman -S pulseaudio pavucontrol firefox telegram-desktop gimp inkscape blender ghostscript obs-studio xdg-desktop-portal-wlr transmission-gtk python imv mpv nemo wofi awesome-terminal-fonts rofi htop cmus neofetch grim ranger unzip  
 ``` 
   
 ## FISH INSTALL  
