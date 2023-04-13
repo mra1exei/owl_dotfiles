@@ -21,4 +21,5 @@ sudo systemctl enable apparmor
 ```
 sudo aa-autodep /путь/к/файлу - создание профиля
 sudo aa-genprof /путь/к/файлу - генерация правил
+sudo aa-logprof
 ```
