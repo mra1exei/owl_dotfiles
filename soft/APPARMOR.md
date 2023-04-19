@@ -3,7 +3,6 @@
 ```
 sudo pacman -S apparmor
 ```
-  
 ```
 sudo micro /etc/default/grub
   
@@ -24,7 +23,8 @@ sudo systemctl enable auditd
 ```
 sudo aa-autodep /usr/bin/lutris  
 sudo aa-complane usr.bin.lutris  
-sudo aa-logprof 
+sudo aa-logprof  
+sudo aa-enforce usr.bin.lutris  
 ```
 
 ## ФЛАГИ
