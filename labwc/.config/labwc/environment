@@ -2,6 +2,8 @@
 
 # This allows xdg-desktop-portal-wlr to function (e.g. for screen-recording)
 XDG_CURRENT_DESKTOP=wlroots
+XDG_SESSION_DESKTOP=wlroots
+XDG_SESSION_TYPE=wlroots
 
 # Настройка раскладки клавиатуры:
 XKB_DEFAULT_LAYOUT=us,ru
