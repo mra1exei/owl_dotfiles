@@ -11,12 +11,11 @@
 |Bar|[Waybar](https://github.com/Alexays/Waybar)|
 |Terminal|[Alacritty](https://github.com/alacritty/alacritty)|
 |Shell|[Fish](https://fishshell.com/)|
-|Icon|[--](--)|
+|Icon|[Fluent-green-dark](https://www.pling.com/p/1477945)|
 |GTK3|[--](--)|
-|Cursor|[--](--)|
+|Cursors|[Capitaine cursors](https://github.com/keeferrourke/capitaine-cursors)|
 |Fonts|[JetBrainsMono](https://www.jetbrains.com/lp/mono/)|
-|Picom|[jonaburg](https://github.com/jonaburg/picom)|
-|Launcher|wofi|
+|Launcher|[wofi](https://sr.ht/~scoopta/wofi/)|
   
 ## INSTALL
 ```
