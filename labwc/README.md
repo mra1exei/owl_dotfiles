@@ -4,7 +4,7 @@
 <img src="https://notabug.org/owl410/owl_dotfiles/raw/master/labwc/img/20230425_02h31m41s_grim.png" width="450" align="center">
 <img src="https://notabug.org/owl410/owl_dotfiles/raw/master/labwc/img/20230425_02h32m32s_grim.png" width="450" align="center">
 <img src="https://notabug.org/owl410/owl_dotfiles/raw/master/labwc/img/20230425_02h26m48s_grim.png" width="450" align="center">
-<img src="1" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/labwc/img/20230425_02h31m23s_grim.png" width="450" align="center">
   
 ## INFO
 |DIstro|[ARCH](https://archlinux.org/)|
