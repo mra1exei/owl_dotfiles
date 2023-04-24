@@ -12,7 +12,7 @@
 |Terminal|[Alacritty](https://github.com/alacritty/alacritty)|
 |Shell|[Fish](https://fishshell.com/)|
 |Icon|[Fluent-green-dark](https://www.pling.com/p/1477945)|
-|GTK3|[--](--)|
+|GTK3|[Skeuos-Grey-Dark](https://www.pling.com/p/1441725)|
 |Cursors|[Capitaine cursors](https://github.com/keeferrourke/capitaine-cursors)|
 |Fonts|[JetBrainsMono](https://www.jetbrains.com/lp/mono/)|
 |Launcher|[wofi](https://sr.ht/~scoopta/wofi/)|
