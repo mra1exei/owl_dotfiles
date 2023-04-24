@@ -4,7 +4,7 @@
 <img src="https://notabug.org/owl410/owl_dotfiles/raw/master/labwc/img/20230425_02h31m41s_grim.png" width="450" align="center">
 <img src="https://notabug.org/owl410/owl_dotfiles/raw/master/labwc/img/20230425_02h32m32s_grim.png" width="450" align="center">
 <img src="https://notabug.org/owl410/owl_dotfiles/raw/master/labwc/img/20230425_02h26m48s_grim.png" width="450" align="center">
-<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/labwc/img/20230425_02h31m23s_grim.png" width="450" align="center">
+<img src="https://notabug.org/owl410/owl_dotfiles/raw/master/labwc/img/20230425_02h36m47s_grim.png" width="450" align="center">
   
 ## INFO
 |DIstro|[ARCH](https://archlinux.org/)|
@@ -88,8 +88,8 @@ tide configure - что бы конфигурировать тильды
   
 ## THEMES, ICONS, FONTS...
 ```
-gsettings set org.gnome.desktop.interface icon-theme Fluent-dark  
-gsettings set org.gnome.desktop.interface gtk-theme Fluent-Light-compact  
+gsettings set org.gnome.desktop.interface icon-theme Fluent-green-dark  
+gsettings set org.gnome.desktop.interface gtk-theme Skeuos-Grey-Dark  
 gsettings set org.gnome.desktop.interface cursor-theme capitaine-cursors
 ```
   
