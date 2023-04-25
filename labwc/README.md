@@ -61,7 +61,7 @@ makepkg -si
   
 ## LABWC INSTALL 
 ```
-sudo pacman -S alacritty mesa base-devel wlroots polkit waybar swaybg  
+sudo pacman -S alacritty mesa base-devel wlroots polkit waybar grim swaybg swaylock mako  
 yay labwc
 cp -r /usr/share/doc/labwc .config/
 
@@ -70,7 +70,7 @@ labwc - для того что бы запустить
 
 ## SOFT 
 ```
-sudo pacman -S pulseaudio pavucontrol firefox telegram-desktop gimp inkscape blender ghostscript obs-studio xdg-desktop-portal-wlr transmission-gtk python imv mpv nemo wofi awesome-terminal-fonts rofi htop cmus neofetch grim ranger unzip gedit  
+sudo pacman -S pulseaudio pavucontrol firefox telegram-desktop gimp inkscape blender ghostscript obs-studio xdg-desktop-portal-wlr transmission-gtk python imv mpv nemo wofi awesome-terminal-fonts rofi htop cmus neofetch ranger unzip gedit  
 ``` 
   
 ## FISH INSTALL  
