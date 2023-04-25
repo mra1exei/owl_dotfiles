@@ -9,26 +9,24 @@
 border.width: 1
 padding.height: 3
 
-# window border
+# Цвета рамок окон
 window.active.border.color: #23252e
 window.inactive.border.color: #23252e
 
-# window titlebar background
+# Цвета заголовков окон
 window.active.title.bg.color: #23252e
 window.inactive.title.bg.color: #23252e
 
-# window titlebar text
+# Цвета и выравнивание текста заголовка окон
 window.active.label.text.color: #aaffaa
 window.inactive.label.text.color: #dfdfdf
 window.label.text.justify: center
 
-# window buttons
+# Кнопки окон
 window.active.button.unpressed.image.color: #dfdfdf
 window.inactive.button.unpressed.image.color: #dfdfdf
 
-# Note that "menu", "iconify", "max", "close" buttons colors can be defined
-# individually by inserting the type after the button node, for example:
-#
+# Цвета кнопок "menu", "iconify", "max", "close" если нужно каждую своим цветом сделать
 #     window.active.button.iconify.unpressed.image.color: #333333
 
 
