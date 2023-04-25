@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <openbox_menu>
-
+<!-- Меню на заголовке окна -->
 <menu id="client-menu">
   <item label="Minimize">
     <action name="Iconify" />
@@ -37,7 +37,7 @@
   </item>
 </menu>
 
-
+<!-- Меню на рабочем столе -->
 <menu id="some-custom-menu">
   <item label="Firefox">
     <action name="Execute" command="firefox" />
@@ -51,6 +51,16 @@
   <item label="Alacritty">
     <action name="Execute" command="alacritty" />
   </item>
+  <item label="____________"></item>  
+    <menu id="Graphic" label="Graphic">
+    <item label="Blender">
+      <action name="Execute" command="blender" />
+    </item>
+    <item label="Inkscape">
+      <action name="Execute" command="inkscape" />
+    </item>
+  </menu>
+  <item label="____________"></item>  
   <item label="Reconfigure">
     <action name="Reconfigure" />
   </item>
