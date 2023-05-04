@@ -14,6 +14,10 @@
 	bindsym --to-code $mod+Ctrl+r exec reboot
 	bindsym --to-code $mod+Ctrl+p exec poweroff
 
+	#СКРИНШОТЫ
+	bindsym Print exec grim ~/screen-"$(date +%s)".png
+	bindsym $mod+Print exec grim -g "$(slurp)" ~/screen-"$(date +%s)".png
+
 #--- ЗАПУСК НА ОПРЕДЕЛЕННОМ ВОРКСПЙСЕ -------------------------------------------------
 	#assign [app_id="firefox"] workspace 1
 	assign [app_id="Blender"] workspace 2
@@ -81,6 +85,24 @@
 #--- ОТКЛЮЧЕНИЕ РАМКИ КОГДА ОТКРЫТО ОДНО ОКНО -----------------------------------------
 	smart_borders on
 
+#--- ЦВЕТА РАМОК ----------------------------------------------------------------------
+	#                       Рамка   Фон   Индикатор Родительская_рамка
+	client.focused			#f2f2f2 #f2f2f2 #f2f2f2 #f2f2f2
+	client.focused_inactive		#272a34 #272a34 #272a34 #272a34
+	client.unfocused		#272a34 #272a34 #272a34 #272a34
+	client.urgent			#272a34 #272a34 #272a34 #272a34
+	client.placeholder		#272a34 #272a34 #272a34 #272a34
+
+	#client.focused — окно в фокусе
+	#client.unfocused — окно вне фокуса
+	#client.focused_inactive — окно в фокусе но не активно
+	#client.urgent — окно требует внимания (всплывающее) 
+
+
+#--- ШРИФТЫ ---------------------------------------------------------------------------
+	font pango:JetBrainsMono 10
+
+
 #--- ТЕМЫ, ИКОНКИ, КУРСОРЫ GTK --------------------------------------------------------
 	set $gnome-schema org.gnome.desktop.interface
 	exec_always {
@@ -91,7 +113,6 @@
         	gsettings set $gnome-schema cursor-theme 'capitaine-cursors'
         	gsettings set $gnome-schema font-name 'JetBrainsMono 10'
 	}
-
 
 #--- ОБОИ -----------------------------------------------------------------------------
 	#output * bg /home/owl/.wallpapers/0153.png fill
