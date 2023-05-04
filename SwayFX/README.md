@@ -62,7 +62,7 @@ makepkg -si
 ```
 sudo pacman -S alacritty mesa base-devel wlroots wayland wayland-protocols pcre2 json-c pango cairo gdk-pixbuf2 git polkit waybar grim swaybg swaylock mako awesome-terminal-fonts  
 yay swayfx
-   
+cp -p /etc/sway .config   
   
 sway - для того что бы запустить
 ``` 
