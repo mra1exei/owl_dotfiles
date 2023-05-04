@@ -60,11 +60,11 @@ makepkg -si
   
 ## SwayFX INSTALL 
 ```
-sudo pacman -S alacritty mesa base-devel wlroots wayland wayland-protocols pcre2 json-c pango cairo gdk-pixbuf2 git polkit waybar grim swaybg swaylock mako  
+sudo pacman -S alacritty mesa base-devel wlroots wayland wayland-protocols pcre2 json-c pango cairo gdk-pixbuf2 git polkit waybar grim swaybg swaylock mako awesome-terminal-fonts  
 yay swayfx
    
   
-   - для того что бы запустить
+sway - для того что бы запустить
 ``` 
 
 ## SOFT 
