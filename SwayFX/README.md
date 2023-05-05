@@ -16,6 +16,7 @@
 |Cursors|[Capitaine cursors](https://github.com/keeferrourke/capitaine-cursors)|
 |Fonts|[JetBrainsMono](https://www.jetbrains.com/lp/mono/)|
 |Launcher|[wofi](https://sr.ht/~scoopta/wofi/)|
+|Autotiling|[Autotiling](https://github.com/nwg-piotr/autotiling)|
   
 ## INSTALL
 ```
