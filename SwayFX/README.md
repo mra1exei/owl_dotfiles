@@ -62,8 +62,12 @@ makepkg -si
 ## SwayFX INSTALL 
 ```
 sudo pacman -S alacritty mesa base-devel wlroots wayland wayland-protocols pcre2 json-c pango cairo gdk-pixbuf2 git messon cmake bash-completion polkit waybar grim swaybg swaylock mako awesome-terminal-fonts  
-yay swayfx
-cp -p /etc/sway .config   
+  
+git clone https://github.com/WillPower3309/swayfx  
+cd swayfx
+meson build/ -Dwerror=false  
+ninja -C build/  
+sudo ninja -C build/ install  
   
 sway - для того что бы запустить
 ``` 
