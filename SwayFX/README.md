@@ -61,7 +61,7 @@ makepkg -si
   
 ## SwayFX INSTALL 
 ```
-sudo pacman -S alacritty mesa base-devel wlroots wayland wayland-protocols pcre2 json-c pango cairo gdk-pixbuf2 git messon cmake polkit waybar grim swaybg swaylock mako awesome-terminal-fonts  
+sudo pacman -S alacritty mesa base-devel wlroots wayland wayland-protocols pcre2 json-c pango cairo gdk-pixbuf2 git messon cmake bash-completion polkit waybar grim swaybg swaylock mako awesome-terminal-fonts  
 yay swayfx
 cp -p /etc/sway .config   
   
